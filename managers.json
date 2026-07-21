@@ -1,0 +1,1717 @@
+{
+  "_comment": "Personal 13F idea engine \u2014 ~100 concentrated active managers. CIKs verified as current 13F-HR filers.",
+  "_generated": "2026-07-21",
+  "user_agent": "13f-idea-engine personal-project arj@inaam.me",
+  "managers": [
+    {
+      "cik": "0001508822",
+      "name": "ACR Alpine Capital Research, LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0002029917",
+      "name": "ADAPT Investment Managers SA",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001553562",
+      "name": "AMF Tjanstepension AB",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001652442",
+      "name": "ANTIPODES PARTNERS Ltd",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001323255",
+      "name": "APG Asset Management US Inc.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001358706",
+      "name": "Abrams Capital",
+      "tag": "value-Abrams",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001728201",
+      "name": "Aequim Alternative Investments LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001112520",
+      "name": "Akre Capital",
+      "tag": "quality-Akre",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001484429",
+      "name": "Alecta Tjanstepension Omsesidigt",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001230239",
+      "name": "Alkeon Capital",
+      "tag": "growth",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001558858",
+      "name": "Alpha Wave Global",
+      "tag": "growth",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001731012",
+      "name": "Alphinity Investment Management Pty Ltd",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001858353",
+      "name": "Alta Fox Capital",
+      "tag": "smid-value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001541617",
+      "name": "Altimeter Capital",
+      "tag": "tech-Gerstner",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001446114",
+      "name": "Ancora Advisors",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001449434",
+      "name": "Apollo Management Holdings, L.P.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001656456",
+      "name": "Appaloosa",
+      "tag": "distressed-Tepper",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000936753",
+      "name": "Ariel Investments",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001633911",
+      "name": "Aristotle Capital",
+      "tag": "quality",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001777813",
+      "name": "Atreides Management, LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001633313",
+      "name": "Avoro Capital",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001109147",
+      "name": "Axiom Investors Llc /De",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001001085",
+      "name": "BROOKFIELD Corp /ON/",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001056807",
+      "name": "BVF Partners",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001088875",
+      "name": "Baillie Gifford",
+      "tag": "growth",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001263508",
+      "name": "Baker Bros. Advisors",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000887762",
+      "name": "Barington Capital",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001061768",
+      "name": "Baupost Group",
+      "tag": "value-Klarman",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001067983",
+      "name": "Berkshire Hathaway",
+      "tag": "value-Buffett",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0002018299",
+      "name": "Boxer Capital",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001218254",
+      "name": "Boyar Asset Mgmt",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001553733",
+      "name": "Brave Warrior (Greenberg)",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001512857",
+      "name": "Brevan Howard",
+      "tag": "macro",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000276101",
+      "name": "Bristol John W & Co Inc /Ny/",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001568621",
+      "name": "Broad Run Investment",
+      "tag": "quality",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001825564",
+      "name": "Browning West",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001423686",
+      "name": "Cadian Capital",
+      "tag": "tech-health-l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000733986",
+      "name": "Cambridge Associates Llc /Ma/ /Adv",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001058854",
+      "name": "Cannell Capital",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001908219",
+      "name": "Canoe Financial LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001279936",
+      "name": "Cantillon Capital",
+      "tag": "quality",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001074034",
+      "name": "Canyon Capital",
+      "tag": "credit",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001619124",
+      "name": "Cardano Risk Management B.V.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001527166",
+      "name": "Carlyle Group Inc.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001866872",
+      "name": "Carronade Capital Management, Lp",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001681490",
+      "name": "Cascade (Gates)",
+      "tag": "family-office",
+      "latest": "2026-06-30"
+    },
+    {
+      "cik": "0001534261",
+      "name": "Casdin Capital",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001687241",
+      "name": "Castle Hook Partners LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001165797",
+      "name": "Causeway Capital Management Llc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0002051323",
+      "name": "Caxton Associates",
+      "tag": "macro",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001033984",
+      "name": "Cbre Investment Management Listed Real Assets Llc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001315478",
+      "name": "Champlain Investment Partners, LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001056859",
+      "name": "Chilton Investment",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000020286",
+      "name": "Cincinnati Financial Corp",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001279885",
+      "name": "Cincinnati Insurance Co",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001135730",
+      "name": "Coatue Management",
+      "tag": "tech-Laffont",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001163744",
+      "name": "Conestoga Capital Advisors, LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001510669",
+      "name": "Contour Asset Mgmt",
+      "tag": "tech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001561728",
+      "name": "Cooper Investors",
+      "tag": "value",
+      "latest": "2026-06-30"
+    },
+    {
+      "cik": "0001583977",
+      "name": "Cormorant Asset Mgmt",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001535472",
+      "name": "Corvex Management",
+      "tag": "activist-Meister",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001747057",
+      "name": "D1 Capital",
+      "tag": "growth-Sundheim",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001609098",
+      "name": "Darsana Capital",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001036325",
+      "name": "Davis Selected Advisers",
+      "tag": "value-Davis",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001856083",
+      "name": "Deep Track Capital",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001009258",
+      "name": "Deerfield Management Company, L.P.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001217541",
+      "name": "Diamond Hill Capital",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001050442",
+      "name": "Disciplined Growth Investors Inc /Mn",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001389507",
+      "name": "Discovery Capital",
+      "tag": "macro-Citrone",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000200217",
+      "name": "Dodge & Cox",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000814375",
+      "name": "Donald Smith & Co., Inc.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001602189",
+      "name": "Dragoneer Investment",
+      "tag": "growth",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001214639",
+      "name": "Dsm Capital Partners Llc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001536411",
+      "name": "Duquesne Family Office",
+      "tag": "macro-Druckenmiller",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001798849",
+      "name": "Durable Capital",
+      "tag": "growth-Ellenbogen",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001600746",
+      "name": "Eagle Capital Management",
+      "tag": "value",
+      "latest": "2026-06-30"
+    },
+    {
+      "cik": "0000945631",
+      "name": "Eagle Capital Management Llc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001587114",
+      "name": "EcoR1 Capital",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001481669",
+      "name": "EdgePoint Investment Group Inc.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000860561",
+      "name": "Edgewood Management Llc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001581811",
+      "name": "Egerton Capital",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001586986",
+      "name": "Electron Capital",
+      "tag": "utilities-infra",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001535630",
+      "name": "Element Capital",
+      "tag": "macro",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001791786",
+      "name": "Elliott Investment Mgmt",
+      "tag": "activist-Singer",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001107310",
+      "name": "Eminence Capital",
+      "tag": "l/s-Sandler",
+      "latest": "2026-06-30"
+    },
+    {
+      "cik": "0001600177",
+      "name": "Employees Provident Fund Board",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001541901",
+      "name": "Encompass Capital",
+      "tag": "energy-l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001559771",
+      "name": "Engaged Capital",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001665590",
+      "name": "Engine Capital",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001685771",
+      "name": "Equity Investment Corp",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000915191",
+      "name": "Fairfax Financial (Watsa)",
+      "tag": "insurance-value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001056831",
+      "name": "Fairholme Capital",
+      "tag": "value-Berkowitz",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000909661",
+      "name": "Farallon Capital",
+      "tag": "event-driven",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000764532",
+      "name": "Fiduciary Management Inc /Wi/",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001351950",
+      "name": "Findlay Park",
+      "tag": "quality",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001325447",
+      "name": "First Eagle Investment",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001377581",
+      "name": "First Pacific Advisors (FPA)",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001575677",
+      "name": "Flossbach Von Storch Se",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001704132",
+      "name": "Foresite Capital",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001868537",
+      "name": "Fundsmith",
+      "tag": "quality-Smith",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001569205",
+      "name": "Fundsmith LLP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000932724",
+      "name": "GAMCO / Gabelli",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001697233",
+      "name": "GQG Partners LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000860643",
+      "name": "Gardner Russo & Quinn",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001166559",
+      "name": "Gates Foundation Trust",
+      "tag": "endowment",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001570284",
+      "name": "Gator Capital",
+      "tag": "financials",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001375534",
+      "name": "Generation Investment Management Llp",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000902464",
+      "name": "Gilder Gagnon Howe",
+      "tag": "growth",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001641864",
+      "name": "Giverny Capital",
+      "tag": "quality",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001138995",
+      "name": "Glenview Capital",
+      "tag": "l/s-Robbins",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001510387",
+      "name": "Gotham Asset Mgmt",
+      "tag": "value-Greenblatt",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000846222",
+      "name": "Greenhaven Associates",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001409661",
+      "name": "Guinness Asset Management LTD",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001759760",
+      "name": "H&H International Investment, LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000928196",
+      "name": "Harding Loevner",
+      "tag": "quality",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000813917",
+      "name": "Harris Associates (Oakmark)",
+      "tag": "value-Nygren",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001839497",
+      "name": "Helikon Investments",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001762304",
+      "name": "Hillhouse (HHLR)",
+      "tag": "growth-Zhang",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001709323",
+      "name": "Himalaya Capital",
+      "tag": "value-Li Lu",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001700574",
+      "name": "Holocene Advisers",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001164833",
+      "name": "Hotchkis & Wiley",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001353316",
+      "name": "Hound Partners",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000921669",
+      "name": "Icahn Capital",
+      "tag": "activist-Icahn",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001569709",
+      "name": "Iconiq Capital",
+      "tag": "family-office",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001786767",
+      "name": "Impactive Capital",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001483866",
+      "name": "Independent Franchise Partners LLP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001929389",
+      "name": "Irenic Capital",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001998597",
+      "name": "JANA Partners",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001106129",
+      "name": "Jensen Investment Management Inc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001525234",
+      "name": "Jericho Capital Asset Management L.P.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001595880",
+      "name": "Junto Capital Management LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000949615",
+      "name": "Kayne Anderson Capital Advisors Lp",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000884589",
+      "name": "Kennedy Capital",
+      "tag": "smid-value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001113000",
+      "name": "Kensico Capital",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001706220",
+      "name": "Kimmeridge Energy",
+      "tag": "energy-activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001218199",
+      "name": "King Street Capital",
+      "tag": "credit",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001399770",
+      "name": "Kohlberg Kravis Roberts & Co. L.P.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001536520",
+      "name": "Land & Buildings",
+      "tag": "reit-activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001608485",
+      "name": "Lansdowne Partners",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001560207",
+      "name": "Legion Partners",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001297496",
+      "name": "Letko, Brosseau & Associates Inc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0002072459",
+      "name": "Life Cycle Investment Partners Ltd",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001569049",
+      "name": "Light Street Capital",
+      "tag": "tech-growth",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001484150",
+      "name": "Lindsell Train",
+      "tag": "quality",
+      "latest": "2026-06-30"
+    },
+    {
+      "cik": "0001732768",
+      "name": "Lingotto Investment Management LLP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000060086",
+      "name": "Loews Corp",
+      "tag": "insurance",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001792126",
+      "name": "Logos Global Management",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001061165",
+      "name": "Lone Pine Capital",
+      "tag": "growth-Mandel",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001426092",
+      "name": "Longview Partners",
+      "tag": "quality",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001316580",
+      "name": "Luxor Capital",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001542302",
+      "name": "Lyrical Asset Management Lp",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001105497",
+      "name": "MSD Capital (Dell)",
+      "tag": "family-office",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001514334",
+      "name": "MSD Partners (Dell)",
+      "tag": "family-office",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001536105",
+      "name": "Magellan Asset Management Ltd",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001070134",
+      "name": "Mairs & Power",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001695459",
+      "name": "Mantle Ridge",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001419999",
+      "name": "Mar Vista Investment",
+      "tag": "quality",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001096343",
+      "name": "Markel Group",
+      "tag": "insurance-float",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000914976",
+      "name": "Marshfield Associates",
+      "tag": "quality",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001410830",
+      "name": "Matrix Capital Mgmt",
+      "tag": "tech-Benson",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000934639",
+      "name": "Maverick Capital",
+      "tag": "l/s-Ainslie",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001538449",
+      "name": "Mawer Investment Management Ltd.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001736852",
+      "name": "Merewether Investment Management, LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001775715",
+      "name": "Milford Funds Ltd",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001135778",
+      "name": "Miller Value Partners",
+      "tag": "value-Bill Miller",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001802900",
+      "name": "Mirova US LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001317724",
+      "name": "Mondrian Investment Partners LTD",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001475940",
+      "name": "Montrusco Bolton Investments Inc.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001448574",
+      "name": "Moore Capital",
+      "tag": "macro-Bacon",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001704268",
+      "name": "Mubadala Investment Co PJSC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001542927",
+      "name": "National Mutual Insurance Federation of Agricultural Cooperatives",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001424799",
+      "name": "Nepc Llc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001908450",
+      "name": "Newlands Management Operations LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001722329",
+      "name": "Newport Trust Company, LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001473182",
+      "name": "Nuance Investments",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000949509",
+      "name": "Oaktree Capital",
+      "tag": "credit-Marks",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001055951",
+      "name": "Orbimed Advisors Llc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001051359",
+      "name": "PAR Capital",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001549575",
+      "name": "Pabrai (Dalal Street)",
+      "tag": "value-Pabrai",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001855655",
+      "name": "Paradigm BioCapital",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000948669",
+      "name": "Parnassus Investments, Llc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001035674",
+      "name": "Paulson & Co",
+      "tag": "event-driven",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001654111",
+      "name": "Pelham Capital",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001425851",
+      "name": "Pentwater Capital",
+      "tag": "event-driven",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001224962",
+      "name": "Perceptive Advisors",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001336528",
+      "name": "Pershing Square",
+      "tag": "activist-Ackman",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001904893",
+      "name": "PineStone Asset Management Inc.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001509842",
+      "name": "PointState Capital LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001034524",
+      "name": "Polen Capital",
+      "tag": "quality-growth",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001885245",
+      "name": "Politan Capital",
+      "tag": "activist-Koffey",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001818940",
+      "name": "Praetorian Capital",
+      "tag": "macro-value",
+      "latest": "2026-06-30"
+    },
+    {
+      "cik": "0001140436",
+      "name": "Provident Trust Co",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001027796",
+      "name": "Pzena Investment Mgmt",
+      "tag": "deep-value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001717658",
+      "name": "RA Capital",
+      "tag": "biotech",
+      "latest": "2026-06-30"
+    },
+    {
+      "cik": "0001346824",
+      "name": "Ra Capital Management, L.P.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001658020",
+      "name": "Railway Pension Investments Ltd",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000740913",
+      "name": "Reaves W H & Co Inc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001425738",
+      "name": "Redmile Group",
+      "tag": "healthcare",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001612389",
+      "name": "Resolution Capital Ltd",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001595725",
+      "name": "Rock Springs Capital",
+      "tag": "healthcare",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001666335",
+      "name": "Rokos Capital",
+      "tag": "macro",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001784260",
+      "name": "Rothschild & Co Wealth Management UK Ltd",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001493215",
+      "name": "Rtw Investments, Lp",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001720792",
+      "name": "Ruane Cunniff (Sequoia)",
+      "tag": "quality",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001687509",
+      "name": "Rubric Capital Management LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001496228",
+      "name": "SRB Corp",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001503174",
+      "name": "SRS Investment Management, LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001582090",
+      "name": "Sachem Head Capital",
+      "tag": "activist-Ferguson",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001508097",
+      "name": "Sanders Capital, LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001020066",
+      "name": "Sands Capital",
+      "tag": "growth",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001510481",
+      "name": "Sarasin & Partners LLP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001316617",
+      "name": "Saturna Capital Corp",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001607841",
+      "name": "Sc Us (Ttgp), Ltd.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001279150",
+      "name": "Scopia Capital",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001054587",
+      "name": "Sculptor Capital",
+      "tag": "multi-strat",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001592643",
+      "name": "Select Equity Group",
+      "tag": "quality",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001115373",
+      "name": "Semper Augustus",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001443689",
+      "name": "Senator Investment",
+      "tag": "event-driven",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001328785",
+      "name": "Senvest Management",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001595849",
+      "name": "Sessa Capital IM, L.P.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001332784",
+      "name": "Silver Point Capital",
+      "tag": "credit",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001846368",
+      "name": "Simplify Asset Management Inc.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0002045724",
+      "name": "Situational Awareness LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0002038540",
+      "name": "Situational Awareness Partners LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001675884",
+      "name": "Skye Global Management LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001559706",
+      "name": "Slate Path Capital",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001427008",
+      "name": "Smead Capital",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001050477",
+      "name": "Snyder Capital Management L P",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001065521",
+      "name": "Softbank Group Corp.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001517857",
+      "name": "Soroban Capital",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001029160",
+      "name": "Soros Fund Management",
+      "tag": "macro-Soros",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000807985",
+      "name": "Southeastern (Longleaf)",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001319998",
+      "name": "Southpoint Capital Advisors LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001517137",
+      "name": "Starboard Value",
+      "tag": "activist-Smith",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001214822",
+      "name": "Steadfast Capital",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001505183",
+      "name": "Stockbridge Partners",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001440771",
+      "name": "Stonepine Capital",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001290668",
+      "name": "Sustainable Growth Advisers, LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001569064",
+      "name": "Suvretta Capital",
+      "tag": "healthcare-l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0002003074",
+      "name": "Sylebra Capital",
+      "tag": "tech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001647251",
+      "name": "TCI Fund Management",
+      "tag": "activist-Hohn",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001558971",
+      "name": "Tekne Capital",
+      "tag": "tech",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001099281",
+      "name": "Third Avenue Mgmt",
+      "tag": "deep-value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001040273",
+      "name": "Third Point",
+      "tag": "activist-Loeb",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001167483",
+      "name": "Tiger Global",
+      "tag": "growth-Coleman",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000098758",
+      "name": "Torray LLC",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001280965",
+      "name": "Tortoise Capital Advisors, L.L.C.",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001345471",
+      "name": "Trian Fund Management",
+      "tag": "activist-Peltz",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000923093",
+      "name": "Tudor Investment",
+      "tag": "macro-Jones",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000732905",
+      "name": "Tweedy Browne",
+      "tag": "deep-value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001823138",
+      "name": "Two Seas Capital LP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0002012090",
+      "name": "Unisphere Establishment",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001963565",
+      "name": "Value Aligned Research Advisors, LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001418814",
+      "name": "ValueAct Capital",
+      "tag": "activist",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001087912",
+      "name": "Vantagepoint Investment Advisers Llc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001541448",
+      "name": "Veritas Asset Management LLP",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001103804",
+      "name": "Viking Global",
+      "tag": "l/s-Halvorsen",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001730145",
+      "name": "Voss Capital",
+      "tag": "smid-value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001556785",
+      "name": "Vulcan Value Partners",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001061186",
+      "name": "WCM Investment Mgmt",
+      "tag": "quality-growth",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001026720",
+      "name": "WELLCOME TRUST LTD (THE) as trustee of the WELLCOME TRUST",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001780365",
+      "name": "WT Asset Management Ltd",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001125243",
+      "name": "Wedgewood Partners",
+      "tag": "growth",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000883965",
+      "name": "Weitz Investment",
+      "tag": "value",
+      "latest": "2026-06-30"
+    },
+    {
+      "cik": "0001387322",
+      "name": "Whale Rock Capital",
+      "tag": "tech-growth",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000776867",
+      "name": "White Mountains",
+      "tag": "insurance",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000900973",
+      "name": "Winslow Capital Management, LLC",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001840025",
+      "name": "Wit, Llc",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001397960",
+      "name": "Woodbridge Co Ltd",
+      "tag": "data-selected",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001784547",
+      "name": "Woodline Partners",
+      "tag": "l/s",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001697848",
+      "name": "Woodson Capital",
+      "tag": "tech-consumer",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0000905567",
+      "name": "Yacktman Asset Mgmt",
+      "tag": "value",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001565854",
+      "name": "Zimmer Partners",
+      "tag": "utilities",
+      "latest": "2026-03-31"
+    },
+    {
+      "cik": "0001776382",
+      "name": "venBio",
+      "tag": "biotech",
+      "latest": "2026-03-31"
+    }
+  ],
+  "_dropped": [
+    {
+      "name": "Greenlight Capital",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Tybourne Capital",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Tontine Associates",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Melvin Capital",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Pabrai (Dalal Street)",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Scion Asset Mgmt",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Sequoia Fund",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Hayman Capital",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Tourbillon Capital",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Athanor Capital",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Ensemble Capital",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Palm Valley Capital",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Inclusive Capital (Ubben)",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Willett Advisors (Bloomberg)",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Emerson Collective (Jobs)",
+      "reason": "no 13F-HR filer name matched token"
+    },
+    {
+      "name": "Willoughby Capital",
+      "reason": "no 13F-HR filer name matched token"
+    }
+  ]
+}
