@@ -7,7 +7,7 @@ fund *newly bought* or *added ≥25%* — and ranks them by how many tracked fun
 did the same (consensus). It then estimates a cost basis and the return since,
 and tags each name with the inaam impact framework.
 
-**Live site:** https://benwortho1.github.io/13f-idea-engine/
+**Live site:** https://<your-github-username>.github.io/13f-idea-engine/
 
 The whole thing bakes down to a single self-contained `index.html` (data inlined,
 no server, no network) that rebuilds itself every weekday via GitHub Actions.

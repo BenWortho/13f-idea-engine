@@ -42,11 +42,13 @@ jobs:
       - name: Build ideas (SEC 13F -> diff -> price -> score)
         env:
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          SEC_CONTACT: ${{ secrets.SEC_CONTACT }}   # optional: your name/email or URL for SEC's User-Agent
         run: python3 scripts/build.py
 
       - name: Enrich with analyst price targets
         env:
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          SEC_CONTACT: ${{ secrets.SEC_CONTACT }}   # optional: your name/email or URL for SEC's User-Agent
         run: python3 scripts/targets.py
         continue-on-error: true      # best-effort; never block the deploy
 

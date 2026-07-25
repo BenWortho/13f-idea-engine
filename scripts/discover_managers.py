@@ -17,12 +17,12 @@ positions and drown the idea signal.
 Standard library only. Read-only public SEC data.
 """
 
-import json, sys, time, urllib.request, gzip, datetime
+import os, json, sys, time, urllib.request, gzip, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CFG = json.loads((ROOT / "managers.json").read_text())
-UA = CFG["user_agent"]
+UA = os.environ.get("SEC_CONTACT") or CFG.get("user_agent") or "13f-idea-engine (+https://github.com)"
 
 INDEX_QUARTERS = ["2026/QTR2", "2026/QTR1"]
 STALE_BEFORE = "2025-06-30"   # drop managers whose latest 13F-HR is older than this

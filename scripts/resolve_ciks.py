@@ -5,10 +5,10 @@ Strategy: EDGAR full-text search restricted to recent 13F-HR filings, then
 keep only hits whose filer display-name actually contains the manager's key
 token, and pick the CIK with the most recent filing.
 """
-import json, time, urllib.request, urllib.parse, gzip
+import os, json, time, urllib.request, urllib.parse, gzip
 from collections import defaultdict
 
-UA = "13f-idea-engine personal-project arj@inaam.me"
+UA = os.environ.get("SEC_CONTACT") or "13f-idea-engine (+https://github.com)"
 
 # name -> key token that MUST appear in the filer's display name (guards against word-match noise)
 QUERIES = {

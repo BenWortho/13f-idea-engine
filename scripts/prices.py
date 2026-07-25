@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PRICE_DIR = ROOT / "data" / "prices"; PRICE_DIR.mkdir(parents=True, exist_ok=True)
 TARGET_DIR = ROOT / "data" / "targets"; TARGET_DIR.mkdir(parents=True, exist_ok=True)
-UA = "Mozilla/5.0 13f-idea-engine personal-project arj@inaam.me"
+UA = os.environ.get("SEC_CONTACT") or "Mozilla/5.0 13f-idea-engine (+https://github.com)"
 BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/120.0 Safari/537.36")
 

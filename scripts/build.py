@@ -29,7 +29,10 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"; DATA.mkdir(exist_ok=True)
 HOLD_DIR = DATA / "holdings"; HOLD_DIR.mkdir(exist_ok=True)
 CFG = json.loads((ROOT / "managers.json").read_text())
-UA = CFG["user_agent"]
+# SEC asks requests to identify themselves. Prefer $SEC_CONTACT (set it to your
+# name/email or a URL), else managers.json, else a neutral default — no personal
+# data is hard-coded here.
+UA = os.environ.get("SEC_CONTACT") or CFG.get("user_agent") or "13f-idea-engine (+https://github.com)"
 CACHE_PATH = DATA / "cusip_map.json"
 CUSIP_CACHE = json.loads(CACHE_PATH.read_text()) if CACHE_PATH.exists() else {}
 
