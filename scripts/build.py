@@ -19,7 +19,7 @@ Raw holdings cached per accession in data/holdings/, prices in data/prices/ —
 so re-runs are fast. Standard library only. Public data (SEC EDGAR + OpenFIGI + Yahoo).
 """
 
-import json, time, urllib.request, urllib.error, gzip, datetime
+import os, json, time, urllib.request, urllib.error, gzip, datetime
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from collections import defaultdict
@@ -38,6 +38,8 @@ N_TRANSITIONS   = 5     # selectable quarters exposed in the UI dropdown
 SIG_ADD     = 0.25      # an "add" counts as an idea only if shares grew >=25%
 CAP_PER_LIST = 50
 CAP_IDEAS    = 600      # per quarter, cap the ranked idea list
+MATURE_FRAC  = 0.5      # default view = newest quarter with >=50% of peak coverage
+                        # (the in-season quarter has only a few early filers — don't land there)
 AEST = datetime.timezone(datetime.timedelta(hours=10))   # Australian Eastern Standard Time
 
 
@@ -327,7 +329,10 @@ def main():
         for p in sorted(periods, reverse=True)[:-1]:
             cur_counts[p] += 1
     sel = sorted(cur_counts, reverse=True)[:N_TRANSITIONS]
-    default = sel[0] if sel else None
+    maxc = max(cur_counts.values()) if cur_counts else 0
+    # default = NEWEST quarter that has matured (>= MATURE_FRAC of peak coverage); during the
+    # 45-day filing window the latest quarter has only a handful of filers, so skip past it.
+    default = next((p for p in sel if cur_counts[p] >= MATURE_FRAC * maxc), sel[0] if sel else None)
     print(f"Selectable quarters: {[(p, cur_counts[p]) for p in sel]}  (default {default})")
 
     per_period, surviving = {}, set()
@@ -346,8 +351,9 @@ def main():
             i["inaam"] = inaam_for(i["issuer"], i["ticker"])
 
     all_tk = {i["ticker"] for _, ideas in per_period.values() for i in ideas if i["ticker"]}
-    print(f"Fetching daily prices for {len(all_tk)} tickers via Yahoo (cached) ...")
-    px_map = prices.map_prices(all_tk)
+    src = "Finnhub quote + Yahoo history" if os.environ.get("FINNHUB_KEY") else "Yahoo"
+    print(f"Fetching daily prices for {len(all_tk)} tickers via {src} (cached) ...")
+    px_map = prices.map_prices(all_tk, key=os.environ.get("FINNHUB_KEY"))
 
     by_period = {}
     for period in sel:

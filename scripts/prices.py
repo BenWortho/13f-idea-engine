@@ -21,9 +21,9 @@ BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.3
               "(KHTML, like Gecko) Chrome/120.0 Safari/537.36")
 
 
-def _get_json(url):
+def _get_json(url, attempts=3):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "gzip"})
-    for attempt in range(3):
+    for attempt in range(attempts):
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
                 b = r.read()
@@ -45,34 +45,82 @@ def yahoo_symbol(ticker):
     return s
 
 
-def fetch(ticker, years=3):
-    """Return {YYYY-MM-DD: close} for a symbol, cached to disk. {} if unavailable."""
-    sym = yahoo_symbol(ticker)
-    if not sym:
-        return {}
-    f = PRICE_DIR / f"{sym}.json"
-    if f.exists():
-        return json.loads(f.read_text())
+def finnhub_symbol(ticker):
+    # Finnhub keeps '.' for share classes (BRK.B). Uppercase, strip spaces/slashes.
+    return ticker.strip().upper().replace("/", ".").replace(" ", "")
+
+
+def _expected_latest():
+    """Most recent US trading day we'd expect a close for = the previous weekday
+    (UTC). A cached series whose newest date is older than this needs a fresh tail."""
+    d = datetime.datetime.utcnow().date() - datetime.timedelta(days=1)
+    while d.weekday() >= 5:            # Sat=5, Sun=6 -> step back to Friday
+        d -= datetime.timedelta(days=1)
+    return d.isoformat()
+
+
+def _yahoo_history(sym, years=3):
+    """Full daily-close series {date: close} from Yahoo's public chart API. {} on failure."""
     now = int(time.time())
     p1 = now - int(years * 366 * 86400)
     url = (f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}"
            f"?period1={p1}&period2={now}&interval=1d")
-    j = _get_json(url)
+    j = _get_json(url, attempts=2)
     out = {}
     try:
         res = j["chart"]["result"][0]
-        ts = res["timestamp"]
-        cl = res["indicators"]["quote"][0]["close"]
-        for t, c in zip(ts, cl):
+        for t, c in zip(res["timestamp"], res["indicators"]["quote"][0]["close"]):
             if c is None:
                 continue
-            d = datetime.datetime.utcfromtimestamp(t).strftime("%Y-%m-%d")
-            out[d] = round(float(c), 4)
+            out[datetime.datetime.utcfromtimestamp(t).strftime("%Y-%m-%d")] = round(float(c), 4)
     except Exception:
         out = {}
-    f.write_text(json.dumps(out))
-    time.sleep(0.25)   # be polite to Yahoo
+    time.sleep(0.25)                  # be polite to Yahoo
     return out
+
+
+def _finnhub_quote(sym, key):
+    """(close, date) real-time-ish quote from Finnhub's free /quote. (None, None) on failure."""
+    j = _get_json(f"https://finnhub.io/api/v1/quote?symbol={urllib.parse.quote(sym)}&token={key}")
+    time.sleep(1.1)                   # free tier: 60 req/min
+    c = (j or {}).get("c")
+    if not c:                         # 0.0 or missing => unknown symbol / no data
+        return None, None
+    t = (j or {}).get("t")
+    d = datetime.datetime.utcfromtimestamp(t).strftime("%Y-%m-%d") if t else _expected_latest()
+    return round(float(c), 4), d
+
+
+def fetch(ticker, years=3, key=None):
+    """{YYYY-MM-DD: close} for a symbol, cached to disk AND kept current.
+
+    Past closes never change, so history is fetched once (Yahoo) and cached
+    forever. The recent tail is refreshed every run — Finnhub's quote endpoint
+    (reliable, keyed) supplies today's close, with a fresh Yahoo pull as fallback.
+    This is what lets 'current price' and 'return since' actually move between
+    runs; a plain cache-forever (the old behaviour) froze them. {} if nothing available.
+    """
+    sym = yahoo_symbol(ticker)
+    if not sym:
+        return {}
+    f = PRICE_DIR / f"{sym}.json"
+    cached = json.loads(f.read_text()) if f.exists() else {}
+    series = dict(cached)
+
+    if not series:                                   # first sighting: pull full history
+        series.update(_yahoo_history(sym, years))
+
+    if not series or max(series) < _expected_latest():    # tail is stale -> refresh it
+        if key:
+            c, d = _finnhub_quote(finnhub_symbol(ticker), key)
+            if c:
+                series[d] = c
+        if not series or max(series) < _expected_latest():   # no key / miss -> re-pull Yahoo
+            series.update(_yahoo_history(sym, years))
+
+    if series and series != cached:
+        f.write_text(json.dumps(series))
+    return series
 
 
 def avg_close(px, start, end):
@@ -96,11 +144,15 @@ def quarter_start(period):
     return f"{y}-{start_month}-01"
 
 
-def map_prices(tickers):
-    """Fetch (cached) prices for many symbols. Returns {ticker: {date: close}}."""
-    out, n = {}, len(tickers)
-    for i, t in enumerate(sorted(set(t for t in tickers if t))):
-        out[t] = fetch(t)
+def map_prices(tickers, key=None):
+    """Fetch (cached, kept-current) prices for many symbols. Returns {ticker: {date: close}}.
+    `key` = Finnhub API key (optional; falls back to $FINNHUB_KEY) used to refresh the
+    latest close reliably when Yahoo is rate-limiting."""
+    key = key if key is not None else os.environ.get("FINNHUB_KEY")
+    out, syms = {}, sorted(set(t for t in tickers if t))
+    n = len(syms)
+    for i, t in enumerate(syms):
+        out[t] = fetch(t, key=key)
         if (i + 1) % 100 == 0:
             print(f"    prices {i+1}/{n} ...")
     return out
