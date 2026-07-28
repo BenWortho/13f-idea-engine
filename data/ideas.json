@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28 09:14 AEST",
+  "generated_at": "2026-07-29 09:04 AEST",
   "periods": [
     "2026-06-30",
     "2026-03-31",
@@ -8,7 +8,7 @@
     "2025-06-30"
   ],
   "period_counts": {
-    "2026-06-30": 18,
+    "2026-06-30": 21,
     "2026-03-31": 273,
     "2025-12-31": 271,
     "2025-09-30": 271,
@@ -56,8 +56,8 @@
   "by_period": {
     "2026-06-30": {
       "prev": "2026-03-31",
-      "n_managers": 18,
-      "n_ideas": 225,
+      "n_managers": 21,
+      "n_ideas": 230,
       "managers": [
         {
           "name": "Sarasin & Partners LLP",
@@ -168,6 +168,24 @@
           "ret": 0.2407
         },
         {
+          "name": "Rothschild & Co Wealth Management UK Ltd",
+          "cik": "0001784260",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 25,
+          "aum_m": 6928,
+          "counts": {
+            "new": 0,
+            "add": 4,
+            "trim": 6,
+            "exit": 0
+          },
+          "buys": 1,
+          "ret": 0.2177
+        },
+        {
           "name": "Simplify Asset Management Inc.",
           "cik": "0001846368",
           "tag": "data-selected",
@@ -276,6 +294,24 @@
           "ret": 0.1078
         },
         {
+          "name": "Greenhaven Associates",
+          "cik": "0000846222",
+          "tag": "value",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 28,
+          "aum_m": 8661,
+          "counts": {
+            "new": 4,
+            "add": 5,
+            "trim": 8,
+            "exit": 3
+          },
+          "buys": 6,
+          "ret": 0.0761
+        },
+        {
           "name": "Lindsell Train",
           "cik": "0001484150",
           "tag": "quality",
@@ -310,6 +346,24 @@
           },
           "buys": 12,
           "ret": -0.0357
+        },
+        {
+          "name": "Provident Trust Co",
+          "cik": "0001140436",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 22,
+          "aum_m": 4771,
+          "counts": {
+            "new": 2,
+            "add": 1,
+            "trim": 4,
+            "exit": 2
+          },
+          "buys": 2,
+          "ret": -0.0756
         },
         {
           "name": "Conestoga Capital Advisors, LLC",
@@ -467,6 +521,139 @@
           "cur_price": 203.36,
           "cur_date": "2026-07-27",
           "ret": 0.0244,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "09857L108",
+          "ticker": "BKNG",
+          "issuer": "BOOKING HOLDINGS INC",
+          "n_buyers": 4,
+          "buyers": [
+            {
+              "manager": "Rothschild & Co Wealth Management UK Ltd",
+              "action": "add",
+              "value": 764724996,
+              "shares": 4290423,
+              "weight": 0.11039,
+              "chg": 23.959,
+              "opened": "2024-09-30",
+              "opened_before": true,
+              "est_entry": 153.3986,
+              "ret": 0.2177,
+              "est_gain": 143263231
+            },
+            {
+              "manager": "Alecta Tjanstepension Omsesidigt",
+              "action": "add",
+              "value": 91605080,
+              "shares": 514000,
+              "weight": 0.00385,
+              "chg": 19.0,
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 191.2687,
+              "ret": -0.0234,
+              "est_gain": -2302052
+            },
+            {
+              "manager": "Simplify Asset Management Inc.",
+              "action": "add",
+              "value": 220126,
+              "shares": 1235,
+              "weight": 3e-05,
+              "chg": 21.87,
+              "opened": "2025-09-30",
+              "opened_before": false,
+              "est_entry": 223.2472,
+              "ret": -0.1633,
+              "est_gain": -45025
+            },
+            {
+              "manager": "Cardano Risk Management B.V.",
+              "action": "add",
+              "value": 85334,
+              "shares": 478757,
+              "weight": 0.00657,
+              "chg": 22.159,
+              "opened": "2025-06-30",
+              "opened_before": false,
+              "est_entry": 204.7781,
+              "ret": -0.0878,
+              "est_gain": -8611929
+            }
+          ],
+          "sum_weight": 0.1208,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 80,
+          "conviction_label": "High",
+          "inaam": [],
+          "est_entry": 170.5885,
+          "cur_price": 186.79,
+          "cur_date": "2026-07-27",
+          "ret": 0.095,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "67066G104",
+          "ticker": "NVDA",
+          "issuer": "NVIDIA CORP COM",
+          "n_buyers": 3,
+          "buyers": [
+            {
+              "manager": "Egerton Capital",
+              "action": "add",
+              "value": 683897616,
+              "shares": 3417950,
+              "weight": 0.06607,
+              "chg": 0.278,
+              "opened": "2026-03-31",
+              "opened_before": false,
+              "est_entry": 183.4621,
+              "ret": 0.0711,
+              "est_gain": 44597070
+            },
+            {
+              "manager": "ADAPT Investment Managers SA",
+              "action": "add",
+              "value": 59141200,
+              "shares": 295573,
+              "weight": 0.13404,
+              "chg": 3.292,
+              "opened": "2024-12-31",
+              "opened_before": true,
+              "est_entry": 137.8333,
+              "ret": 0.4257,
+              "est_gain": 17343248
+            },
+            {
+              "manager": "Provident Trust Co",
+              "action": "new",
+              "value": 211695,
+              "shares": 1058,
+              "weight": 4e-05,
+              "chg": null,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 205.6056,
+              "ret": -0.0442,
+              "est_gain": -9623
+            }
+          ],
+          "sum_weight": 0.2001,
+          "has_new": true,
+          "theme": "Tech & Communications",
+          "conviction": 82,
+          "conviction_label": "High",
+          "inaam": [],
+          "est_entry": 205.6056,
+          "cur_price": 196.51,
+          "cur_date": "2026-07-27",
+          "ret": -0.0442,
           "target": null,
           "target_n": null,
           "upside": null
@@ -774,108 +961,61 @@
           "upside": null
         },
         {
-          "cusip": "09857L108",
-          "ticker": "BKNG",
-          "issuer": "BOOKING HOLDINGS INC",
+          "cusip": "458140100",
+          "ticker": "INTC",
+          "issuer": "INTEL CORP",
           "n_buyers": 3,
           "buyers": [
             {
-              "manager": "Alecta Tjanstepension Omsesidigt",
-              "action": "add",
-              "value": 91605080,
-              "shares": 514000,
-              "weight": 0.00385,
-              "chg": 19.0,
-              "opened": "2025-03-31",
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 2178228,
+              "shares": 15600,
+              "weight": 0.00026,
+              "chg": null,
+              "opened": "2026-06-30",
               "opened_before": false,
-              "est_entry": 191.2687,
-              "ret": -0.0234,
-              "est_gain": -2302052
+              "est_entry": 101.1247,
+              "ret": -0.0935,
+              "est_gain": -147493
             },
             {
-              "manager": "Simplify Asset Management Inc.",
-              "action": "add",
-              "value": 220126,
-              "shares": 1235,
-              "weight": 3e-05,
-              "chg": 21.87,
-              "opened": "2025-09-30",
+              "manager": "Provident Trust Co",
+              "action": "new",
+              "value": 372533,
+              "shares": 2668,
+              "weight": 8e-05,
+              "chg": null,
+              "opened": "2026-06-30",
               "opened_before": false,
-              "est_entry": 223.2472,
-              "ret": -0.1633,
-              "est_gain": -45025
+              "est_entry": 101.1247,
+              "ret": -0.0935,
+              "est_gain": -25225
             },
             {
               "manager": "Cardano Risk Management B.V.",
-              "action": "add",
-              "value": 85334,
-              "shares": 478757,
-              "weight": 0.00657,
-              "chg": 22.159,
-              "opened": "2025-06-30",
+              "action": "new",
+              "value": 187342,
+              "shares": 1341703,
+              "weight": 0.01442,
+              "chg": null,
+              "opened": "2026-06-30",
               "opened_before": false,
-              "est_entry": 204.7781,
-              "ret": -0.0878,
-              "est_gain": -8611929
+              "est_entry": 101.1247,
+              "ret": -0.0935,
+              "est_gain": -12685399
             }
           ],
-          "sum_weight": 0.0105,
-          "has_new": false,
+          "sum_weight": 0.0148,
+          "has_new": true,
           "theme": "Other / review",
-          "conviction": 44,
-          "conviction_label": "Medium",
-          "inaam": [],
-          "est_entry": 170.5885,
-          "cur_price": 186.79,
-          "cur_date": "2026-07-27",
-          "ret": 0.095,
-          "target": null,
-          "target_n": null,
-          "upside": null
-        },
-        {
-          "cusip": "67066G104",
-          "ticker": "NVDA",
-          "issuer": "NVIDIA CORPORATION COM",
-          "n_buyers": 2,
-          "buyers": [
-            {
-              "manager": "Egerton Capital",
-              "action": "add",
-              "value": 683897616,
-              "shares": 3417950,
-              "weight": 0.06607,
-              "chg": 0.278,
-              "opened": "2026-03-31",
-              "opened_before": false,
-              "est_entry": 183.4621,
-              "ret": 0.0711,
-              "est_gain": 44597070
-            },
-            {
-              "manager": "ADAPT Investment Managers SA",
-              "action": "add",
-              "value": 59141200,
-              "shares": 295573,
-              "weight": 0.13404,
-              "chg": 3.292,
-              "opened": "2024-12-31",
-              "opened_before": true,
-              "est_entry": 137.8333,
-              "ret": 0.4257,
-              "est_gain": 17343248
-            }
-          ],
-          "sum_weight": 0.2001,
-          "has_new": false,
-          "theme": "Tech & Communications",
-          "conviction": 58,
+          "conviction": 55,
           "conviction_label": "High",
           "inaam": [],
-          "est_entry": 205.6056,
-          "cur_price": 196.51,
+          "est_entry": 101.1247,
+          "cur_price": 91.67,
           "cur_date": "2026-07-27",
-          "ret": -0.0442,
+          "ret": -0.0935,
           "target": null,
           "target_n": null,
           "upside": null
@@ -970,6 +1110,53 @@
           "cur_price": 389.1,
           "cur_date": "2026-07-27",
           "ret": -0.0383,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "G4705A100",
+          "ticker": "",
+          "issuer": "ICON PUB LTD CO",
+          "n_buyers": 2,
+          "buyers": [
+            {
+              "manager": "Greenhaven Associates",
+              "action": "add",
+              "value": 538607832,
+              "shares": 3100615,
+              "weight": 0.06219,
+              "chg": 0.548,
+              "opened": "2025-06-30",
+              "opened_before": false,
+              "est_entry": null,
+              "ret": null,
+              "est_gain": null
+            },
+            {
+              "manager": "Simplify Asset Management Inc.",
+              "action": "new",
+              "value": 260391,
+              "shares": 1499,
+              "weight": 4e-05,
+              "chg": null,
+              "opened": "2025-12-31",
+              "opened_before": false,
+              "est_entry": null,
+              "ret": null,
+              "est_gain": null
+            }
+          ],
+          "sum_weight": 0.0622,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 50,
+          "conviction_label": "Medium",
+          "inaam": [],
+          "est_entry": null,
+          "cur_price": null,
+          "cur_date": null,
+          "ret": null,
           "target": null,
           "target_n": null,
           "upside": null
@@ -1348,53 +1535,6 @@
           "cur_price": 291.61,
           "cur_date": "2026-07-27",
           "ret": -0.0394,
-          "target": null,
-          "target_n": null,
-          "upside": null
-        },
-        {
-          "cusip": "458140100",
-          "ticker": "INTC",
-          "issuer": "INTEL CORP",
-          "n_buyers": 2,
-          "buyers": [
-            {
-              "manager": "Sarasin & Partners LLP",
-              "action": "new",
-              "value": 2178228,
-              "shares": 15600,
-              "weight": 0.00026,
-              "chg": null,
-              "opened": "2026-06-30",
-              "opened_before": false,
-              "est_entry": 101.1247,
-              "ret": -0.0935,
-              "est_gain": -147493
-            },
-            {
-              "manager": "Cardano Risk Management B.V.",
-              "action": "new",
-              "value": 187342,
-              "shares": 1341703,
-              "weight": 0.01442,
-              "chg": null,
-              "opened": "2026-06-30",
-              "opened_before": false,
-              "est_entry": 101.1247,
-              "ret": -0.0935,
-              "est_gain": -12685399
-            }
-          ],
-          "sum_weight": 0.0147,
-          "has_new": true,
-          "theme": "Other / review",
-          "conviction": 41,
-          "conviction_label": "Medium",
-          "inaam": [],
-          "est_entry": 101.1247,
-          "cur_price": 91.67,
-          "cur_date": "2026-07-27",
-          "ret": -0.0935,
           "target": null,
           "target_n": null,
           "upside": null
@@ -2021,6 +2161,40 @@
           "upside": null
         },
         {
+          "cusip": "075887109",
+          "ticker": "BDX",
+          "issuer": "Becton Dickinson & Co (BDX)",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Greenhaven Associates",
+              "action": "new",
+              "value": 859812872,
+              "shares": 5681708,
+              "weight": 0.09928,
+              "chg": null,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 149.559,
+              "ret": 0.0626,
+              "est_gain": 53186469
+            }
+          ],
+          "sum_weight": 0.0993,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 44,
+          "conviction_label": "Medium",
+          "inaam": [],
+          "est_entry": 149.559,
+          "cur_price": 158.92,
+          "cur_date": "2026-07-27",
+          "ret": 0.0626,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
           "cusip": "92189F676",
           "ticker": "SMH",
           "issuer": "VANECK ETF TRUST",
@@ -2152,6 +2326,40 @@
           "cur_price": 27.0,
           "cur_date": "2026-07-27",
           "ret": -0.0248,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "G1151C101",
+          "ticker": "",
+          "issuer": "Accenture Plc (ACN)",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Greenhaven Associates",
+              "action": "new",
+              "value": 421189704,
+              "shares": 3384681,
+              "weight": 0.04863,
+              "chg": null,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": null,
+              "ret": null,
+              "est_gain": null
+            }
+          ],
+          "sum_weight": 0.0486,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 34,
+          "conviction_label": "Medium",
+          "inaam": [],
+          "est_entry": null,
+          "cur_price": null,
+          "cur_date": null,
+          "ret": null,
           "target": null,
           "target_n": null,
           "upside": null
@@ -2494,6 +2702,40 @@
           "cur_price": 39.7,
           "cur_date": "2026-07-27",
           "ret": -0.0148,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "46266C105",
+          "ticker": "IQV",
+          "issuer": "Iqvia Hldgs Inc (IQV)",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Greenhaven Associates",
+              "action": "new",
+              "value": 148401655,
+              "shares": 768045,
+              "weight": 0.01714,
+              "chg": null,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 174.3779,
+              "ret": 0.2227,
+              "est_gain": 29832481
+            }
+          ],
+          "sum_weight": 0.0171,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 27,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 174.3779,
+          "cur_price": 213.22,
+          "cur_date": "2026-07-27",
+          "ret": 0.2227,
           "target": null,
           "target_n": null,
           "upside": null
@@ -3142,6 +3384,40 @@
           "cur_price": 170.04,
           "cur_date": "2026-07-27",
           "ret": -0.0907,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "29414B104",
+          "ticker": "EPAM",
+          "issuer": "Epam Sys Inc (EPAM)",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Greenhaven Associates",
+              "action": "new",
+              "value": 46602255,
+              "shares": 587300,
+              "weight": 0.00538,
+              "chg": null,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 105.6815,
+              "ret": -0.1089,
+              "est_gain": -6760704
+            }
+          ],
+          "sum_weight": 0.0054,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 25,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 105.6815,
+          "cur_price": 94.17,
+          "cur_date": "2026-07-27",
+          "ret": -0.1089,
           "target": null,
           "target_n": null,
           "upside": null
@@ -5401,40 +5677,6 @@
           "upside": null
         },
         {
-          "cusip": "G4705A100",
-          "ticker": "",
-          "issuer": "ICON PUB LTD CO",
-          "n_buyers": 1,
-          "buyers": [
-            {
-              "manager": "Simplify Asset Management Inc.",
-              "action": "new",
-              "value": 260391,
-              "shares": 1499,
-              "weight": 4e-05,
-              "chg": null,
-              "opened": "2025-12-31",
-              "opened_before": false,
-              "est_entry": null,
-              "ret": null,
-              "est_gain": null
-            }
-          ],
-          "sum_weight": 0.0,
-          "has_new": true,
-          "theme": "Other / review",
-          "conviction": 24,
-          "conviction_label": "Low",
-          "inaam": [],
-          "est_entry": null,
-          "cur_price": null,
-          "cur_date": null,
-          "ret": null,
-          "target": null,
-          "target_n": null,
-          "upside": null
-        },
-        {
           "cusip": "874054109",
           "ticker": "TTWO",
           "issuer": "TAKE-TWO INTERACTIVE SOFTWAR",
@@ -6698,6 +6940,40 @@
           "cur_price": 951.58,
           "cur_date": "2026-07-27",
           "ret": -0.045,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "67011P100",
+          "ticker": "DNOW",
+          "issuer": "Dnow Inc (DNOW)",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Greenhaven Associates",
+              "action": "add",
+              "value": 56336712,
+              "shares": 4343617,
+              "weight": 0.0065,
+              "chg": 4.268,
+              "opened": "2026-03-31",
+              "opened_before": false,
+              "est_entry": 13.5339,
+              "ret": 0.0485,
+              "est_gain": 2849847
+            }
+          ],
+          "sum_weight": 0.0065,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 15,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 12.9831,
+          "cur_price": 14.19,
+          "cur_date": "2026-07-27",
+          "ret": 0.093,
           "target": null,
           "target_n": null,
           "upside": null
@@ -11546,24 +11822,6 @@
           "ret": 0.0853
         },
         {
-          "name": "Rothschild & Co Wealth Management UK Ltd",
-          "cik": "0001784260",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2026-03-31",
-          "prev": "2025-12-31",
-          "positions": 25,
-          "aum_m": 6534,
-          "counts": {
-            "new": 2,
-            "add": 5,
-            "trim": 7,
-            "exit": 2
-          },
-          "buys": 3,
-          "ret": 0.0797
-        },
-        {
           "name": "Praetorian Capital",
           "cik": "0001818940",
           "tag": "macro-value",
@@ -12012,6 +12270,24 @@
           },
           "buys": 2,
           "ret": 0.015
+        },
+        {
+          "name": "Rothschild & Co Wealth Management UK Ltd",
+          "cik": "0001784260",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-03-31",
+          "prev": "2025-12-31",
+          "positions": 25,
+          "aum_m": 6534,
+          "counts": {
+            "new": 2,
+            "add": 5,
+            "trim": 7,
+            "exit": 2
+          },
+          "buys": 3,
+          "ret": 0.0063
         },
         {
           "name": "Lingotto Investment Management LLP",
@@ -17631,11 +17907,11 @@
               "shares": 1342430,
               "weight": 0.08739,
               "chg": 0.264,
-              "opened": "2024-06-30",
+              "opened": "2024-09-30",
               "opened_before": true,
-              "est_entry": 405.8807,
-              "ret": 0.0836,
-              "est_gain": 45574559
+              "est_entry": 468.2039,
+              "ret": -0.0606,
+              "est_gain": -38089975
             },
             {
               "manager": "Mawer Investment Management Ltd.",
@@ -162226,7 +162502,7 @@
             "exit": 157
           },
           "buys": 110,
-          "ret": 0.7981
+          "ret": 0.798
         },
         {
           "name": "Wedgewood Partners",
@@ -162370,7 +162646,7 @@
             "exit": 417
           },
           "buys": 211,
-          "ret": 0.6659
+          "ret": 0.6658
         },
         {
           "name": "Mairs & Power",
@@ -163345,24 +163621,6 @@
           "ret": 0.2822
         },
         {
-          "name": "Mirova US LLC",
-          "cik": "0001802900",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2025-09-30",
-          "prev": "2025-06-30",
-          "positions": 36,
-          "aum_m": 9902,
-          "counts": {
-            "new": 1,
-            "add": 5,
-            "trim": 29,
-            "exit": 0
-          },
-          "buys": 4,
-          "ret": 0.2783
-        },
-        {
           "name": "Impactive Capital",
           "cik": "0001786767",
           "tag": "activist",
@@ -163397,6 +163655,24 @@
           },
           "buys": 5,
           "ret": 0.2749
+        },
+        {
+          "name": "Mirova US LLC",
+          "cik": "0001802900",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2025-09-30",
+          "prev": "2025-06-30",
+          "positions": 36,
+          "aum_m": 9902,
+          "counts": {
+            "new": 1,
+            "add": 5,
+            "trim": 29,
+            "exit": 0
+          },
+          "buys": 4,
+          "ret": 0.2742
         },
         {
           "name": "Woodson Capital",
@@ -221838,8 +222114,8 @@
               "opened": "2025-06-30",
               "opened_before": false,
               "est_entry": 370.7148,
-              "ret": 0.3112,
-              "est_gain": 55976009
+              "ret": 0.3047,
+              "est_gain": 54797058
             },
             {
               "manager": "Moore Capital",
@@ -221851,8 +222127,8 @@
               "opened": "2024-09-30",
               "opened_before": false,
               "est_entry": 384.39,
-              "ret": 0.2646,
-              "est_gain": 3452715
+              "ret": 0.2583,
+              "est_gain": 3370217
             },
             {
               "manager": "Woodline Partners",
@@ -221864,8 +222140,8 @@
               "opened": "2024-06-30",
               "opened_before": true,
               "est_entry": 392.2081,
-              "ret": 0.2394,
-              "est_gain": 584227
+              "ret": 0.2332,
+              "est_gain": 569105
             },
             {
               "manager": "Brevan Howard",
@@ -221877,8 +222153,8 @@
               "opened": "2024-06-30",
               "opened_before": true,
               "est_entry": 392.2081,
-              "ret": 0.2394,
-              "est_gain": 505554
+              "ret": 0.2332,
+              "est_gain": 492468
             }
           ],
           "sum_weight": 0.0245,
@@ -221888,9 +222164,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 430.4461,
-          "cur_price": 486.09,
-          "cur_date": "2026-07-24",
-          "ret": 0.1293,
+          "cur_price": 483.66,
+          "cur_date": "2026-07-28",
+          "ret": 0.1236,
           "target": null,
           "target_n": null,
           "upside": null
@@ -230364,7 +230640,7 @@
             "exit": 2
           },
           "buys": 2,
-          "ret": 0.2661
+          "ret": 0.2651
         },
         {
           "name": "Ancora Advisors",
@@ -230490,7 +230766,7 @@
             "exit": 4
           },
           "buys": 2,
-          "ret": 0.2429
+          "ret": 0.241
         },
         {
           "name": "Cardano Risk Management B.V.",
@@ -240334,11 +240610,11 @@
               "shares": 5379291,
               "weight": 0.0412,
               "chg": 0.989,
-              "opened": "2024-06-30",
+              "opened": "2024-09-30",
               "opened_before": true,
-              "est_entry": 33.7351,
-              "ret": 0.4122,
-              "est_gain": 74798503
+              "est_entry": 33.8462,
+              "ret": 0.4075,
+              "est_gain": 74200864
             },
             {
               "manager": "Mairs & Power",
@@ -286155,11 +286431,11 @@
               "shares": 4929,
               "weight": 0.00045,
               "chg": null,
-              "opened": "2024-06-30",
+              "opened": "2024-09-30",
               "opened_before": true,
-              "est_entry": 525.8338,
-              "ret": 0.4121,
-              "est_gain": 1068194
+              "est_entry": 556.008,
+              "ret": 0.3355,
+              "est_gain": 919466
             },
             {
               "manager": "Polen Capital",
