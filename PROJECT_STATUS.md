@@ -4,10 +4,10 @@
 made, and everything still planned.** Read this first if you're picking the project
 back up.
 
-- **Last updated:** 2026-07-27
+- **Last updated:** 2026-07-30
 - **Local path:** `~/13f-idea-engine`
-- **Current GitHub repo:** `github.com/benwortho1/13f-idea-engine` (public) — *being moved to your account, see [§9](#9-whats-planned--pending)*
-- **Live site (current):** https://benwortho1.github.io/13f-idea-engine/
+- **Current GitHub repo:** `github.com/BenWortho/13f-idea-engine` (public) — ✅ *transferred from `benwortho1` on 2026-07-30*
+- **Live site:** https://benwortho.github.io/13f-idea-engine/
 - **Full backup:** `~/13f-idea-engine-backup.bundle` (single-file clone incl. history)
 
 ---
@@ -58,14 +58,14 @@ GitHub Actions and deploys to GitHub Pages.
 |---|---|
 | Data pipeline (SEC → diff → price → score → render) | ✅ Working |
 | Self-update automation (GitHub Actions, weekday cron) | ✅ Working, verified live |
-| Live site on GitHub Pages | ✅ Live (HTTP 200) on `benwortho1` |
-| Price refresh (was frozen) | ✅ **Fixed** — verified prices moved Jul 20 → Jul 23 on their own |
+| Live site on GitHub Pages | ✅ Live (HTTP 200) on `BenWortho` |
+| Price refresh (was frozen) | ✅ **Fixed** — prices advanced Jul 20 → Jul 23 → Jul 27 unattended |
 | Default landing quarter (was near-empty) | ✅ **Fixed** — lands on newest *mature* quarter |
-| Personal email removed from code | ✅ Done (SEC contact now configurable) |
+| Personal email removed from code | ✅ Done (SEC contact now configurable) — **pushed to the public repo 2026-07-30** |
 | Backup + migration runbook | ✅ Done (`bundle` + `MIGRATION.md`) |
-| **Analyst targets (Target/upside column)** | ⚠️ **0/600 until `FINNHUB_KEY` secret is set** |
-| **Move to your own GitHub account** | ⏳ **Pending** — method chosen (transfer), needs your username |
-| Delete old `benwortho1` copy | ⏳ Pending (after the move is verified) |
+| **Move to your own GitHub account** | ✅ **Done** — transferred to `BenWortho`, Pages carried over |
+| Delete old `benwortho1` copy | ✅ N/A — a transfer *moves* the repo; no duplicate left behind |
+| **Analyst targets (Target/upside column)** | ⚠️ **0/600 until `FINNHUB_KEY` secret is set** — the only thing outstanding |
 
 **First automated run result (proof it all works, on `benwortho1`):**
 - Both CI jobs (`refresh`, `deploy`) succeeded.
@@ -218,20 +218,23 @@ Prices now **stay current** instead of caching forever:
 
 ## 7. Git history
 
-Local `main` (this is what will move to your account):
+`main` on `BenWortho/13f-idea-engine`, local and remote in sync as of 2026-07-30:
 ```
-de41ba0  Add MIGRATION.md — runbook to move the project to your own account
-10e1558  Make it account-portable: configurable SEC contact, no personal data
+0955430  Add PROJECT_STATUS.md — full handoff: everything done + everything planned
+d39e68d  Add MIGRATION.md — runbook to move the project to your own account
+17b7388  Make it account-portable: configurable SEC contact, no personal data
+71fe430  chore: auto-refresh 2026-07-29     <- CI bot
+1dde3d7  chore: auto-refresh 2026-07-28     <- CI bot
+78fa471  chore: auto-refresh 2026-07-27     <- CI bot
+5cc0d45  chore: auto-refresh 2026-07-25     <- CI bot
 b2983ae  Make the engine self-updating: CI, live prices/targets, sane default
 9e8b414  initial commit
 ```
-*(A `PROJECT_STATUS.md` commit is added on top of these.)*
-
-**Divergence note:** the CI bot committed `chore: auto-refresh 2026-07-25` to the
-`benwortho1` **remote** on top of `b2983ae`. The local commits `10e1558`, `de41ba0`
-(+ this doc) are **not** on that remote yet. After the transfer, reconcile with a
-`git pull --rebase` (to pick up the bot's data commit) then `git push` — or force-push
-local, since the next CI run regenerates the data anyway. See [§9](#9-whats-planned--pending).
+*(The three doc/portability commits were rebased on top of the bot's data commits — the
+SHAs changed from the pre-rebase `10e1558` / `de41ba0` / `c9da2d1`. Clean rebase: the bot
+only ever touches `data/ideas.json`, `data/holdings/`, `index.html`, which those three
+commits don't. Expect that to keep being true, so `git pull --rebase` is always the right
+reconcile — never force-push, you'd drop the bot's cached holdings.)*
 
 ---
 
@@ -264,47 +267,46 @@ local, since the next CI run regenerates the data anyway. See [§9](#9-whats-pla
 
 ## 9. What's planned / pending
 
-### 9.1 Move the repo to your own GitHub account — **chosen method: Transfer**
-This machine's `gh` is signed in as `benwortho1`, so the transfer is initiated from
-here; you accept it on your account.
+### 9.1 Move the repo to your own account — ✅ **DONE (2026-07-30, transfer to `BenWortho`)**
+Repo now lives at `github.com/BenWortho/13f-idea-engine`; live site
+**https://benwortho.github.io/13f-idea-engine/** (verified 200).
 
-```bash
-# 1. Initiate the transfer (run while signed in as benwortho1 — the current owner)
-gh api --method POST repos/benwortho1/13f-idea-engine/transfer -f new_owner=<YOUR_USERNAME>
+What actually happened, and the gotchas worth remembering:
+- Transfer initiated with `gh api --method POST repos/benwortho1/13f-idea-engine/transfer -f new_owner=BenWortho`.
+  The API responded with the repo *still* under `benwortho1`, and `repos/BenWortho/…` 404'd
+  for a few minutes — **that response is not a failure**, the transfer is just eventually
+  consistent. It completed on its own; no email/notification acceptance step was needed
+  (both accounts are the same person's).
+- **Pages carried over** (`has_pages=true`, `build_type=workflow` intact), contrary to the
+  original assumption that it wouldn't. No need to re-create it.
+- **Secrets did NOT carry over** — the secret list is empty. See [§9.2](#92-set-the-finnhub_key-secret--enables-analyst-targets).
+- **`gh auth switch` does not change what `git push` uses.** This Mac's git credential
+  helper is `osxkeychain`, which kept serving `BenWortho`'s token and gave
+  `403 Permission to benwortho1/… denied to BenWortho`. Fix: bypass the keychain for the
+  one command — `git -c credential.helper='!gh auth git-credential' push origin main`
+  while the intended account is `gh auth switch`ed active.
+- Old URL `benwortho1.github.io/13f-idea-engine/` now 404s, as expected. A transfer *moves*
+  the repo, so there is no old copy to delete.
 
-# 2. Accept it from <YOUR_USERNAME>'s GitHub notifications / email (if prompted).
-
-# 3. As you: re-add what does NOT transfer (secrets + Pages don't carry over)
-gh api --method POST repos/<YOUR_USERNAME>/13f-idea-engine/pages -f build_type=workflow
-gh secret set FINNHUB_KEY --repo <YOUR_USERNAME>/13f-idea-engine     # enables targets
-gh secret set SEC_CONTACT --repo <YOUR_USERNAME>/13f-idea-engine     # optional
-
-# 4. Repoint your local clone + push the local-only commits
-cd ~/13f-idea-engine
-git remote set-url origin https://github.com/<YOUR_USERNAME>/13f-idea-engine.git
-git pull --rebase        # picks up the bot's auto-refresh commit
-git push
-
-# 5. Kick a run and confirm
-gh workflow run update.yml --repo <YOUR_USERNAME>/13f-idea-engine
-```
-Your live site becomes **https://\<YOUR_USERNAME\>.github.io/13f-idea-engine/**.
-
-> **Blocker:** I need your **GitHub username** to run step 1. That's the only thing
-> outstanding to complete the move.
-
-*(Alternative "fresh repo" method — if you'd rather start clean under your account — is
-in `MIGRATION.md`.)*
+*(The alternative "fresh repo" method is still documented in `MIGRATION.md`; it's the one
+to use if you ever want `arj@inaam.me` scrubbed from the older commits' **history** — the
+transfer keeps it there, only the current tip is clean.)*
 
 ### 9.2 Set the `FINNHUB_KEY` secret — **enables analyst targets**
-Targets are `0/600` until this is set. Get a free key at **finnhub.io** (30s, no card),
-then `gh secret set FINNHUB_KEY --repo <YOUR_USERNAME>/13f-idea-engine`. Prices already
-work without it; this fills the **Target / upside** column and makes prices more robust.
+Targets are `0/600` in **every** quarter until this is set (verified again 2026-07-30 —
+`targets_source` reads `yahoo`, but actual coverage is zero because Yahoo's target endpoint
+blocks). Get a free key at **finnhub.io** (30s, no card), then:
+```bash
+gh secret set FINNHUB_KEY --repo BenWortho/13f-idea-engine
+```
+Prices already work without it; this fills the **Target / upside** column and makes the
+current-price leg more robust. **This is the last outstanding item on the project.**
 
 ### 9.3 Housekeeping after the move
-- Update the live-URL line in `README.md` to your username.
-- (Optional) set `SEC_CONTACT` secret to a real contact string.
-- **Delete the old copy** once yours is verified: `gh repo delete benwortho1/13f-idea-engine --yes`.
+- ✅ `README.md` live-URL line updated to `benwortho.github.io`.
+- ✅ No old copy to delete (transfer moves the repo; `benwortho1/…` no longer exists).
+- ⏳ (Optional) set `SEC_CONTACT` secret to a real contact string — right now the SEC
+  User-Agent falls back to the neutral `13f-idea-engine (+https://github.com)` default.
 
 ### 9.4 Nice-to-haves (not started — future ideas)
 - Hide the Target column automatically when no targets are present (until the key is set).
