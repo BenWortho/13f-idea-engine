@@ -8,7 +8,7 @@ token, and pick the CIK with the most recent filing.
 import os, json, time, urllib.request, urllib.parse, gzip
 from collections import defaultdict
 
-UA = os.environ.get("SEC_CONTACT") or "13f-idea-engine (+https://github.com)"
+UA = os.environ.get("SEC_CONTACT") or "13f-idea-engine research-tool"  # no "github" — SEC 403s it; see build.py
 
 # name -> key token that MUST appear in the filer's display name (guards against word-match noise)
 QUERIES = {

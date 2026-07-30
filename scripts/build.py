@@ -30,9 +30,21 @@ DATA = ROOT / "data"; DATA.mkdir(exist_ok=True)
 HOLD_DIR = DATA / "holdings"; HOLD_DIR.mkdir(exist_ok=True)
 CFG = json.loads((ROOT / "managers.json").read_text())
 # SEC asks requests to identify themselves. Prefer $SEC_CONTACT (set it to your
-# name/email or a URL), else managers.json, else a neutral default — no personal
-# data is hard-coded here.
-UA = os.environ.get("SEC_CONTACT") or CFG.get("user_agent") or "13f-idea-engine (+https://github.com)"
+# name/email), else managers.json, else a neutral default — no personal data is
+# hard-coded here.
+#
+# Never put "github" in this string. SEC's edge 403s *every* request from a
+# User-Agent containing it, even one carrying a valid email — and a URL-only or
+# contact-free UA is otherwise fine, so the word itself is the trigger. This bit
+# us on 2026-07-30: the failure is silent (0 managers, a 1 KB ideas.json, exit 0),
+# not a crash, so it deployed an empty site. Verified against data.sec.gov.
+UA = os.environ.get("SEC_CONTACT") or CFG.get("user_agent") or "13f-idea-engine research-tool"
+if "github" in UA.lower():
+    raise SystemExit(
+        f"Refusing to start: SEC 403s any User-Agent containing 'github' (got {UA!r}).\n"
+        "Set SEC_CONTACT (or managers.json user_agent) to a contact string without it,\n"
+        "e.g. 'Your Name you@example.com'."
+    )
 CACHE_PATH = DATA / "cusip_map.json"
 CUSIP_CACHE = json.loads(CACHE_PATH.read_text()) if CACHE_PATH.exists() else {}
 
@@ -380,6 +392,19 @@ def main():
         "by_period": by_period,
         "note": f"Ideas = names a fund NEWLY bought or added >=25% this quarter, ranked by how many of the {len(mgr_holdings)} tracked funds did so. Each fund's est. buy price = average price over the quarter that fund first opened the position (13F has no trade price — this is an approximation; '≥' means opened before our data window). Return is to the latest close. AUM = the fund's US-listed 13F book value. Long-only, US-listed; 13F lags up to 45 days. Idea generator, not a trade signal.",
     }
+    # Refuse to write an empty dataset over a good one. Every upstream failure mode
+    # here (SEC 403ing the User-Agent, a network outage, an emptied roster) produces
+    # zero managers rather than an exception, which on 2026-07-30 sailed through CI
+    # as a "success" and published a blank site. Fail loudly and leave the previous
+    # ideas.json in place instead.
+    if not sel or not mgr_holdings:
+        raise SystemExit(
+            f"Refusing to write an empty ideas.json ({len(sel)} quarters, "
+            f"{len(mgr_holdings)} managers) — keeping the existing one.\n"
+            f"Roster has {len(CFG.get('managers', []))} entries, so if that number is "
+            f"healthy the SEC fetches are failing: check the User-Agent ({UA!r})."
+        )
+
     (DATA / "ideas.json").write_text(json.dumps(out, indent=2))
     kb = (DATA / "ideas.json").stat().st_size / 1024
     print(f"\nWrote {DATA/'ideas.json'}  ({kb:.0f} KB)  —  {len(sel)} quarters, {len(mgr_holdings)} managers")

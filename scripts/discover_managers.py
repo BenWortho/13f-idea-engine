@@ -22,7 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CFG = json.loads((ROOT / "managers.json").read_text())
-UA = os.environ.get("SEC_CONTACT") or CFG.get("user_agent") or "13f-idea-engine (+https://github.com)"
+UA = os.environ.get("SEC_CONTACT") or CFG.get("user_agent") or "13f-idea-engine research-tool"  # no "github" — SEC 403s it; see build.py
 
 INDEX_QUARTERS = ["2026/QTR2", "2026/QTR1"]
 STALE_BEFORE = "2025-06-30"   # drop managers whose latest 13F-HR is older than this

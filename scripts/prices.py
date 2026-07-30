@@ -16,7 +16,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PRICE_DIR = ROOT / "data" / "prices"; PRICE_DIR.mkdir(parents=True, exist_ok=True)
 TARGET_DIR = ROOT / "data" / "targets"; TARGET_DIR.mkdir(parents=True, exist_ok=True)
-UA = os.environ.get("SEC_CONTACT") or "Mozilla/5.0 13f-idea-engine (+https://github.com)"
+# Deliberately NOT $SEC_CONTACT: nothing here talks to SEC — this UA goes to Yahoo
+# and Finnhub, which want a browser-ish string. Threading the SEC contact through
+# would have let setting that secret silently change what Yahoo sees and re-break
+# prices. ("github" is also omitted, per the note in build.py.)
+UA = "Mozilla/5.0 13f-idea-engine research-tool"
 BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/120.0 Safari/537.36")
 
