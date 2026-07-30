@@ -19,7 +19,7 @@ Raw holdings cached per accession in data/holdings/, prices in data/prices/ —
 so re-runs are fast. Standard library only. Public data (SEC EDGAR + OpenFIGI + Yahoo).
 """
 
-import os, json, time, urllib.request, urllib.error, gzip, datetime
+import os, re, json, time, urllib.request, urllib.error, gzip, datetime
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from collections import defaultdict
@@ -33,17 +33,30 @@ CFG = json.loads((ROOT / "managers.json").read_text())
 # name/email), else managers.json, else a neutral default — no personal data is
 # hard-coded here.
 #
-# Never put "github" in this string. SEC's edge 403s *every* request from a
-# User-Agent containing it, even one carrying a valid email — and a URL-only or
-# contact-free UA is otherwise fine, so the word itself is the trigger. This bit
-# us on 2026-07-30: the failure is silent (0 managers, a 1 KB ideas.json, exit 0),
-# not a crash, so it deployed an empty site. Verified against data.sec.gov.
-UA = os.environ.get("SEC_CONTACT") or CFG.get("user_agent") or "13f-idea-engine research-tool"
-if "github" in UA.lower():
+# Two rules, both established by probing SEC directly on 2026-07-30, and both
+# unforgiving — get either wrong and every request 403s:
+#
+#   1. The string must NOT contain "github". A UA carrying a perfectly good email
+#      is still refused if "github" appears anywhere in it. This also rules out
+#      citing the project's own Pages URL (benwortho.github.io) as the contact.
+#   2. It MUST carry a contact token — an email address or an http(s) URL. The two
+#      SEC hosts differ here: data.sec.gov serves a contact-free UA happily, but
+#      www.sec.gov/Archives (where the holdings XML lives) 403s it. Passing rule 1
+#      alone therefore gets you a build that looks like it's working, right up to
+#      the first Archives fetch.
+#
+# Failures here are silent, not loud: SEC 403s degrade to empty holdings, so the
+# build used to emit a 1 KB ideas.json with 0 managers and exit 0 — and CI
+# published it. Hence validating up front rather than discovering it 274 funds in.
+UA = os.environ.get("SEC_CONTACT") or CFG.get("user_agent") or ""
+_HAS_CONTACT = re.search(r"[^\s@]+@[^\s@]+\.[^\s@]+|https?://\S+", UA)
+if "github" in UA.lower() or not _HAS_CONTACT:
     raise SystemExit(
-        f"Refusing to start: SEC 403s any User-Agent containing 'github' (got {UA!r}).\n"
-        "Set SEC_CONTACT (or managers.json user_agent) to a contact string without it,\n"
-        "e.g. 'Your Name you@example.com'."
+        f"Refusing to start: this SEC User-Agent will be 403'd — {UA!r}\n"
+        + ("  · it contains 'github', which SEC blocks outright\n" if "github" in UA.lower() else "")
+        + ("  · it carries no email or URL, which www.sec.gov/Archives requires\n" if not _HAS_CONTACT else "")
+        + "Set the SEC_CONTACT secret (or managers.json user_agent) to something like\n"
+          "'13f-idea-engine you@example.com' — SEC asks for a contact they can reach."
     )
 CACHE_PATH = DATA / "cusip_map.json"
 CUSIP_CACHE = json.loads(CACHE_PATH.read_text()) if CACHE_PATH.exists() else {}
@@ -107,6 +120,7 @@ def info_table_url(cik, accession):
 
 
 def parse_holdings(url):
+    if not url: return {}
     raw = get(url)
     if not raw: return {}
     try: root = ET.fromstring(raw)
@@ -134,7 +148,15 @@ def holdings_for(cik, accession):
     f = HOLD_DIR / f"{accession.replace('-', '')}.json"
     if f.exists():
         return json.loads(f.read_text())
-    h = parse_holdings(info_table_url(cik, accession))
+    # info_table_url() returns None when the filing index won't load or carries no
+    # info-table XML. Feeding that to urllib raises "unknown url type: 'None'" and
+    # takes down the whole build over one filing, which is what happened on the
+    # 2026-07-30 run. Skip the filing instead.
+    url = info_table_url(cik, accession)
+    if not url:
+        print(f"  ! no info table for CIK {cik} {accession} — skipping")
+        return {}
+    h = parse_holdings(url)
     if h:
         f.write_text(json.dumps({k: dict(v) for k, v in h.items()}))
     return h
