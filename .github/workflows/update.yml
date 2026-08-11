@@ -90,3 +90,39 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
+
+  # A failed scheduled run is silent: Pages keeps serving the last good build, so the
+  # site looks healthy while the data ages. That is exactly how this job broke on
+  # 2026-07-30 and stayed broken for 12 days. Raise a visible issue instead, and keep
+  # appending to the same one so a long outage reads as one thread, not daily noise.
+  alert:
+    needs: refresh
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Open or update the failure issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TITLE: "Refresh is failing — the site is going stale"
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          body=$(cat <<EOF
+          The scheduled refresh failed on $(date -u +%Y-%m-%d).
+
+          Run log: $RUN_URL
+
+          The live site is still up, serving the last build that succeeded — it looks
+          current but the prices, returns and filer counts are frozen. Until this run
+          is fixed, the page is quietly wrong rather than visibly broken.
+          EOF
+          )
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 50 \
+            --json number,title --jq 'map(select(.title == env.TITLE)) | .[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" --body "$body"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --body "$body"
+          fi

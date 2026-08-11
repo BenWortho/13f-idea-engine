@@ -67,6 +67,12 @@ PAGE = r"""<!doctype html>
 
   .note { color:var(--muted); font-size:12.5px; max-width:860px; border-left:3px solid var(--line); padding-left:12px; margin:0 0 22px; }
 
+  /* A failed refresh leaves this page serving the last good build — looking fine while
+     silently ageing. Say so loudly rather than let the timestamp go unread. */
+  .stale { background:#fdecea; border:1px solid #f5c6c0; border-left:4px solid #c0392b; color:#7b241c;
+           font-size:13px; line-height:1.5; padding:11px 14px; border-radius:6px; margin:0 0 20px; }
+  .stale b { color:#922b21; }
+
   .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:0 0 26px; }
   .stat { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 16px; box-shadow:var(--shadow); position:relative; overflow:hidden; }
   .stat::before { content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--sc,var(--accent)); }
@@ -172,6 +178,7 @@ PAGE = r"""<!doctype html>
     </div>
   </div>
 
+  <div class="stale" id="stale" hidden></div>
   <div class="note" id="note"></div>
   <div class="stats" id="stats"></div>
 
@@ -236,6 +243,26 @@ const fmtPct = w => w==null ? '—' : (w*100).toFixed(2)+'%';
 const fmtChg = c => c==null ? '' : (c>0?'+':'')+Math.round(c*100)+'%';
 const retCls = r => r==null ? 'flat' : r>0.001 ? 'up' : r<-0.001 ? 'down' : 'flat';
 const fmtRet = r => r==null ? '—' : (r>0?'+':'')+(r*100).toFixed(1)+'%';
+// The refresh is a scheduled job; when it breaks, Pages keeps serving the last good
+// build. Nothing about the page looks wrong — it just quietly stops being true. So
+// check the build date against today and say it out loud past a few weekdays' grace.
+const STALE_AFTER_DAYS = 4;
+function showStaleness(){
+  const box = $('#stale'); if(!box) return;
+  const m = /(\d{4})-(\d{2})-(\d{2})/.exec(DATA.generated_at || '');
+  if(!m){ box.hidden = true; return; }
+  const built = Date.UTC(+m[1], +m[2]-1, +m[3]);
+  const now = new Date();
+  const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+  const days = Math.round((today - built) / 86400000);
+  if(days <= STALE_AFTER_DAYS){ box.hidden = true; return; }
+  box.hidden = false;
+  box.innerHTML = `<b>This data is ${days} days old.</b> The daily refresh has not `
+    + `succeeded since ${m[0]} — prices, returns and any new filings are stale. `
+    + `Check the repository's Actions tab: the site keeps serving the last good build `
+    + `when the job fails, so it looks current when it is not.`;
+}
+
 function targetCell(i){
   if(i.target==null) return '<span class="px">—</span>';
   const u = i.upside==null ? '' : ` <span class="ret ${retCls(i.upside)}" style="font-size:11px">${fmtRet(i.upside)}</span>`;
@@ -301,6 +328,7 @@ function loadPeriod(p){
   $('#submeta').textContent = `${filed} of ${NT} funds filed this quarter · ${CUR.n_ideas} ideas · ${CUR.prev} → ${p}`;
   $('#periodinfo').textContent = `generated ${DATA.generated_at}`;
   $('#note').textContent = DATA.note || '';
+  showStaleness();
 
   const rets = CUR.ideas.filter(i=>i.ret!=null).map(i=>i.ret);
   const med = median(rets);

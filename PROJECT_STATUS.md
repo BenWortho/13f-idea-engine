@@ -4,7 +4,7 @@
 made, and everything still planned.** Read this first if you're picking the project
 back up.
 
-- **Last updated:** 2026-07-30
+- **Last updated:** 2026-08-11
 - **Local path:** `~/13f-idea-engine`
 - **Current GitHub repo:** `github.com/BenWortho/13f-idea-engine` (public) — ✅ *transferred from `benwortho1` on 2026-07-30*
 - **Live site:** https://benwortho.github.io/13f-idea-engine/
@@ -65,7 +65,9 @@ GitHub Actions and deploys to GitHub Pages.
 | Backup + migration runbook | ✅ Done (`bundle` + `MIGRATION.md`) |
 | **Move to your own GitHub account** | ✅ **Done** — transferred to `BenWortho`, Pages carried over |
 | Delete old `benwortho1` copy | ✅ N/A — a transfer *moves* the repo; no duplicate left behind |
-| **Analyst targets (Target/upside column)** | ⚠️ **0/600 until `FINNHUB_KEY` secret is set** — the only thing outstanding |
+| **Analyst targets (Target/upside column)** | ⚠️ **0/600 until `FINNHUB_KEY` secret is set** — deliberately deferred 2026-08-11 |
+| `SEC_CONTACT` secret | ✅ Set 2026-08-11 — **currently the URL form** `inaam 13f-idea-engine https://inaam.me`, pending Ben's chosen email |
+| Failure alerting | ✅ **Added 2026-08-11** — a failed run now opens/updates a GitHub issue, and a stale site says so on the page |
 
 **First automated run result (proof it all works, on `benwortho1`):**
 - Both CI jobs (`refresh`, `deploy`) succeeded.
@@ -73,6 +75,39 @@ GitHub Actions and deploys to GitHub Pages.
 - Default period correctly = `2026-03-31` (273 funds), not the sparse in-season quarter.
 - **Prices refreshed** to `2026-07-23` (fix confirmed). Q2'26 filers ticked 13 → 17.
 - Targets still `0/600` (needs the Finnhub key).
+
+### 2.1 The 12-day outage (2026-07-30 → 2026-08-11) — resolved
+
+Worth reading before touching the pipeline, because the *cause* was trivial and the
+*duration* was the real defect.
+
+**What happened.** The two final commits of 30 Jul added a guard that refuses to start
+if the SEC User-Agent carries no email or URL (`build.py:51-60`). It was correct and it
+worked. But the `SEC_CONTACT` secret it demanded was never set — the repo had **no
+secrets at all** — so the guard fired on every run. Eight consecutive scheduled runs
+failed, each in 9–20 seconds, from 2026-07-30 through 2026-08-10.
+
+**Why nobody noticed for 12 days.** A failed run commits nothing and deploys nothing, so
+GitHub Pages carried on serving the last good build. The site returned HTTP 200, looked
+completely normal, and served data frozen at `2026-07-30 09:08 AEST`. Nothing anywhere
+said otherwise. This is the same silent-failure class the 30 Jul work was fixing one
+layer down — the guard made *SEC 403s* loud, but left *the guard itself firing* silent.
+
+**The fix (2026-08-11).**
+1. Set the `SEC_CONTACT` secret. Both SEC hosts verified 200 with the URL form.
+2. Manual run `31448081830` — `refresh` + `deploy` both green in ~10 min. Q2'26 filers
+   27 → **60**, prices advanced to `2026-08-10`, commit `chore: auto-refresh 2026-08-11`.
+3. **Closed the silence, two ways** — because the secret was a one-off but the blind spot
+   was structural:
+   - `.github/workflows/update.yml` gained an `alert` job (`if: failure()`) that opens a
+     GitHub issue, or comments on the existing open one so a long outage is one thread.
+   - `render.py` gained `showStaleness()` — the page itself warns, in red, when the build
+     date is more than `STALE_AFTER_DAYS = 4` days old. Verified against the real outage:
+     the 30 Jul build trips it at 11 days; today's build stays silent; an unparseable
+     timestamp fails closed to hidden.
+
+**The lesson to keep:** for a scheduled job whose output is a *published artifact*, the
+failure is invisible by construction. Success must be asserted, not assumed.
 
 ---
 
@@ -308,7 +343,57 @@ current-price leg more robust. **This is the last outstanding item on the projec
 - ⏳ (Optional) set `SEC_CONTACT` secret to a real contact string — right now the SEC
   User-Agent falls back to the neutral `13f-idea-engine (+https://github.com)` default.
 
-### 9.4 Nice-to-haves (not started — future ideas)
+### 9.4 `[FINDING]` The inaam class tagger covers 8% of the list
+
+Measured 2026-08-11 on the Q2'26 quarter: **49 of 600 ideas carry any inaam class.** The
+entire consensus top of the quarter — KLAC, BKNG, NVDA, AMD, MU, TSM — is untagged; `GEV`
+(Class B) is the only classed name in the top 8.
+
+The cause is structural, not a missing keyword. `inaam_for()` (`build.py:215`) matches
+substrings against **issuer name + ticker**, and a 13F gives you nothing else — no SIC
+code, no industry, no description. "KLA CORP" contains no word that any sector keyword
+could match. The current keyword lists are therefore mostly *enumerated company names*,
+so coverage only ever extends to names somebody thought to add by hand.
+
+**Do not simply expand the keyword lists to raise the number.** Two reasons:
+- Per `SECTOR-DESKS-PLAN-v2.md:309`, Pillar 2 is **"not mechanically screenable"** — the
+  B/C label is a judgement on core business activity across five dimensions. A keyword
+  hit is not that, and a fuller-looking column would imply a methodology judgement the
+  code has not made, against a **PDS-disclosed** framework.
+- The honest framing is that A–G here is a *sort aid over 13F names*, not a Class
+  assignment. Raising coverage without raising rigour widens the gap between what it
+  looks like and what it is.
+
+**The defensible upgrade, if wanted:** map ticker → CIK via SEC's free `company_tickers.json`,
+then read the **SIC code** from `data.sec.gov/submissions/CIK…json`. That is a sourced fact
+rather than a guess, keyless, and already within the pipeline's existing SEC budget. It
+gives real industry routing ("this is in electrical equipment — look at it for Class A")
+while leaving the Class judgement to a human. **Not built** — it is a genuine scope
+decision, not an obvious win.
+
+### 9.5 `[BLOCKED]` The candidate screen needs a Pillar 1 ruling
+
+The natural next step is to filter the 600 ideas down to names that could clear the
+3-pillar gate, so the output is *ownable candidates* rather than *what other funds bought*.
+Pillar 1 is the only mechanically screenable pillar — and it is **defined two incompatible
+ways** (`SECTOR-DESKS-PLAN-v2.md:316`):
+
+| Source | Tests that differ |
+|---|---|
+| `INAAM-FUND-MASTER-BRIEF.md` §3.6 (from the PDS) | revenue ≥$500m · publicly listed |
+| `INAAM_STRATEGY_PLAYBOOK.md` §1 | trailing P/E 10–20 · dividend yield positive |
+
+Three of five criteria differ and the second set is a **value screen**. Worked on a live
+holding: **Zscaler** passes under the PDS version, fails under the playbook version — and
+sits in Class G, the largest theme (19.5%) and best 10-year performer (+421%). The two
+produce almost disjoint candidate lists.
+
+A second ambiguity bites the same build: the PDS lists **NYSE · LSE · HKSE · TSE · ASX**,
+but the book already trades Paris, Copenhagen, Amsterdam and Toronto. That defines the
+searchable universe. **Ben has not ruled on either.** Building the screen before he does
+means building the wrong one.
+
+### 9.6 Nice-to-haves (not started — future ideas)
 - Hide the Target column automatically when no targets are present (until the key is set).
 - Add a second price fallback now that Stooq is walled (e.g. Tiingo/Alpha Vantage with a key).
 - Bound the Finnhub price loop (currently refreshes all idea tickers each run).
