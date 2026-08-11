@@ -371,27 +371,43 @@ gives real industry routing ("this is in electrical equipment — look at it for
 while leaving the Class judgement to a human. **Not built** — it is a genuine scope
 decision, not an obvious win.
 
-### 9.5 `[BLOCKED]` The candidate screen needs a Pillar 1 ruling
+### 9.5 Do not build a Pillar 1 screen here — `inaam-impact-scorecard` already is one
 
-The natural next step is to filter the 600 ideas down to names that could clear the
+The obvious next step is to filter the 600 ideas down to names that could clear the
 3-pillar gate, so the output is *ownable candidates* rather than *what other funds bought*.
-Pillar 1 is the only mechanically screenable pillar — and it is **defined two incompatible
-ways** (`SECTOR-DESKS-PLAN-v2.md:316`):
+**Do not build that screen in this repo.**
 
-| Source | Tests that differ |
-|---|---|
-| `INAAM-FUND-MASTER-BRIEF.md` §3.6 (from the PDS) | revenue ≥$500m · publicly listed |
-| `INAAM_STRATEGY_PLAYBOOK.md` §1 | trailing P/E 10–20 · dividend yield positive |
+`~/inaam-impact-scorecard` (`github.com/BenWortho/inaam-impact-scorecard`, private) already
+implements all five Pillar 1 tests in `src/impact_scorecard/scoring.py`, read off the
+workbook's own benchmark column C16:C20:
 
-Three of five criteria differ and the second set is a **value screen**. Worked on a live
-holding: **Zscaler** passes under the PDS version, fails under the playbook version — and
-sits in Class G, the largest theme (19.5%) and best 10-year performer (+421%). The two
-produce almost disjoint candidate lists.
+```python
+MARKET_CAP_MIN_M = 500.0          # C16 ">500"
+EBITDA_MIN_M     = 100.0          # C17 ">100"
+TRAILING_PE_RANGE = (10.0, 20.0)  # C18 "10 - 20"
+NPM_RANGE         = (0.05, 0.10)  # C20 "5-10"
+                                  # C19 "Positive" dividend yield
+```
 
-A second ambiguity bites the same build: the PDS lists **NYSE · LSE · HKSE · TSE · ASX**,
-but the book already trades Paris, Copenhagen, Amsterdam and Toronto. That defines the
-searchable universe. **Ben has not ruled on either.** Building the screen before he does
-means building the wrong one.
+`SECTOR-DESKS-PLAN-v2.md:316` flags Pillar 1 as "defined two incompatible ways" — the PDS
+version (revenue ≥$500m · publicly listed) against the playbook version (P/E 10–20 ·
+positive dividend). That is true of the *documents*, but it is already settled **in code,
+for the playbook version**, under Ben's standing ruling on that repo: *"you are not to
+change the scoring system — how it works is how you will make it."* The correct integration
+is therefore **this engine emits tickers → the scorecard scores them**. A second
+implementation here would diverge from the one that is load-bearing.
+
+⚠️ **Expect the gate to reject nearly the entire 13F list, and do not treat that as a bug
+in either repo.** The scorecard's own run across 28 companies: **trailing P/E 10–20 passes
+2/28; NPM 5–10% passes 3/28; no company reaches a full Pillar 1.** This engine's output is
+dominated by US large-cap growth — KLAC, BKNG, NVDA, AMD, MU, TSM lead Q2'26 on consensus —
+which fails P/E and dividend by construction. That collision is the unresolved
+"stated benchmarks vs the workbook's typed cells" question recorded against the scorecard,
+and it is **Ben's to settle**, not something to work around by loosening thresholds here.
+
+**Still genuinely unresolved:** the PDS lists **NYSE · LSE · HKSE · TSE · ASX**, but the
+book already trades Paris, Copenhagen, Amsterdam and Toronto. That defines the searchable
+universe and nobody has ruled on it.
 
 ### 9.6 Nice-to-haves (not started — future ideas)
 - Hide the Target column automatically when no targets are present (until the key is set).
