@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21 08:40 AEST",
+  "generated_at": "2026-08-22 08:29 AEST",
   "periods": [
     "2026-06-30",
     "2026-03-31",
@@ -75,7 +75,7 @@
             "exit": 8
           },
           "buys": 11,
-          "ret": 11.1933
+          "ret": 11.1932
         },
         {
           "name": "Stonepine Capital",
@@ -183,7 +183,7 @@
             "exit": 7
           },
           "buys": 26,
-          "ret": 1.7654
+          "ret": 1.7622
         },
         {
           "name": "Paradigm BioCapital",
@@ -219,7 +219,7 @@
             "exit": 0
           },
           "buys": 35,
-          "ret": 1.4948
+          "ret": 1.4944
         },
         {
           "name": "Light Street Capital",
@@ -291,7 +291,7 @@
             "exit": 24
           },
           "buys": 15,
-          "ret": 1.1024
+          "ret": 1.1022
         },
         {
           "name": "Foresite Capital",
@@ -327,7 +327,7 @@
             "exit": 181
           },
           "buys": 211,
-          "ret": 1.0823
+          "ret": 1.0822
         },
         {
           "name": "Jensen Investment Management Inc",
@@ -363,7 +363,7 @@
             "exit": 7
           },
           "buys": 11,
-          "ret": 1.0367
+          "ret": 1.0364
         },
         {
           "name": "Rtw Investments, Lp",
@@ -453,7 +453,7 @@
             "exit": 13
           },
           "buys": 9,
-          "ret": 0.8766
+          "ret": 0.8688
         },
         {
           "name": "Parnassus Investments, Llc",
@@ -489,25 +489,7 @@
             "exit": 20
           },
           "buys": 12,
-          "ret": 0.8423
-        },
-        {
-          "name": "Casdin Capital",
-          "cik": "0001534261",
-          "tag": "biotech",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 43,
-          "aum_m": 1998,
-          "counts": {
-            "new": 6,
-            "add": 9,
-            "trim": 3,
-            "exit": 3
-          },
-          "buys": 6,
-          "ret": 0.8411
+          "ret": 0.8394
         },
         {
           "name": "Chilton Investment",
@@ -562,6 +544,24 @@
           },
           "buys": 13,
           "ret": 0.8255
+        },
+        {
+          "name": "Casdin Capital",
+          "cik": "0001534261",
+          "tag": "biotech",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 43,
+          "aum_m": 1998,
+          "counts": {
+            "new": 6,
+            "add": 9,
+            "trim": 3,
+            "exit": 3
+          },
+          "buys": 6,
+          "ret": 0.8228
         },
         {
           "name": "Soroban Capital",
@@ -633,7 +633,7 @@
             "exit": 625
           },
           "buys": 298,
-          "ret": 0.7806
+          "ret": 0.7801
         },
         {
           "name": "Avoro Capital",
@@ -723,7 +723,7 @@
             "exit": 3
           },
           "buys": 10,
-          "ret": 0.7148
+          "ret": 0.6795
         },
         {
           "name": "Gilder Gagnon Howe",
@@ -741,25 +741,7 @@
             "exit": 28
           },
           "buys": 48,
-          "ret": 0.679
-        },
-        {
-          "name": "Baker Bros. Advisors",
-          "cik": "0001263508",
-          "tag": "biotech",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 84,
-          "aum_m": 19955,
-          "counts": {
-            "new": 8,
-            "add": 10,
-            "trim": 6,
-            "exit": 8
-          },
-          "buys": 8,
-          "ret": 0.6764
+          "ret": 0.6789
         },
         {
           "name": "Lingotto Investment Management LLP",
@@ -778,6 +760,24 @@
           },
           "buys": 5,
           "ret": 0.6715
+        },
+        {
+          "name": "Baker Bros. Advisors",
+          "cik": "0001263508",
+          "tag": "biotech",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 84,
+          "aum_m": 19955,
+          "counts": {
+            "new": 8,
+            "add": 10,
+            "trim": 6,
+            "exit": 8
+          },
+          "buys": 8,
+          "ret": 0.6713
         },
         {
           "name": "Tortoise Capital Advisors, L.L.C.",
@@ -867,7 +867,7 @@
             "exit": 537
           },
           "buys": 269,
-          "ret": 0.6255
+          "ret": 0.6251
         },
         {
           "name": "SRB Corp",
@@ -903,7 +903,7 @@
             "exit": 257
           },
           "buys": 211,
-          "ret": 0.6036
+          "ret": 0.6035
         },
         {
           "name": "Moore Capital",
@@ -978,24 +978,6 @@
           "ret": 0.5911
         },
         {
-          "name": "Cormorant Asset Mgmt",
-          "cik": "0001583977",
-          "tag": "biotech",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 50,
-          "aum_m": 1951,
-          "counts": {
-            "new": 13,
-            "add": 4,
-            "trim": 28,
-            "exit": 9
-          },
-          "buys": 9,
-          "ret": 0.5869
-        },
-        {
           "name": "Two Seas Capital LP",
           "cik": "0001823138",
           "tag": "data-selected",
@@ -1014,22 +996,22 @@
           "ret": 0.5703
         },
         {
-          "name": "Ra Capital Management, L.P.",
-          "cik": "0001346824",
-          "tag": "data-selected",
+          "name": "Cormorant Asset Mgmt",
+          "cik": "0001583977",
+          "tag": "biotech",
           "scope": "concentrated",
           "as_of": "2026-06-30",
           "prev": "2026-03-31",
-          "positions": 84,
-          "aum_m": 11508,
+          "positions": 50,
+          "aum_m": 1951,
           "counts": {
-            "new": 17,
-            "add": 7,
-            "trim": 8,
-            "exit": 18
+            "new": 13,
+            "add": 4,
+            "trim": 28,
+            "exit": 9
           },
-          "buys": 13,
-          "ret": 0.5108
+          "buys": 9,
+          "ret": 0.5492
         },
         {
           "name": "Kayne Anderson Capital Advisors Lp",
@@ -1047,7 +1029,7 @@
             "exit": 4
           },
           "buys": 12,
-          "ret": 0.5006
+          "ret": 0.5005
         },
         {
           "name": "Sarasin & Partners LLP",
@@ -1066,24 +1048,6 @@
           },
           "buys": 13,
           "ret": 0.496
-        },
-        {
-          "name": "venBio",
-          "cik": "0001776382",
-          "tag": "biotech",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 7,
-          "aum_m": 519,
-          "counts": {
-            "new": 2,
-            "add": 0,
-            "trim": 1,
-            "exit": 1
-          },
-          "buys": 1,
-          "ret": 0.4958
         },
         {
           "name": "Durable Capital",
@@ -1140,6 +1104,24 @@
           "ret": 0.481
         },
         {
+          "name": "Ra Capital Management, L.P.",
+          "cik": "0001346824",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 84,
+          "aum_m": 11508,
+          "counts": {
+            "new": 17,
+            "add": 7,
+            "trim": 8,
+            "exit": 18
+          },
+          "buys": 13,
+          "ret": 0.4756
+        },
+        {
           "name": "Lyrical Asset Management Lp",
           "cik": "0001542302",
           "tag": "data-selected",
@@ -1194,24 +1176,6 @@
           "ret": 0.4482
         },
         {
-          "name": "Rock Springs Capital",
-          "cik": "0001595725",
-          "tag": "healthcare",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 104,
-          "aum_m": 2049,
-          "counts": {
-            "new": 17,
-            "add": 32,
-            "trim": 28,
-            "exit": 13
-          },
-          "buys": 14,
-          "ret": 0.4469
-        },
-        {
           "name": "Discovery Capital",
           "cik": "0001389507",
           "tag": "macro-Citrone",
@@ -1228,6 +1192,24 @@
           },
           "buys": 42,
           "ret": 0.4437
+        },
+        {
+          "name": "Rock Springs Capital",
+          "cik": "0001595725",
+          "tag": "healthcare",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 104,
+          "aum_m": 2049,
+          "counts": {
+            "new": 17,
+            "add": 32,
+            "trim": 28,
+            "exit": 13
+          },
+          "buys": 14,
+          "ret": 0.4356
         },
         {
           "name": "Castle Hook Partners LP",
@@ -1320,6 +1302,24 @@
           "ret": 0.4291
         },
         {
+          "name": "venBio",
+          "cik": "0001776382",
+          "tag": "biotech",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 7,
+          "aum_m": 519,
+          "counts": {
+            "new": 2,
+            "add": 0,
+            "trim": 1,
+            "exit": 1
+          },
+          "buys": 1,
+          "ret": 0.4248
+        },
+        {
           "name": "Reaves W H & Co Inc",
           "cik": "0000740913",
           "tag": "data-selected",
@@ -1371,7 +1371,7 @@
             "exit": 52
           },
           "buys": 44,
-          "ret": 0.3986
+          "ret": 0.3958
         },
         {
           "name": "GQG Partners LLC",
@@ -1443,7 +1443,7 @@
             "exit": 30
           },
           "buys": 25,
-          "ret": 0.3726
+          "ret": 0.3725
         },
         {
           "name": "Praetorian Capital",
@@ -1536,24 +1536,6 @@
           "ret": 0.3589
         },
         {
-          "name": "Coatue Management",
-          "cik": "0001135730",
-          "tag": "tech-Laffont",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 66,
-          "aum_m": 48629,
-          "counts": {
-            "new": 9,
-            "add": 8,
-            "trim": 18,
-            "exit": 5
-          },
-          "buys": 11,
-          "ret": 0.3534
-        },
-        {
           "name": "Torray LLC",
           "cik": "0000098758",
           "tag": "value",
@@ -1606,6 +1588,24 @@
           },
           "buys": 38,
           "ret": 0.3472
+        },
+        {
+          "name": "Coatue Management",
+          "cik": "0001135730",
+          "tag": "tech-Laffont",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 66,
+          "aum_m": 48629,
+          "counts": {
+            "new": 9,
+            "add": 8,
+            "trim": 18,
+            "exit": 5
+          },
+          "buys": 11,
+          "ret": 0.3451
         },
         {
           "name": "Mondrian Investment Partners LTD",
@@ -1713,7 +1713,7 @@
             "exit": 27
           },
           "buys": 38,
-          "ret": 0.3289
+          "ret": 0.3264
         },
         {
           "name": "Dsm Capital Partners Llc",
@@ -1788,24 +1788,6 @@
           "ret": 0.2964
         },
         {
-          "name": "Tiger Global",
-          "cik": "0001167483",
-          "tag": "growth-Coleman",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 46,
-          "aum_m": 23982,
-          "counts": {
-            "new": 9,
-            "add": 5,
-            "trim": 19,
-            "exit": 17
-          },
-          "buys": 10,
-          "ret": 0.2905
-        },
-        {
           "name": "Polen Capital",
           "cik": "0001034524",
           "tag": "quality-growth",
@@ -1821,7 +1803,7 @@
             "exit": 70
           },
           "buys": 45,
-          "ret": 0.2799
+          "ret": 0.2798
         },
         {
           "name": "Wedgewood Partners",
@@ -1875,6 +1857,24 @@
             "exit": 12
           },
           "buys": 5,
+          "ret": 0.2649
+        },
+        {
+          "name": "Tiger Global",
+          "cik": "0001167483",
+          "tag": "growth-Coleman",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 46,
+          "aum_m": 23982,
+          "counts": {
+            "new": 9,
+            "add": 5,
+            "trim": 19,
+            "exit": 17
+          },
+          "buys": 10,
           "ret": 0.2649
         },
         {
@@ -1986,24 +1986,6 @@
           "ret": 0.2455
         },
         {
-          "name": "Third Point",
-          "cik": "0001040273",
-          "tag": "activist-Loeb",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 42,
-          "aum_m": 4651,
-          "counts": {
-            "new": 18,
-            "add": 13,
-            "trim": 4,
-            "exit": 9
-          },
-          "buys": 21,
-          "ret": 0.2428
-        },
-        {
           "name": "Land & Buildings",
           "cik": "0001536520",
           "tag": "reit-activist",
@@ -2020,6 +2002,24 @@
           },
           "buys": 3,
           "ret": 0.2419
+        },
+        {
+          "name": "Third Point",
+          "cik": "0001040273",
+          "tag": "activist-Loeb",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 42,
+          "aum_m": 4651,
+          "counts": {
+            "new": 18,
+            "add": 13,
+            "trim": 4,
+            "exit": 9
+          },
+          "buys": 21,
+          "ret": 0.2414
         },
         {
           "name": "Edgewood Management Llc",
@@ -2112,24 +2112,6 @@
           "ret": 0.2339
         },
         {
-          "name": "Soros Fund Management",
-          "cik": "0001029160",
-          "tag": "macro-Soros",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 254,
-          "aum_m": 7622,
-          "counts": {
-            "new": 92,
-            "add": 45,
-            "trim": 71,
-            "exit": 88
-          },
-          "buys": 75,
-          "ret": 0.2307
-        },
-        {
           "name": "Longview Partners",
           "cik": "0001426092",
           "tag": "quality",
@@ -2146,6 +2128,24 @@
           },
           "buys": 2,
           "ret": 0.2297
+        },
+        {
+          "name": "Soros Fund Management",
+          "cik": "0001029160",
+          "tag": "macro-Soros",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 254,
+          "aum_m": 7622,
+          "counts": {
+            "new": 92,
+            "add": 45,
+            "trim": 71,
+            "exit": 88
+          },
+          "buys": 75,
+          "ret": 0.2288
         },
         {
           "name": "Kimmeridge Energy",
@@ -2217,7 +2217,7 @@
             "exit": 7
           },
           "buys": 45,
-          "ret": 0.2216
+          "ret": 0.2212
         },
         {
           "name": "Brave Warrior (Greenberg)",
@@ -2472,24 +2472,6 @@
           "ret": 0.1909
         },
         {
-          "name": "Suvretta Capital",
-          "cik": "0001569064",
-          "tag": "healthcare-l/s",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 95,
-          "aum_m": 4759,
-          "counts": {
-            "new": 21,
-            "add": 23,
-            "trim": 14,
-            "exit": 14
-          },
-          "buys": 22,
-          "ret": 0.1903
-        },
-        {
           "name": "Fundsmith",
           "cik": "0001868537",
           "tag": "quality-Smith",
@@ -2524,6 +2506,24 @@
           },
           "buys": 16,
           "ret": 0.1865
+        },
+        {
+          "name": "Suvretta Capital",
+          "cik": "0001569064",
+          "tag": "healthcare-l/s",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 95,
+          "aum_m": 4759,
+          "counts": {
+            "new": 21,
+            "add": 23,
+            "trim": 14,
+            "exit": 14
+          },
+          "buys": 22,
+          "ret": 0.1858
         },
         {
           "name": "Boyar Asset Mgmt",
@@ -2760,24 +2760,6 @@
           "ret": 0.1359
         },
         {
-          "name": "Deerfield Management Company, L.P.",
-          "cik": "0001009258",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 82,
-          "aum_m": 9586,
-          "counts": {
-            "new": 13,
-            "add": 12,
-            "trim": 12,
-            "exit": 13
-          },
-          "buys": 8,
-          "ret": 0.1352
-        },
-        {
           "name": "EdgePoint Investment Group Inc.",
           "cik": "0001481669",
           "tag": "data-selected",
@@ -2830,6 +2812,24 @@
           },
           "buys": 4,
           "ret": 0.1259
+        },
+        {
+          "name": "Deerfield Management Company, L.P.",
+          "cik": "0001009258",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 82,
+          "aum_m": 9586,
+          "counts": {
+            "new": 13,
+            "add": 12,
+            "trim": 12,
+            "exit": 13
+          },
+          "buys": 8,
+          "ret": 0.1256
         },
         {
           "name": "Cbre Investment Management Listed Real Assets Llc",
@@ -2955,7 +2955,7 @@
             "exit": 27
           },
           "buys": 47,
-          "ret": 0.1131
+          "ret": 0.113
         },
         {
           "name": "Softbank Group Corp.",
@@ -3030,6 +3030,24 @@
           "ret": 0.0993
         },
         {
+          "name": "Gator Capital",
+          "cik": "0001570284",
+          "tag": "financials",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 67,
+          "aum_m": 465,
+          "counts": {
+            "new": 2,
+            "add": 20,
+            "trim": 32,
+            "exit": 25
+          },
+          "buys": 2,
+          "ret": 0.0899
+        },
+        {
           "name": "ValueAct Capital",
           "cik": "0001418814",
           "tag": "activist",
@@ -3046,24 +3064,6 @@
           },
           "buys": 2,
           "ret": 0.0898
-        },
-        {
-          "name": "Gator Capital",
-          "cik": "0001570284",
-          "tag": "financials",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 67,
-          "aum_m": 465,
-          "counts": {
-            "new": 2,
-            "add": 20,
-            "trim": 32,
-            "exit": 25
-          },
-          "buys": 2,
-          "ret": 0.0879
         },
         {
           "name": "Ancora Advisors",
@@ -3153,7 +3153,7 @@
             "exit": 5
           },
           "buys": 4,
-          "ret": 0.0726
+          "ret": 0.0736
         },
         {
           "name": "Carronade Capital Management, Lp",
@@ -3264,24 +3264,6 @@
           "ret": 0.0443
         },
         {
-          "name": "Lone Pine Capital",
-          "cik": "0001061165",
-          "tag": "growth-Mandel",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 34,
-          "aum_m": 16358,
-          "counts": {
-            "new": 13,
-            "add": 8,
-            "trim": 13,
-            "exit": 15
-          },
-          "buys": 17,
-          "ret": 0.043
-        },
-        {
           "name": "Appaloosa",
           "cik": "0001656456",
           "tag": "distressed-Tepper",
@@ -3316,6 +3298,24 @@
           },
           "buys": 3,
           "ret": 0.0403
+        },
+        {
+          "name": "Lone Pine Capital",
+          "cik": "0001061165",
+          "tag": "growth-Mandel",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 34,
+          "aum_m": 16358,
+          "counts": {
+            "new": 13,
+            "add": 8,
+            "trim": 13,
+            "exit": 15
+          },
+          "buys": 17,
+          "ret": 0.0398
         },
         {
           "name": "Saturna Capital Corp",
@@ -3387,7 +3387,7 @@
             "exit": 8
           },
           "buys": 16,
-          "ret": 0.0302
+          "ret": 0.0283
         },
         {
           "name": "Cincinnati Insurance Co",
@@ -3642,6 +3642,24 @@
           "ret": 0.0038
         },
         {
+          "name": "Donald Smith & Co., Inc.",
+          "cik": "0000814375",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 66,
+          "aum_m": 5649,
+          "counts": {
+            "new": 6,
+            "add": 15,
+            "trim": 37,
+            "exit": 2
+          },
+          "buys": 2,
+          "ret": -0.0034
+        },
+        {
           "name": "Equity Investment Corp",
           "cik": "0001685771",
           "tag": "data-selected",
@@ -3658,24 +3676,6 @@
           },
           "buys": 5,
           "ret": -0.0083
-        },
-        {
-          "name": "Donald Smith & Co., Inc.",
-          "cik": "0000814375",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 66,
-          "aum_m": 5649,
-          "counts": {
-            "new": 6,
-            "add": 15,
-            "trim": 37,
-            "exit": 2
-          },
-          "buys": 2,
-          "ret": -0.012
         },
         {
           "name": "Fundsmith LLP",
@@ -3930,24 +3930,6 @@
           "ret": -0.0653
         },
         {
-          "name": "Atreides Management, LP",
-          "cik": "0001777813",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 46,
-          "aum_m": 11148,
-          "counts": {
-            "new": 13,
-            "add": 7,
-            "trim": 7,
-            "exit": 18
-          },
-          "buys": 16,
-          "ret": -0.0722
-        },
-        {
           "name": "Aequim Alternative Investments LP",
           "cik": "0001728201",
           "tag": "data-selected",
@@ -3982,6 +3964,24 @@
           },
           "buys": 1,
           "ret": -0.0737
+        },
+        {
+          "name": "Atreides Management, LP",
+          "cik": "0001777813",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 46,
+          "aum_m": 11148,
+          "counts": {
+            "new": 13,
+            "add": 7,
+            "trim": 7,
+            "exit": 18
+          },
+          "buys": 16,
+          "ret": -0.0808
         },
         {
           "name": "TCI Fund Management",
@@ -4035,7 +4035,7 @@
             "exit": 10
           },
           "buys": 5,
-          "ret": -0.0913
+          "ret": -0.0945
         },
         {
           "name": "Mairs & Power",
@@ -4287,7 +4287,7 @@
             "exit": 10
           },
           "buys": 26,
-          "ret": -0.1773
+          "ret": -0.1774
         },
         {
           "name": "Independent Franchise Partners LLP",
@@ -4377,7 +4377,7 @@
             "exit": 3
           },
           "buys": 5,
-          "ret": -0.2116
+          "ret": -0.2133
         },
         {
           "name": "Sc Us (Ttgp), Ltd.",
@@ -9236,8 +9236,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -142136708
+              "ret": -0.1667,
+              "est_gain": -283458432
             },
             {
               "manager": "Coatue Management",
@@ -9249,8 +9249,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -137926552
+              "ret": -0.1667,
+              "est_gain": -275062259
             },
             {
               "manager": "Atreides Management, LP",
@@ -9262,8 +9262,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -61184100
+              "ret": -0.1667,
+              "est_gain": -122017382
             },
             {
               "manager": "Tiger Global",
@@ -9275,8 +9275,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -58998727
+              "ret": -0.1667,
+              "est_gain": -117659167
             },
             {
               "manager": "Value Aligned Research Advisors, LLC",
@@ -9288,8 +9288,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -21536247
+              "ret": -0.1667,
+              "est_gain": -42949009
             },
             {
               "manager": "Alpha Wave Global",
@@ -9301,8 +9301,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -10033128
+              "ret": -0.1667,
+              "est_gain": -20008728
             },
             {
               "manager": "Dragoneer Investment",
@@ -9314,8 +9314,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -7869120
+              "ret": -0.1667,
+              "est_gain": -15693120
             },
             {
               "manager": "Tudor Investment",
@@ -9327,8 +9327,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -4651201
+              "ret": -0.1667,
+              "est_gain": -9275732
             },
             {
               "manager": "Unisphere Establishment",
@@ -9340,8 +9340,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -3904067
+              "ret": -0.1667,
+              "est_gain": -7785749
             },
             {
               "manager": "Suvretta Capital",
@@ -9353,8 +9353,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -3381754
+              "ret": -0.1667,
+              "est_gain": -6744118
             },
             {
               "manager": "D1 Capital",
@@ -9366,8 +9366,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -2950920
+              "ret": -0.1667,
+              "est_gain": -5884920
             },
             {
               "manager": "Soros Fund Management",
@@ -9379,8 +9379,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -2950920
+              "ret": -0.1667,
+              "est_gain": -5884920
             },
             {
               "manager": "Whale Rock Capital",
@@ -9392,8 +9392,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -997332
+              "ret": -0.1667,
+              "est_gain": -1988946
             },
             {
               "manager": "Woodline Partners",
@@ -9405,8 +9405,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -910516
+              "ret": -0.1667,
+              "est_gain": -1815812
             },
             {
               "manager": "Steadfast Capital",
@@ -9418,8 +9418,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -263340
+              "ret": -0.1667,
+              "est_gain": -525170
             },
             {
               "manager": "Sands Capital",
@@ -9431,8 +9431,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -224644
+              "ret": -0.1667,
+              "est_gain": -447999
             },
             {
               "manager": "Brevan Howard",
@@ -9444,8 +9444,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -207489
+              "ret": -0.1667,
+              "est_gain": -413788
             },
             {
               "manager": "Situational Awareness LP",
@@ -9457,8 +9457,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -196728
+              "ret": -0.1667,
+              "est_gain": -392328
             },
             {
               "manager": "Gilder Gagnon Howe",
@@ -9470,8 +9470,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -130942
+              "ret": -0.1667,
+              "est_gain": -261134
             },
             {
               "manager": "Pentwater Capital",
@@ -9483,8 +9483,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -98364
+              "ret": -0.1667,
+              "est_gain": -196164
             },
             {
               "manager": "Baillie Gifford",
@@ -9496,8 +9496,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 235.3628,
-              "ret": -0.0836,
-              "est_gain": -19673
+              "ret": -0.1667,
+              "est_gain": -39233
             }
           ],
           "sum_weight": 0.3694,
@@ -9507,9 +9507,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 235.3628,
-          "cur_price": 215.69,
-          "cur_date": "2026-08-19",
-          "ret": -0.0836,
+          "cur_price": 196.13,
+          "cur_date": "2026-08-21",
+          "ret": -0.1667,
           "target": null,
           "target_n": null,
           "upside": null
@@ -18343,8 +18343,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 396262769
+              "ret": 0.4248,
+              "est_gain": 339553362
             },
             {
               "manager": "venBio",
@@ -18356,8 +18356,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 72131102
+              "ret": 0.4248,
+              "est_gain": 61808376
             },
             {
               "manager": "Cormorant Asset Mgmt",
@@ -18369,8 +18369,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 63214037
+              "ret": 0.4248,
+              "est_gain": 54167438
             },
             {
               "manager": "Farallon Capital",
@@ -18382,8 +18382,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 32434157
+              "ret": 0.4248,
+              "est_gain": 27792485
             },
             {
               "manager": "Deerfield Management Company, L.P.",
@@ -18395,8 +18395,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 25757558
+              "ret": 0.4248,
+              "est_gain": 22071378
             },
             {
               "manager": "Casdin Capital",
@@ -18408,8 +18408,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 8843177
+              "ret": 0.4248,
+              "est_gain": 7577624
             },
             {
               "manager": "Rock Springs Capital",
@@ -18421,8 +18421,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 7916498
+              "ret": 0.4248,
+              "est_gain": 6783563
             },
             {
               "manager": "Logos Global Management",
@@ -18434,8 +18434,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 7190242
+              "ret": 0.4248,
+              "est_gain": 6161242
             },
             {
               "manager": "Baker Bros. Advisors",
@@ -18447,8 +18447,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 6847850
+              "ret": 0.4248,
+              "est_gain": 5867850
             },
             {
               "manager": "Iconiq Capital",
@@ -18460,8 +18460,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 4793495
+              "ret": 0.4248,
+              "est_gain": 4107495
             },
             {
               "manager": "Tudor Investment",
@@ -18473,8 +18473,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 603227
+              "ret": 0.4248,
+              "est_gain": 516899
             },
             {
               "manager": "Brevan Howard",
@@ -18486,8 +18486,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 27.6243,
-              "ret": 0.4958,
-              "est_gain": 309043
+              "ret": 0.4248,
+              "est_gain": 264816
             }
           ],
           "sum_weight": 0.4466,
@@ -18497,9 +18497,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 27.6243,
-          "cur_price": 41.32,
-          "cur_date": "2026-08-19",
-          "ret": 0.4958,
+          "cur_price": 39.36,
+          "cur_date": "2026-08-21",
+          "ret": 0.4248,
           "target": null,
           "target_n": null,
           "upside": null
@@ -37560,8 +37560,8 @@
               "opened": "2026-03-31",
               "opened_before": false,
               "est_entry": 163.4354,
-              "ret": 0.2128,
-              "est_gain": 5525649
+              "ret": 0.2095,
+              "est_gain": 5439844
             },
             {
               "manager": "Tudor Investment",
@@ -37573,8 +37573,8 @@
               "opened": "2024-12-31",
               "opened_before": false,
               "est_entry": 89.3874,
-              "ret": 1.2174,
-              "est_gain": 8424393
+              "ret": 1.2114,
+              "est_gain": 8382589
             },
             {
               "manager": "Polen Capital",
@@ -37586,8 +37586,8 @@
               "opened": "2025-06-30",
               "opened_before": false,
               "est_entry": 60.3305,
-              "ret": 2.2854,
-              "est_gain": 4023462
+              "ret": 2.2765,
+              "est_gain": 4007704
             },
             {
               "manager": "Kennedy Capital",
@@ -37599,8 +37599,8 @@
               "opened": "2025-03-31",
               "opened_before": false,
               "est_entry": 69.7032,
-              "ret": 1.8436,
-              "est_gain": 3267028
+              "ret": 1.8359,
+              "est_gain": 3253300
             },
             {
               "manager": "Kayne Anderson Capital Advisors Lp",
@@ -37612,8 +37612,8 @@
               "opened": "2025-12-31",
               "opened_before": false,
               "est_entry": 112.2897,
-              "ret": 0.7652,
-              "est_gain": 822429
+              "ret": 0.7604,
+              "est_gain": 817260
             },
             {
               "manager": "Gotham Asset Mgmt",
@@ -37625,8 +37625,8 @@
               "opened": "2024-09-30",
               "opened_before": true,
               "est_entry": 54.4345,
-              "ret": 2.6413,
-              "est_gain": 1251853
+              "ret": 2.6313,
+              "est_gain": 1247151
             },
             {
               "manager": "Brevan Howard",
@@ -37638,8 +37638,8 @@
               "opened": "2025-09-30",
               "opened_before": false,
               "est_entry": 84.7979,
-              "ret": 1.3374,
-              "est_gain": 532697
+              "ret": 1.3311,
+              "est_gain": 530160
             },
             {
               "manager": "Caxton Associates",
@@ -37651,8 +37651,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 271.3011,
-              "ret": -0.2694,
-              "est_gain": -86832
+              "ret": -0.2714,
+              "est_gain": -87474
             }
           ],
           "sum_weight": 0.0234,
@@ -37662,9 +37662,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 271.3011,
-          "cur_price": 198.21,
-          "cur_date": "2026-08-19",
-          "ret": -0.2694,
+          "cur_price": 197.67,
+          "cur_date": "2026-08-21",
+          "ret": -0.2714,
           "target": null,
           "target_n": null,
           "upside": null
@@ -42654,8 +42654,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 161.2971,
-              "ret": -0.2785,
-              "est_gain": -122986389
+              "ret": -0.3147,
+              "est_gain": -138976747
             },
             {
               "manager": "Third Point",
@@ -42667,8 +42667,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 161.2971,
-              "ret": -0.2785,
-              "est_gain": -22683136
+              "ret": -0.3147,
+              "est_gain": -25632335
             },
             {
               "manager": "Holocene Advisers",
@@ -42680,8 +42680,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 161.2971,
-              "ret": -0.2785,
-              "est_gain": -13725453
+              "ret": -0.3147,
+              "est_gain": -15509999
             },
             {
               "manager": "Brevan Howard",
@@ -42693,8 +42693,8 @@
               "opened": "2025-06-30",
               "opened_before": false,
               "est_entry": 27.6502,
-              "ret": 3.209,
-              "est_gain": 2623030
+              "ret": 2.9978,
+              "est_gain": 2450388
             },
             {
               "manager": "Sands Capital",
@@ -42706,8 +42706,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 161.2971,
-              "ret": -0.2785,
-              "est_gain": -1061166
+              "ret": -0.3147,
+              "est_gain": -1199136
             },
             {
               "manager": "WCM Investment Mgmt",
@@ -42719,8 +42719,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 161.2971,
-              "ret": -0.2785,
-              "est_gain": -452270
+              "ret": -0.3147,
+              "est_gain": -511073
             },
             {
               "manager": "Maverick Capital",
@@ -42732,8 +42732,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 161.2971,
-              "ret": -0.2785,
-              "est_gain": -141758
+              "ret": -0.3147,
+              "est_gain": -160189
             }
           ],
           "sum_weight": 0.0539,
@@ -42743,9 +42743,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 161.2971,
-          "cur_price": 116.38,
-          "cur_date": "2026-08-19",
-          "ret": -0.2785,
+          "cur_price": 110.54,
+          "cur_date": "2026-08-21",
+          "ret": -0.3147,
           "target": null,
           "target_n": null,
           "upside": null
@@ -47474,8 +47474,8 @@
               "opened": "2024-12-31",
               "opened_before": false,
               "est_entry": 16.0488,
-              "ret": 3.1393,
-              "est_gain": 17218480
+              "ret": 3.1505,
+              "est_gain": 17279998
             },
             {
               "manager": "Life Cycle Investment Partners Ltd",
@@ -47487,8 +47487,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 70.7348,
-              "ret": -0.0609,
-              "est_gain": -351233
+              "ret": -0.0583,
+              "est_gain": -336547
             },
             {
               "manager": "WCM Investment Mgmt",
@@ -47500,8 +47500,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 70.7348,
-              "ret": -0.0609,
-              "est_gain": -335908
+              "ret": -0.0583,
+              "est_gain": -321862
             },
             {
               "manager": "Gotham Asset Mgmt",
@@ -47513,8 +47513,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 70.7348,
-              "ret": -0.0609,
-              "est_gain": -109359
+              "ret": -0.0583,
+              "est_gain": -104786
             },
             {
               "manager": "Brevan Howard",
@@ -47526,8 +47526,8 @@
               "opened": "2025-03-31",
               "opened_before": false,
               "est_entry": 16.7258,
-              "ret": 2.9717,
-              "est_gain": 511655
+              "ret": 2.9825,
+              "est_gain": 513508
             },
             {
               "manager": "Maverick Capital",
@@ -47539,8 +47539,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 70.7348,
-              "ret": -0.0609,
-              "est_gain": -23298
+              "ret": -0.0583,
+              "est_gain": -22323
             },
             {
               "manager": "Ancora Advisors",
@@ -47552,8 +47552,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 70.7348,
-              "ret": -0.0609,
-              "est_gain": -5596
+              "ret": -0.0583,
+              "est_gain": -5362
             }
           ],
           "sum_weight": 0.0028,
@@ -47563,9 +47563,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 70.7348,
-          "cur_price": 66.43,
-          "cur_date": "2026-08-19",
-          "ret": -0.0609,
+          "cur_price": 66.61,
+          "cur_date": "2026-08-21",
+          "ret": -0.0583,
           "target": null,
           "target_n": null,
           "upside": null
@@ -57420,8 +57420,8 @@
               "opened": "2025-12-31",
               "opened_before": true,
               "est_entry": 280.9733,
-              "ret": 0.4212,
-              "est_gain": 19657738
+              "ret": 0.3805,
+              "est_gain": 17760681
             },
             {
               "manager": "Kennedy Capital",
@@ -57433,8 +57433,8 @@
               "opened": "2024-09-30",
               "opened_before": true,
               "est_entry": 286.3687,
-              "ret": 0.3944,
-              "est_gain": 5461502
+              "ret": 0.3545,
+              "est_gain": 4909266
             },
             {
               "manager": "Tudor Investment",
@@ -57446,8 +57446,8 @@
               "opened": "2025-03-31",
               "opened_before": false,
               "est_entry": 286.12,
-              "ret": 0.3956,
-              "est_gain": 802857
+              "ret": 0.3557,
+              "est_gain": 721855
             },
             {
               "manager": "Woodline Partners",
@@ -57459,8 +57459,8 @@
               "opened": "2025-12-31",
               "opened_before": false,
               "est_entry": 280.9733,
-              "ret": 0.4212,
-              "est_gain": 345188
+              "ret": 0.3805,
+              "est_gain": 311876
             },
             {
               "manager": "First Eagle Investment",
@@ -57472,8 +57472,8 @@
               "opened": "2024-09-30",
               "opened_before": true,
               "est_entry": 286.3687,
-              "ret": 0.3944,
-              "est_gain": 164668
+              "ret": 0.3545,
+              "est_gain": 148018
             },
             {
               "manager": "Brevan Howard",
@@ -57485,8 +57485,8 @@
               "opened": "2024-09-30",
               "opened_before": true,
               "est_entry": 286.3687,
-              "ret": 0.3944,
-              "est_gain": 130786
+              "ret": 0.3545,
+              "est_gain": 117562
             }
           ],
           "sum_weight": 0.0063,
@@ -57496,9 +57496,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 365.6003,
-          "cur_price": 399.31,
-          "cur_date": "2026-08-19",
-          "ret": 0.0922,
+          "cur_price": 387.89,
+          "cur_date": "2026-08-21",
+          "ret": 0.061,
           "target": null,
           "target_n": null,
           "upside": null
@@ -58892,8 +58892,8 @@
               "opened": "2024-09-30",
               "opened_before": true,
               "est_entry": 508.3037,
-              "ret": 0.3907,
-              "est_gain": 203094207
+              "ret": 0.3844,
+              "est_gain": 199821896
             },
             {
               "manager": "Woodbridge Co Ltd",
@@ -58905,8 +58905,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 666.6365,
-              "ret": 0.0604,
-              "est_gain": 9818679
+              "ret": 0.0556,
+              "est_gain": 9038519
             },
             {
               "manager": "Eagle Capital Management Llc",
@@ -58918,8 +58918,8 @@
               "opened": "2025-12-31",
               "opened_before": false,
               "est_entry": 621.4625,
-              "ret": 0.1375,
-              "est_gain": 145944
+              "ret": 0.1323,
+              "est_gain": 140479
             },
             {
               "manager": "Polen Capital",
@@ -58931,8 +58931,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 666.6365,
-              "ret": 0.0604,
-              "est_gain": 61135
+              "ret": 0.0556,
+              "est_gain": 56278
             },
             {
               "manager": "Dodge & Cox",
@@ -58944,8 +58944,8 @@
               "opened": "2025-03-31",
               "opened_before": false,
               "est_entry": 540.582,
-              "ret": 0.3077,
-              "est_gain": 49898
+              "ret": 0.3018,
+              "est_gain": 48938
             }
           ],
           "sum_weight": 0.3883,
@@ -58955,9 +58955,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 666.6365,
-          "cur_price": 706.91,
-          "cur_date": "2026-08-19",
-          "ret": 0.0604,
+          "cur_price": 703.71,
+          "cur_date": "2026-08-21",
+          "ret": 0.0556,
           "target": null,
           "target_n": null,
           "upside": null
@@ -70178,8 +70178,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 49.1595,
-              "ret": -0.0744,
-              "est_gain": -2388453
+              "ret": -0.0633,
+              "est_gain": -2029484
             },
             {
               "manager": "Kennedy Capital",
@@ -70191,8 +70191,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 49.1595,
-              "ret": -0.0744,
-              "est_gain": -458623
+              "ret": -0.0633,
+              "est_gain": -389695
             },
             {
               "manager": "Holocene Advisers",
@@ -70204,8 +70204,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 49.1595,
-              "ret": -0.0744,
-              "est_gain": -35314
+              "ret": -0.0633,
+              "est_gain": -30007
             },
             {
               "manager": "Caxton Associates",
@@ -70217,8 +70217,8 @@
               "opened": "2025-03-31",
               "opened_before": true,
               "est_entry": 59.7473,
-              "ret": -0.2385,
-              "est_gain": -96397
+              "ret": -0.2293,
+              "est_gain": -92676
             },
             {
               "manager": "Brevan Howard",
@@ -70230,8 +70230,8 @@
               "opened": "2025-03-31",
               "opened_before": false,
               "est_entry": 59.7473,
-              "ret": -0.2385,
-              "est_gain": -60024
+              "ret": -0.2293,
+              "est_gain": -57707
             }
           ],
           "sum_weight": 0.0069,
@@ -70241,9 +70241,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 49.1595,
-          "cur_price": 45.5,
-          "cur_date": "2026-08-19",
-          "ret": -0.0744,
+          "cur_price": 46.05,
+          "cur_date": "2026-08-21",
+          "ret": -0.0633,
           "target": null,
           "target_n": null,
           "upside": null
@@ -76093,8 +76093,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 36.6168,
-              "ret": 0.0902,
-              "est_gain": 6378651
+              "ret": 0.0924,
+              "est_gain": 6533135
             },
             {
               "manager": "Hotchkis & Wiley",
@@ -76106,8 +76106,8 @@
               "opened": "2025-09-30",
               "opened_before": false,
               "est_entry": 37.6477,
-              "ret": 0.0604,
-              "est_gain": 849697
+              "ret": 0.0625,
+              "est_gain": 879612
             },
             {
               "manager": "Gator Capital",
@@ -76119,8 +76119,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 36.6168,
-              "ret": 0.0902,
-              "est_gain": 301206
+              "ret": 0.0924,
+              "est_gain": 308500
             },
             {
               "manager": "Brevan Howard",
@@ -76132,8 +76132,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 36.6168,
-              "ret": 0.0902,
-              "est_gain": 27757
+              "ret": 0.0924,
+              "est_gain": 28429
             }
           ],
           "sum_weight": 0.093,
@@ -76143,9 +76143,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 36.6168,
-          "cur_price": 39.92,
-          "cur_date": "2026-08-19",
-          "ret": 0.0902,
+          "cur_price": 40.0,
+          "cur_date": "2026-08-21",
+          "ret": 0.0924,
           "target": null,
           "target_n": null,
           "upside": null
@@ -127518,7 +127518,7 @@
           "inaam": [],
           "est_entry": 68.4572,
           "cur_price": 77.57,
-          "cur_date": "2026-08-19",
+          "cur_date": "2026-08-20",
           "ret": 0.1331,
           "target": null,
           "target_n": null,
@@ -199844,7 +199844,7 @@
           "inaam": [],
           "est_entry": 61.3455,
           "cur_price": 63.66,
-          "cur_date": "2026-08-19",
+          "cur_date": "2026-08-20",
           "ret": 0.0377,
           "target": null,
           "target_n": null,
@@ -204052,7 +204052,7 @@
           "inaam": [],
           "est_entry": 52.0066,
           "cur_price": 36.02,
-          "cur_date": "2026-08-19",
+          "cur_date": "2026-08-20",
           "ret": -0.3074,
           "target": null,
           "target_n": null,
@@ -290687,7 +290687,7 @@
           "inaam": [],
           "est_entry": 69.0109,
           "cur_price": 36.02,
-          "cur_date": "2026-08-19",
+          "cur_date": "2026-08-20",
           "ret": -0.4781,
           "target": null,
           "target_n": null,
