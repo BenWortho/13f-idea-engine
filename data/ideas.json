@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29 11:44 AEST",
+  "generated_at": "2026-09-30 11:17 AEST",
   "periods": [
     "2026-06-30",
     "2026-03-31",
@@ -507,7 +507,7 @@
             "exit": 11
           },
           "buys": 20,
-          "ret": 0.8092
+          "ret": 0.8066
         },
         {
           "name": "Findlay Park",
@@ -633,7 +633,7 @@
             "exit": 537
           },
           "buys": 269,
-          "ret": 0.6833
+          "ret": 0.6832
         },
         {
           "name": "Perceptive Advisors",
@@ -1713,7 +1713,7 @@
             "exit": 7
           },
           "buys": 45,
-          "ret": 0.2917
+          "ret": 0.2916
         },
         {
           "name": "Reaves W H & Co Inc",
@@ -1947,7 +1947,7 @@
             "exit": 33
           },
           "buys": 41,
-          "ret": 0.2444
+          "ret": 0.2427
         },
         {
           "name": "Alecta Tjanstepension Omsesidigt",
@@ -3909,7 +3909,7 @@
             "exit": 13
           },
           "buys": 7,
-          "ret": -0.1221
+          "ret": -0.1233
         },
         {
           "name": "Elliott Investment Mgmt",
@@ -50969,8 +50969,8 @@
               "opened": "2025-03-31",
               "opened_before": false,
               "est_entry": 387.2355,
-              "ret": 0.2027,
-              "est_gain": 84180120
+              "ret": 0.1856,
+              "est_gain": 77068981
             },
             {
               "manager": "Select Equity Group",
@@ -50982,8 +50982,8 @@
               "opened": "2026-03-31",
               "opened_before": false,
               "est_entry": 491.218,
-              "ret": -0.0519,
-              "est_gain": -21297459
+              "ret": -0.0654,
+              "est_gain": -26835233
             },
             {
               "manager": "Tudor Investment",
@@ -50995,8 +50995,8 @@
               "opened": "2025-03-31",
               "opened_before": false,
               "est_entry": 387.2355,
-              "ret": 0.2027,
-              "est_gain": 5115698
+              "ret": 0.1856,
+              "est_gain": 4683548
             },
             {
               "manager": "Life Cycle Investment Partners Ltd",
@@ -51008,8 +51008,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 505.0581,
-              "ret": -0.0779,
-              "est_gain": -1162952
+              "ret": -0.091,
+              "est_gain": -1358955
             },
             {
               "manager": "Woodline Partners",
@@ -51021,8 +51021,8 @@
               "opened": "2025-09-30",
               "opened_before": false,
               "est_entry": 430.4461,
-              "ret": 0.0819,
-              "est_gain": 427520
+              "ret": 0.0665,
+              "est_gain": 347164
             },
             {
               "manager": "Caxton Associates",
@@ -51034,8 +51034,8 @@
               "opened": "2025-03-31",
               "opened_before": true,
               "est_entry": 387.2355,
-              "ret": 0.2027,
-              "est_gain": 36574
+              "ret": 0.1856,
+              "est_gain": 33484
             }
           ],
           "sum_weight": 0.0405,
@@ -51045,9 +51045,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 505.0581,
-          "cur_price": 465.72,
-          "cur_date": "2026-09-28",
-          "ret": -0.0779,
+          "cur_price": 459.09,
+          "cur_date": "2026-09-29",
+          "ret": -0.091,
           "target": null,
           "target_n": null,
           "upside": null
@@ -66560,8 +66560,8 @@
               "opened": "2024-09-30",
               "opened_before": true,
               "est_entry": 11.5973,
-              "ret": 1.1488,
-              "est_gain": 10700739
+              "ret": 1.1341,
+              "est_gain": 10564196
             },
             {
               "manager": "Irenic Capital",
@@ -66573,8 +66573,8 @@
               "opened": "2026-03-31",
               "opened_before": false,
               "est_entry": 20.274,
-              "ret": 0.2292,
-              "est_gain": 2949151
+              "ret": 0.2208,
+              "est_gain": 2841239
             },
             {
               "manager": "Polen Capital",
@@ -66586,8 +66586,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 29.511,
-              "ret": -0.1556,
-              "est_gain": -241372
+              "ret": -0.1613,
+              "est_gain": -250310
             },
             {
               "manager": "Tudor Investment",
@@ -66599,8 +66599,8 @@
               "opened": "2025-12-31",
               "opened_before": false,
               "est_entry": 14.8297,
-              "ret": 0.6804,
-              "est_gain": 319297
+              "ret": 0.6689,
+              "est_gain": 313918
             },
             {
               "manager": "Brevan Howard",
@@ -66612,8 +66612,8 @@
               "opened": "2025-12-31",
               "opened_before": false,
               "est_entry": 14.8297,
-              "ret": 0.6804,
-              "est_gain": 161304
+              "ret": 0.6689,
+              "est_gain": 158586
             }
           ],
           "sum_weight": 0.0167,
@@ -66623,9 +66623,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 29.511,
-          "cur_price": 24.92,
-          "cur_date": "2026-09-28",
-          "ret": -0.1556,
+          "cur_price": 24.75,
+          "cur_date": "2026-09-29",
+          "ret": -0.1613,
           "target": null,
           "target_n": null,
           "upside": null
@@ -230139,7 +230139,7 @@
             "exit": 157
           },
           "buys": 110,
-          "ret": 0.59
+          "ret": 0.5898
         },
         {
           "name": "Holocene Advisers",
@@ -231186,24 +231186,6 @@
           "ret": 0.2052
         },
         {
-          "name": "Mirova US LLC",
-          "cik": "0001802900",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2025-09-30",
-          "prev": "2025-06-30",
-          "positions": 36,
-          "aum_m": 9902,
-          "counts": {
-            "new": 1,
-            "add": 5,
-            "trim": 29,
-            "exit": 0
-          },
-          "buys": 4,
-          "ret": 0.2046
-        },
-        {
           "name": "Steadfast Capital",
           "cik": "0001214822",
           "tag": "l/s",
@@ -231256,6 +231238,24 @@
           },
           "buys": 6,
           "ret": 0.1959
+        },
+        {
+          "name": "Mirova US LLC",
+          "cik": "0001802900",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2025-09-30",
+          "prev": "2025-06-30",
+          "positions": 36,
+          "aum_m": 9902,
+          "counts": {
+            "new": 1,
+            "add": 5,
+            "trim": 29,
+            "exit": 0
+          },
+          "buys": 4,
+          "ret": 0.1932
         },
         {
           "name": "Donald Smith & Co., Inc.",
@@ -289535,8 +289535,8 @@
               "opened": "2025-06-30",
               "opened_before": false,
               "est_entry": 370.7148,
-              "ret": 0.2563,
-              "est_gain": 46093198
+              "ret": 0.2384,
+              "est_gain": 42876554
             },
             {
               "manager": "Moore Capital",
@@ -289548,8 +289548,8 @@
               "opened": "2024-09-30",
               "opened_before": true,
               "est_entry": 384.39,
-              "ret": 0.2116,
-              "est_gain": 2761154
+              "ret": 0.1943,
+              "est_gain": 2536065
             },
             {
               "manager": "Woodline Partners",
@@ -289561,8 +289561,8 @@
               "opened": "2025-09-30",
               "opened_before": false,
               "est_entry": 430.4461,
-              "ret": 0.0819,
-              "est_gain": 219509
+              "ret": 0.0665,
+              "est_gain": 178251
             },
             {
               "manager": "Brevan Howard",
@@ -289574,8 +289574,8 @@
               "opened": "2025-06-30",
               "opened_before": false,
               "est_entry": 370.7148,
-              "ret": 0.2563,
-              "est_gain": 511603
+              "ret": 0.2384,
+              "est_gain": 475900
             }
           ],
           "sum_weight": 0.0245,
@@ -289585,9 +289585,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 430.4461,
-          "cur_price": 465.72,
-          "cur_date": "2026-09-28",
-          "ret": 0.0819,
+          "cur_price": 459.09,
+          "cur_date": "2026-09-29",
+          "ret": 0.0665,
           "target": null,
           "target_n": null,
           "upside": null
