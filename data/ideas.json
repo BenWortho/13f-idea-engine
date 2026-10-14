@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13 13:03 AEST",
+  "generated_at": "2026-10-14 11:05 AEST",
   "periods": [
     "2026-09-30",
     "2026-06-30",
@@ -8,7 +8,7 @@
     "2025-09-30"
   ],
   "period_counts": {
-    "2026-09-30": 2,
+    "2026-09-30": 5,
     "2026-06-30": 272,
     "2026-03-31": 273,
     "2025-12-31": 271,
@@ -56,8 +56,8 @@
   "by_period": {
     "2026-09-30": {
       "prev": "2026-06-30",
-      "n_managers": 2,
-      "n_ideas": 13,
+      "n_managers": 5,
+      "n_ideas": 68,
       "managers": [
         {
           "name": "Two Seas Capital LP",
@@ -76,6 +76,60 @@
           },
           "buys": 12,
           "ret": 0.4904
+        },
+        {
+          "name": "Montrusco Bolton Investments Inc.",
+          "cik": "0001475940",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-09-30",
+          "prev": "2026-06-30",
+          "positions": 85,
+          "aum_m": 5770,
+          "counts": {
+            "new": 11,
+            "add": 12,
+            "trim": 54,
+            "exit": 6
+          },
+          "buys": 17,
+          "ret": 0.2281
+        },
+        {
+          "name": "Cooper Investors",
+          "cik": "0001561728",
+          "tag": "value",
+          "scope": "concentrated",
+          "as_of": "2026-09-30",
+          "prev": "2026-06-30",
+          "positions": 37,
+          "aum_m": 190,
+          "counts": {
+            "new": 4,
+            "add": 5,
+            "trim": 26,
+            "exit": 6
+          },
+          "buys": 7,
+          "ret": 0.0979
+        },
+        {
+          "name": "Sarasin & Partners LLP",
+          "cik": "0001510481",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-09-30",
+          "prev": "2026-06-30",
+          "positions": 111,
+          "aum_m": 8926,
+          "counts": {
+            "new": 19,
+            "add": 25,
+            "trim": 46,
+            "exit": 2
+          },
+          "buys": 34,
+          "ret": -0.0371
         },
         {
           "name": "Scopia Capital",
@@ -97,6 +151,249 @@
         }
       ],
       "ideas": [
+        {
+          "cusip": "032095101",
+          "ticker": "APH",
+          "issuer": "AMPHENOL CORP",
+          "n_buyers": 2,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "add",
+              "value": 146793782,
+              "shares": 1741326,
+              "weight": 0.02544,
+              "chg": 0.959,
+              "opened": "2026-03-31",
+              "opened_before": false,
+              "est_entry": 70.3799,
+              "ret": 0.2246,
+              "est_gain": 27530538
+            },
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 3700770,
+              "shares": 43900,
+              "weight": 0.00041,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 80.5499,
+              "ret": 0.07,
+              "est_gain": 247600
+            }
+          ],
+          "sum_weight": 0.0259,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 43,
+          "conviction_label": "Medium",
+          "inaam": [],
+          "est_entry": 80.5499,
+          "cur_price": 86.19,
+          "cur_date": "2026-10-12",
+          "ret": 0.07,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "808513105",
+          "ticker": "SCHW",
+          "issuer": "CHARLES SCHWAB CORP (THE)",
+          "n_buyers": 2,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "new",
+              "value": 67935360,
+              "shares": 695062,
+              "weight": 0.01177,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 105.2925,
+              "ret": -0.0782,
+              "est_gain": -5722098
+            },
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 6108750,
+              "shares": 62500,
+              "weight": 0.00068,
+              "chg": 1.854,
+              "opened": "2026-03-31",
+              "opened_before": false,
+              "est_entry": 98.0748,
+              "ret": -0.0103,
+              "est_gain": -63425
+            }
+          ],
+          "sum_weight": 0.0124,
+          "has_new": true,
+          "theme": "Financials",
+          "conviction": 40,
+          "conviction_label": "Medium",
+          "inaam": [],
+          "est_entry": 105.2925,
+          "cur_price": 97.06,
+          "cur_date": "2026-10-12",
+          "ret": -0.0782,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "78392B206",
+          "ticker": "SKHY",
+          "issuer": "SK HYNIX INC",
+          "n_buyers": 2,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 58585296,
+              "shares": 318139,
+              "weight": 0.00656,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 165.4129,
+              "ret": -0.0192,
+              "est_gain": -1012605
+            },
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "new",
+              "value": 10112966,
+              "shares": 54917,
+              "weight": 0.00175,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 165.4129,
+              "ret": -0.0192,
+              "est_gain": -174795
+            }
+          ],
+          "sum_weight": 0.0083,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 40,
+          "conviction_label": "Medium",
+          "inaam": [],
+          "est_entry": 165.4129,
+          "cur_price": 162.23,
+          "cur_date": "2026-10-12",
+          "ret": -0.0192,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "35137L204",
+          "ticker": "FOX",
+          "issuer": "Fox Corporation Class B",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Cooper Investors",
+              "action": "new",
+              "value": 24135697,
+              "shares": 428698,
+              "weight": 0.1267,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 55.6159,
+              "ret": 0.0065,
+              "est_gain": 156089
+            }
+          ],
+          "sum_weight": 0.1267,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 49,
+          "conviction_label": "Medium",
+          "inaam": [],
+          "est_entry": 55.6159,
+          "cur_price": 55.98,
+          "cur_date": "2026-10-12",
+          "ret": 0.0065,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "531229755",
+          "ticker": "FWONK",
+          "issuer": "Liberty Media Corporation Series C",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Cooper Investors",
+              "action": "add",
+              "value": 28874908,
+              "shares": 312499,
+              "weight": 0.15158,
+              "chg": 1.674,
+              "opened": "2024-12-31",
+              "opened_before": true,
+              "est_entry": 84.8939,
+              "ret": 0.105,
+              "est_gain": 2786272
+            }
+          ],
+          "sum_weight": 0.1516,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 44,
+          "conviction_label": "Medium",
+          "inaam": [],
+          "est_entry": 98.6959,
+          "cur_price": 93.81,
+          "cur_date": "2026-10-12",
+          "ret": -0.0495,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "464288257",
+          "ticker": "ACWI",
+          "issuer": "iShares MSCI ACWI ETF",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Cooper Investors",
+              "action": "add",
+              "value": 20467984,
+              "shares": 128920,
+              "weight": 0.10744,
+              "chg": 0.943,
+              "opened": "2025-09-30",
+              "opened_before": false,
+              "est_entry": 132.8277,
+              "ret": 0.2093,
+              "est_gain": 3584273
+            }
+          ],
+          "sum_weight": 0.1074,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 35,
+          "conviction_label": "Medium",
+          "inaam": [],
+          "est_entry": 158.8583,
+          "cur_price": 160.63,
+          "cur_date": "2026-10-12",
+          "ret": 0.0112,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
         {
           "cusip": "21874A106",
           "ticker": "CORZ",
@@ -127,6 +424,40 @@
           "cur_price": 15.02,
           "cur_date": "2026-10-12",
           "ret": -0.2374,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "038222105",
+          "ticker": "AMAT",
+          "issuer": "APPLIED MATLS INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 219077746,
+              "shares": 428405,
+              "weight": 0.02454,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 507.7623,
+              "ret": -0.0202,
+              "est_gain": -4383568
+            }
+          ],
+          "sum_weight": 0.0245,
+          "has_new": true,
+          "theme": "Tech & Communications",
+          "conviction": 29,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 507.7623,
+          "cur_price": 497.53,
+          "cur_date": "2026-10-12",
+          "ret": -0.0202,
           "target": null,
           "target_n": null,
           "upside": null
@@ -168,6 +499,110 @@
           "upside": null
         },
         {
+          "cusip": "92532F100",
+          "ticker": "VRTX",
+          "issuer": "VERTEX PHARMACEUTICALS INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "new",
+              "value": 78362945,
+              "shares": 149888,
+              "weight": 0.01358,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 512.0378,
+              "ret": -0.0098,
+              "est_gain": -755106
+            }
+          ],
+          "sum_weight": 0.0136,
+          "has_new": true,
+          "theme": "Healthcare",
+          "conviction": 27,
+          "conviction_label": "Low",
+          "inaam": [
+            "F"
+          ],
+          "est_entry": 512.0378,
+          "cur_price": 507.0,
+          "cur_date": "2026-10-12",
+          "ret": -0.0098,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "452308109",
+          "ticker": "ITW",
+          "issuer": "ILLINOIS TOOL WKS INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 120262962,
+              "shares": 467440,
+              "weight": 0.01347,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 277.6495,
+              "ret": -0.0452,
+              "est_gain": -5861464
+            }
+          ],
+          "sum_weight": 0.0135,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 27,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 277.6495,
+          "cur_price": 265.11,
+          "cur_date": "2026-10-12",
+          "ret": -0.0452,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "12572Q105",
+          "ticker": "CME",
+          "issuer": "CME GROUP INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "new",
+              "value": 75841114,
+              "shares": 289492,
+              "weight": 0.01314,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 263.6689,
+              "ret": 0.0515,
+              "est_gain": 3928725
+            }
+          ],
+          "sum_weight": 0.0131,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 27,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 263.6689,
+          "cur_price": 277.24,
+          "cur_date": "2026-10-12",
+          "ret": 0.0515,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
           "cusip": "45258J102",
           "ticker": "IMVT",
           "issuer": "IMMUNOVANT INC",
@@ -202,6 +637,314 @@
           "upside": null
         },
         {
+          "cusip": "883556102",
+          "ticker": "TMO",
+          "issuer": "Thermo Fisher Scientific Inc.",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Cooper Investors",
+              "action": "new",
+              "value": 2262768,
+              "shares": 3352,
+              "weight": 0.01188,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 594.0628,
+              "ret": 0.1148,
+              "est_gain": 228530
+            }
+          ],
+          "sum_weight": 0.0119,
+          "has_new": true,
+          "theme": "Healthcare",
+          "conviction": 26,
+          "conviction_label": "Low",
+          "inaam": [
+            "D"
+          ],
+          "est_entry": 594.0628,
+          "cur_price": 662.24,
+          "cur_date": "2026-10-12",
+          "ret": 0.1148,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "620076307",
+          "ticker": "MSI",
+          "issuer": "MOTOROLA SOLUTIONS INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 62711408,
+              "shares": 140618,
+              "weight": 0.00703,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 450.1552,
+              "ret": -0.0085,
+              "est_gain": -537892
+            }
+          ],
+          "sum_weight": 0.007,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 25,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 450.1552,
+          "cur_price": 446.33,
+          "cur_date": "2026-10-12",
+          "ret": -0.0085,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "28620K106",
+          "ticker": "ELE",
+          "issuer": "ELEMENTAL RTY CORP",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "new",
+              "value": 8610186,
+              "shares": 447613,
+              "weight": 0.00149,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 18.9714,
+              "ret": -0.0776,
+              "est_gain": -658618
+            }
+          ],
+          "sum_weight": 0.0015,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 18.9714,
+          "cur_price": 17.5,
+          "cur_date": "2026-10-12",
+          "ret": -0.0776,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "595112103",
+          "ticker": "MU",
+          "issuer": "MICRON TECHNOLOGY INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 11844023,
+              "shares": 11120,
+              "weight": 0.00133,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 949.8944,
+              "ret": 0.0412,
+              "est_gain": 435299
+            }
+          ],
+          "sum_weight": 0.0013,
+          "has_new": true,
+          "theme": "Tech & Communications",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 949.8944,
+          "cur_price": 989.04,
+          "cur_date": "2026-10-12",
+          "ret": 0.0412,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "64110L106",
+          "ticker": "NFLX",
+          "issuer": "Netflix, Inc.",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Cooper Investors",
+              "action": "new",
+              "value": 161704,
+              "shares": 2324,
+              "weight": 0.00085,
+              "chg": null,
+              "opened": "2026-03-31",
+              "opened_before": false,
+              "est_entry": 88.113,
+              "ret": -0.1986,
+              "est_gain": -40677
+            }
+          ],
+          "sum_weight": 0.0008,
+          "has_new": true,
+          "theme": "Tech & Communications",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 75.1534,
+          "cur_price": 70.61,
+          "cur_date": "2026-10-12",
+          "ret": -0.0605,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "56585A102",
+          "ticker": "MPC",
+          "issuer": "MARATHON PETE CORP",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 5100918,
+              "shares": 12900,
+              "weight": 0.00057,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 345.7084,
+              "ret": 0.3272,
+              "est_gain": 1459011
+            }
+          ],
+          "sum_weight": 0.0006,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 345.7084,
+          "cur_price": 458.81,
+          "cur_date": "2026-10-12",
+          "ret": 0.3272,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "020002101",
+          "ticker": "ALL",
+          "issuer": "ALLSTATE CORP",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 4614688,
+              "shares": 20800,
+              "weight": 0.00052,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 253.582,
+              "ret": -0.0827,
+              "est_gain": -436426
+            }
+          ],
+          "sum_weight": 0.0005,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 253.582,
+          "cur_price": 232.6,
+          "cur_date": "2026-10-12",
+          "ret": -0.0827,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "00724F101",
+          "ticker": "ADBE",
+          "issuer": "ADOBE INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 4376505,
+              "shares": 18240,
+              "weight": 0.00049,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 250.3722,
+              "ret": -0.0489,
+              "est_gain": -223115
+            }
+          ],
+          "sum_weight": 0.0005,
+          "has_new": true,
+          "theme": "Tech & Communications",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 250.3722,
+          "cur_price": 238.14,
+          "cur_date": "2026-10-12",
+          "ret": -0.0489,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "12503M108",
+          "ticker": "CBOE",
+          "issuer": "CBOE GLOBAL MKTS INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 4173397,
+              "shares": 15160,
+              "weight": 0.00047,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 283.3952,
+              "ret": 0.0493,
+              "est_gain": 212010
+            }
+          ],
+          "sum_weight": 0.0005,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 283.3952,
+          "cur_price": 297.38,
+          "cur_date": "2026-10-12",
+          "ret": 0.0493,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
           "cusip": "038169207",
           "ticker": "APLD",
           "issuer": "APPLIED DIGITAL CORP",
@@ -231,6 +974,555 @@
           "cur_price": 23.25,
           "cur_date": "2026-10-12",
           "ret": -0.1713,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "60744M106",
+          "ticker": "MBGL",
+          "issuer": "Mobility Global Inc",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Cooper Investors",
+              "action": "new",
+              "value": 75752,
+              "shares": 4417,
+              "weight": 0.0004,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 20.1078,
+              "ret": -0.0994,
+              "est_gain": -8824
+            }
+          ],
+          "sum_weight": 0.0004,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [
+            "E"
+          ],
+          "est_entry": 20.1078,
+          "cur_price": 18.11,
+          "cur_date": "2026-10-12",
+          "ret": -0.0994,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "284902509",
+          "ticker": "EGO",
+          "issuer": "ELDORADO GOLD CORP NEW",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "new",
+              "value": 1929415,
+              "shares": 49987,
+              "weight": 0.00033,
+              "chg": null,
+              "opened": "2024-12-31",
+              "opened_before": true,
+              "est_entry": 16.5122,
+              "ret": 1.2735,
+              "est_gain": 1051117
+            }
+          ],
+          "sum_weight": 0.0003,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 37.8798,
+          "cur_price": 37.54,
+          "cur_date": "2026-10-12",
+          "ret": -0.009,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "M8769Q102",
+          "ticker": "",
+          "issuer": "TEVA PHARMACEUTICAL INDS LTD",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "new",
+              "value": 1878584,
+              "shares": 47439,
+              "weight": 0.00033,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": null,
+              "ret": null,
+              "est_gain": null
+            }
+          ],
+          "sum_weight": 0.0003,
+          "has_new": true,
+          "theme": "Healthcare",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": null,
+          "cur_price": null,
+          "cur_date": null,
+          "ret": null,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "H01301128",
+          "ticker": "",
+          "issuer": "ALCON AG",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "new",
+              "value": 1469896,
+              "shares": 22736,
+              "weight": 0.00025,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": null,
+              "ret": null,
+              "est_gain": null
+            }
+          ],
+          "sum_weight": 0.0003,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": null,
+          "cur_price": null,
+          "cur_date": null,
+          "ret": null,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "922475108",
+          "ticker": "VEEV",
+          "issuer": "VEEVA SYS INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 3111405,
+              "shares": 10900,
+              "weight": 0.00035,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 234.9658,
+              "ret": 0.2591,
+              "est_gain": 663638
+            }
+          ],
+          "sum_weight": 0.0003,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 234.9658,
+          "cur_price": 295.85,
+          "cur_date": "2026-10-12",
+          "ret": 0.2591,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "26875P101",
+          "ticker": "EOG",
+          "issuer": "EOG RES INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 2794462,
+              "shares": 20285,
+              "weight": 0.00031,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 142.6631,
+              "ret": 0.055,
+              "est_gain": 159174
+            }
+          ],
+          "sum_weight": 0.0003,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 142.6631,
+          "cur_price": 150.51,
+          "cur_date": "2026-10-12",
+          "ret": 0.055,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "761152107",
+          "ticker": "RMD",
+          "issuer": "RESMED INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 2675310,
+              "shares": 12100,
+              "weight": 0.0003,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 218.1444,
+              "ret": 0.0754,
+              "est_gain": 199113
+            }
+          ],
+          "sum_weight": 0.0003,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 218.1444,
+          "cur_price": 234.6,
+          "cur_date": "2026-10-12",
+          "ret": 0.0754,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "949746101",
+          "ticker": "WFC",
+          "issuer": "WELLS FARGO & CO",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 2532062,
+              "shares": 31631,
+              "weight": 0.00028,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 86.5059,
+              "ret": -0.0368,
+              "est_gain": -100773
+            }
+          ],
+          "sum_weight": 0.0003,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 86.5059,
+          "cur_price": 83.32,
+          "cur_date": "2026-10-12",
+          "ret": -0.0368,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "36168Q104",
+          "ticker": "GFL",
+          "issuer": "GFL ENVIRONMENTAL INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "new",
+              "value": 1360911,
+              "shares": 32495,
+              "weight": 0.00024,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 41.0795,
+              "ret": 0.0317,
+              "est_gain": 42260
+            }
+          ],
+          "sum_weight": 0.0002,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [
+            "F",
+            "G"
+          ],
+          "est_entry": 41.0795,
+          "cur_price": 42.38,
+          "cur_date": "2026-10-12",
+          "ret": 0.0317,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "64125C109",
+          "ticker": "NBIX",
+          "issuer": "NEUROCRINE BIOSCIENCES INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 2141784,
+              "shares": 15100,
+              "weight": 0.00024,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 160.7481,
+              "ret": -0.1205,
+              "est_gain": -292609
+            }
+          ],
+          "sum_weight": 0.0002,
+          "has_new": true,
+          "theme": "Healthcare",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 160.7481,
+          "cur_price": 141.37,
+          "cur_date": "2026-10-12",
+          "ret": -0.1205,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "12514G108",
+          "ticker": "CDW",
+          "issuer": "CDW CORP",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 2127456,
+              "shares": 16600,
+              "weight": 0.00024,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 140.9545,
+              "ret": 0.0199,
+              "est_gain": 46571
+            }
+          ],
+          "sum_weight": 0.0002,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 140.9545,
+          "cur_price": 143.76,
+          "cur_date": "2026-10-12",
+          "ret": 0.0199,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "25179M103",
+          "ticker": "DVN",
+          "issuer": "DEVON ENERGY CORP NEW",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 1616004,
+              "shares": 35100,
+              "weight": 0.00018,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 45.8986,
+              "ret": 0.0667,
+              "est_gain": 107455
+            }
+          ],
+          "sum_weight": 0.0002,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 45.8986,
+          "cur_price": 48.96,
+          "cur_date": "2026-10-12",
+          "ret": 0.0667,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "775109200",
+          "ticker": "RCI",
+          "issuer": "ROGERS COMMUNICATIONS INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "new",
+              "value": 784701,
+              "shares": 25424,
+              "weight": 0.00014,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 34.6119,
+              "ret": -0.1361,
+              "est_gain": -119795
+            }
+          ],
+          "sum_weight": 0.0001,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 34.6119,
+          "cur_price": 29.9,
+          "cur_date": "2026-10-12",
+          "ret": -0.1361,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "15101Q207",
+          "ticker": "CLS",
+          "issuer": "CELESTICA INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "new",
+              "value": 606442,
+              "shares": 1672,
+              "weight": 0.00011,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 330.7088,
+              "ret": 0.0508,
+              "est_gain": 28075
+            }
+          ],
+          "sum_weight": 0.0001,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 330.7088,
+          "cur_price": 347.5,
+          "cur_date": "2026-10-12",
+          "ret": 0.0508,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "974155103",
+          "ticker": "WING",
+          "issuer": "WINGSTOP INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 1369810,
+              "shares": 13000,
+              "weight": 0.00015,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 123.9824,
+              "ret": 0.0164,
+              "est_gain": 26489
+            }
+          ],
+          "sum_weight": 0.0001,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 123.9824,
+          "cur_price": 126.02,
+          "cur_date": "2026-10-12",
+          "ret": 0.0164,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "668771108",
+          "ticker": "GEN",
+          "issuer": "GEN DIGITAL INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "new",
+              "value": 671610,
+              "shares": 30500,
+              "weight": 8e-05,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 27.7459,
+              "ret": -0.1584,
+              "est_gain": -134075
+            }
+          ],
+          "sum_weight": 0.0001,
+          "has_new": true,
+          "theme": "Tech & Communications",
+          "conviction": 24,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 27.7459,
+          "cur_price": 23.35,
+          "cur_date": "2026-10-12",
+          "ret": -0.1584,
           "target": null,
           "target_n": null,
           "upside": null
@@ -408,6 +1700,40 @@
           "upside": null
         },
         {
+          "cusip": "61174X109",
+          "ticker": "MNST",
+          "issuer": "MONSTER BEVERAGE CORP NEW",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "add",
+              "value": 141866348,
+              "shares": 3408610,
+              "weight": 0.02458,
+              "chg": 0.613,
+              "opened": "2024-12-31",
+              "opened_before": true,
+              "est_entry": 26.5029,
+              "ret": 0.6511,
+              "est_gain": 58822724
+            }
+          ],
+          "sum_weight": 0.0246,
+          "has_new": false,
+          "theme": "Industrials & Materials",
+          "conviction": 19,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 46.2955,
+          "cur_price": 43.76,
+          "cur_date": "2026-10-12",
+          "ret": -0.0548,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
           "cusip": "78574H104",
           "ticker": "SOC",
           "issuer": "SABLE OFFSHORE CORP",
@@ -476,6 +1802,40 @@
           "upside": null
         },
         {
+          "cusip": "540424108",
+          "ticker": "L",
+          "issuer": "Loews Corporation",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Cooper Investors",
+              "action": "add",
+              "value": 2423820,
+              "shares": 23210,
+              "weight": 0.01272,
+              "chg": 3.172,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 108.3721,
+              "ret": -0.0055,
+              "est_gain": -13743
+            }
+          ],
+          "sum_weight": 0.0127,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 17,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 112.0103,
+          "cur_price": 107.78,
+          "cur_date": "2026-10-12",
+          "ret": -0.0378,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
           "cusip": "44812J104",
           "ticker": "HUT",
           "issuer": "HUT 8 CORP",
@@ -539,6 +1899,624 @@
           "cur_price": 13.08,
           "cur_date": "2026-10-12",
           "ret": -0.2402,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "502431109",
+          "ticker": "LHX",
+          "issuer": "L3HARRIS TECHNOLOGIES INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 37586692,
+              "shares": 158741,
+              "weight": 0.00421,
+              "chg": 1.976,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 317.7548,
+              "ret": -0.2502,
+              "est_gain": -12620671
+            }
+          ],
+          "sum_weight": 0.0042,
+          "has_new": false,
+          "theme": "Tech & Communications",
+          "conviction": 15,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 272.2225,
+          "cur_price": 238.25,
+          "cur_date": "2026-10-12",
+          "ret": -0.1248,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "152006102",
+          "ticker": "CGAU",
+          "issuer": "CENTERRA GOLD INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "add",
+              "value": 15227900,
+              "shares": 696739,
+              "weight": 0.00264,
+              "chg": 0.826,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 17.5242,
+              "ret": 0.2834,
+              "est_gain": 3459867
+            }
+          ],
+          "sum_weight": 0.0026,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 15,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 20.1245,
+          "cur_price": 22.49,
+          "cur_date": "2026-10-12",
+          "ret": 0.1175,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "55293N109",
+          "ticker": "MDA",
+          "issuer": "MDA SPACE LTD",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "add",
+              "value": 12051887,
+              "shares": 405947,
+              "weight": 0.00209,
+              "chg": 1.005,
+              "opened": "2026-03-31",
+              "opened_before": false,
+              "est_entry": 29.4136,
+              "ret": -0.0668,
+              "est_gain": -797118
+            }
+          ],
+          "sum_weight": 0.0021,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 31.9277,
+          "cur_price": 27.45,
+          "cur_date": "2026-10-12",
+          "ret": -0.1402,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "92826C839",
+          "ticker": "V",
+          "issuer": "VISA INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 9348330,
+              "shares": 26016,
+              "weight": 0.00105,
+              "chg": 1.255,
+              "opened": "2026-03-31",
+              "opened_before": false,
+              "est_entry": 321.5538,
+              "ret": 0.2106,
+              "est_gain": 1761705
+            }
+          ],
+          "sum_weight": 0.001,
+          "has_new": false,
+          "theme": "Financials",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [
+            "D"
+          ],
+          "est_entry": 365.5348,
+          "cur_price": 389.27,
+          "cur_date": "2026-10-12",
+          "ret": 0.0649,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "29269R105",
+          "ticker": "EFXT",
+          "issuer": "ENERFLEX LTD",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "add",
+              "value": 4829027,
+              "shares": 211736,
+              "weight": 0.00084,
+              "chg": 6.945,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 24.9442,
+              "ret": -0.0346,
+              "est_gain": -182982
+            }
+          ],
+          "sum_weight": 0.0008,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 22.2225,
+          "cur_price": 24.08,
+          "cur_date": "2026-10-12",
+          "ret": 0.0836,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "921937835",
+          "ticker": "BND",
+          "issuer": "VANGUARD BD INDEX FDS",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 6623986,
+              "shares": 94426,
+              "weight": 0.00074,
+              "chg": 0.546,
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 72.5725,
+              "ret": -0.032,
+              "est_gain": -219304
+            }
+          ],
+          "sum_weight": 0.0007,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 72.0759,
+          "cur_price": 70.25,
+          "cur_date": "2026-10-12",
+          "ret": -0.0253,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "81762P102",
+          "ticker": "NOW",
+          "issuer": "SERVICENOW INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 4985172,
+              "shares": 37200,
+              "weight": 0.00056,
+              "chg": 1.23,
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 192.7461,
+              "ret": -0.272,
+              "est_gain": -1950251
+            }
+          ],
+          "sum_weight": 0.0006,
+          "has_new": false,
+          "theme": "Tech & Communications",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [
+            "E"
+          ],
+          "est_entry": 122.8858,
+          "cur_price": 140.32,
+          "cur_date": "2026-10-12",
+          "ret": 0.1419,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "03062D803",
+          "ticker": "USAS",
+          "issuer": "AMERICAS GOLD AND SILVER COR",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Montrusco Bolton Investments Inc.",
+              "action": "add",
+              "value": 2914154,
+              "shares": 663040,
+              "weight": 0.00051,
+              "chg": 0.334,
+              "opened": "2025-09-30",
+              "opened_before": false,
+              "est_entry": 2.614,
+              "ret": 0.6067,
+              "est_gain": 1051581
+            }
+          ],
+          "sum_weight": 0.0005,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 4.7419,
+          "cur_price": 4.2,
+          "cur_date": "2026-10-12",
+          "ret": -0.1143,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "92338C103",
+          "ticker": "VLTO",
+          "issuer": "VERALTO CORP",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 4329288,
+              "shares": 45900,
+              "weight": 0.00049,
+              "chg": 2.144,
+              "opened": "2026-03-31",
+              "opened_before": false,
+              "est_entry": 95.0533,
+              "ret": 0.0331,
+              "est_gain": 144434
+            }
+          ],
+          "sum_weight": 0.0005,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [
+            "C"
+          ],
+          "est_entry": 95.5222,
+          "cur_price": 98.2,
+          "cur_date": "2026-10-12",
+          "ret": 0.028,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "68902V107",
+          "ticker": "OTIS",
+          "issuer": "OTIS WORLDWIDE CORP",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 4174368,
+              "shares": 64900,
+              "weight": 0.00047,
+              "chg": 1.171,
+              "opened": "2024-12-31",
+              "opened_before": true,
+              "est_entry": 100.2808,
+              "ret": -0.3344,
+              "est_gain": -2176149
+            }
+          ],
+          "sum_weight": 0.0005,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 71.1431,
+          "cur_price": 66.75,
+          "cur_date": "2026-10-12",
+          "ret": -0.0618,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "651639106",
+          "ticker": "NEM",
+          "issuer": "NEWMONT CORP",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 2964238,
+              "shares": 25700,
+              "weight": 0.00033,
+              "chg": 0.539,
+              "opened": "2026-03-31",
+              "opened_before": false,
+              "est_entry": 115.2784,
+              "ret": 0.0162,
+              "est_gain": 48100
+            }
+          ],
+          "sum_weight": 0.0003,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 111.9402,
+          "cur_price": 117.15,
+          "cur_date": "2026-10-12",
+          "ret": 0.0465,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "98978V103",
+          "ticker": "ZTS",
+          "issuer": "ZOETIS INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 2826020,
+              "shares": 40470,
+              "weight": 0.00032,
+              "chg": 0.793,
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 166.2942,
+              "ret": -0.5451,
+              "est_gain": -3668371
+            }
+          ],
+          "sum_weight": 0.0003,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 74.7427,
+          "cur_price": 75.65,
+          "cur_date": "2026-10-12",
+          "ret": 0.0121,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "36266G107",
+          "ticker": "GEHC",
+          "issuer": "GE HEALTHCARE TECHNOLOGIES I",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 2732466,
+              "shares": 41800,
+              "weight": 0.00031,
+              "chg": 1.944,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 65.7279,
+              "ret": 0.0306,
+              "est_gain": 84106
+            }
+          ],
+          "sum_weight": 0.0003,
+          "has_new": false,
+          "theme": "Healthcare",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 67.6417,
+          "cur_price": 67.74,
+          "cur_date": "2026-10-12",
+          "ret": 0.0015,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "217204106",
+          "ticker": "CPRT",
+          "issuer": "COPART INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 2531584,
+              "shares": 92800,
+              "weight": 0.00028,
+              "chg": 1.674,
+              "opened": "2025-06-30",
+              "opened_before": false,
+              "est_entry": 55.9647,
+              "ret": -0.5268,
+              "est_gain": -2736180
+            }
+          ],
+          "sum_weight": 0.0003,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 29.9844,
+          "cur_price": 26.48,
+          "cur_date": "2026-10-12",
+          "ret": -0.1169,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "756109104",
+          "ticker": "O",
+          "issuer": "REALTY INCOME CORP",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 1851630,
+              "shares": 34100,
+              "weight": 0.00021,
+              "chg": 0.263,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 62.3435,
+              "ret": -0.1226,
+              "est_gain": -260643
+            }
+          ],
+          "sum_weight": 0.0002,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 61.6902,
+          "cur_price": 54.7,
+          "cur_date": "2026-10-12",
+          "ret": -0.1133,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "G6683N103",
+          "ticker": "",
+          "issuer": "NU HLDGS LTD",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 1497678,
+              "shares": 118300,
+              "weight": 0.00017,
+              "chg": 2.304,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": null,
+              "ret": null,
+              "est_gain": null
+            }
+          ],
+          "sum_weight": 0.0002,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": null,
+          "cur_price": null,
+          "cur_date": null,
+          "ret": null,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "101121101",
+          "ticker": "BXP",
+          "issuer": "BXP INC",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 1053170,
+              "shares": 17234,
+              "weight": 0.00012,
+              "chg": 0.417,
+              "opened": "2024-12-31",
+              "opened_before": true,
+              "est_entry": 81.1141,
+              "ret": -0.2658,
+              "est_gain": -371636
+            }
+          ],
+          "sum_weight": 0.0001,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 67.3505,
+          "cur_price": 59.55,
+          "cur_date": "2026-10-12",
+          "ret": -0.1158,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "49427F108",
+          "ticker": "KRC",
+          "issuer": "KILROY REALTY CORP",
+          "n_buyers": 1,
+          "buyers": [
+            {
+              "manager": "Sarasin & Partners LLP",
+              "action": "add",
+              "value": 934089,
+              "shares": 28076,
+              "weight": 0.0001,
+              "chg": 1.072,
+              "opened": "2024-12-31",
+              "opened_before": true,
+              "est_entry": 40.3638,
+              "ret": -0.1378,
+              "est_gain": -156209
+            }
+          ],
+          "sum_weight": 0.0001,
+          "has_new": false,
+          "theme": "Other / review",
+          "conviction": 14,
+          "conviction_label": "Low",
+          "inaam": [],
+          "est_entry": 37.0775,
+          "cur_price": 34.8,
+          "cur_date": "2026-10-12",
+          "ret": -0.0614,
           "target": null,
           "target_n": null,
           "upside": null
@@ -1235,24 +3213,6 @@
           "ret": 0.5857
         },
         {
-          "name": "Sarasin & Partners LLP",
-          "cik": "0001510481",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 94,
-          "aum_m": 8537,
-          "counts": {
-            "new": 10,
-            "add": 25,
-            "trim": 40,
-            "exit": 4
-          },
-          "buys": 13,
-          "ret": 0.5652
-        },
-        {
           "name": "Maverick Capital",
           "cik": "0000934639",
           "tag": "l/s-Ainslie",
@@ -1557,6 +3517,24 @@
           },
           "buys": 11,
           "ret": 0.4374
+        },
+        {
+          "name": "Sarasin & Partners LLP",
+          "cik": "0001510481",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 94,
+          "aum_m": 8537,
+          "counts": {
+            "new": 10,
+            "add": 25,
+            "trim": 40,
+            "exit": 4
+          },
+          "buys": 13,
+          "ret": 0.4368
         },
         {
           "name": "Logos Global Management",
@@ -2276,7 +4254,7 @@
             "exit": 33
           },
           "buys": 41,
-          "ret": 0.2804
+          "ret": 0.2799
         },
         {
           "name": "JANA Partners",
@@ -2349,24 +4327,6 @@
           },
           "buys": 9,
           "ret": 0.2698
-        },
-        {
-          "name": "Cooper Investors",
-          "cik": "0001561728",
-          "tag": "value",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 39,
-          "aum_m": 218,
-          "counts": {
-            "new": 9,
-            "add": 9,
-            "trim": 12,
-            "exit": 12
-          },
-          "buys": 5,
-          "ret": 0.2602
         },
         {
           "name": "Jericho Capital Asset Management L.P.",
@@ -2492,7 +4452,25 @@
             "exit": 70
           },
           "buys": 45,
-          "ret": 0.2398
+          "ret": 0.2397
+        },
+        {
+          "name": "Cooper Investors",
+          "cik": "0001561728",
+          "tag": "value",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 39,
+          "aum_m": 218,
+          "counts": {
+            "new": 9,
+            "add": 9,
+            "trim": 12,
+            "exit": 12
+          },
+          "buys": 5,
+          "ret": 0.2345
         },
         {
           "name": "Viking Global",
@@ -4475,24 +6453,6 @@
           "ret": -0.1052
         },
         {
-          "name": "Irenic Capital",
-          "cik": "0001929389",
-          "tag": "activist",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 43,
-          "aum_m": 1389,
-          "counts": {
-            "new": 15,
-            "add": 8,
-            "trim": 5,
-            "exit": 13
-          },
-          "buys": 7,
-          "ret": -0.1092
-        },
-        {
           "name": "Cadian Capital",
           "cik": "0001423686",
           "tag": "tech-health-l/s",
@@ -4509,6 +6469,24 @@
           },
           "buys": 10,
           "ret": -0.1126
+        },
+        {
+          "name": "Irenic Capital",
+          "cik": "0001929389",
+          "tag": "activist",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 43,
+          "aum_m": 1389,
+          "counts": {
+            "new": 15,
+            "add": 8,
+            "trim": 5,
+            "exit": 13
+          },
+          "buys": 7,
+          "ret": -0.1142
         },
         {
           "name": "Tweedy Browne",
@@ -10978,11 +12956,11 @@
               "shares": 529518,
               "weight": 0.02962,
               "chg": 1.686,
-              "opened": "2024-09-30",
-              "opened_before": true,
-              "est_entry": 170.4041,
-              "ret": 1.6076,
-              "est_gain": 145059285
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 194.335,
+              "ret": 1.2865,
+              "est_gain": 132387443
             },
             {
               "manager": "Polen Capital",
@@ -11298,11 +13276,11 @@
               "shares": 25553,
               "weight": 0.04192,
               "chg": 0.743,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 167.7408,
-              "ret": 1.1028,
-              "est_gain": 4726773
+              "est_entry": 174.9694,
+              "ret": 1.0159,
+              "est_gain": 4542061
             },
             {
               "manager": "Discovery Capital",
@@ -30565,11 +32543,11 @@
               "shares": 1314268,
               "weight": 0.034,
               "chg": 0.412,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 206.9302,
-              "ret": 0.3398,
-              "est_gain": 92405920
+              "est_entry": 229.9573,
+              "ret": 0.2056,
+              "est_gain": 62142140
             },
             {
               "manager": "Tudor Investment",
@@ -51460,8 +53438,8 @@
               "opened": "2025-03-31",
               "opened_before": false,
               "est_entry": 387.2355,
-              "ret": 0.2243,
-              "est_gain": 93178982
+              "ret": 0.2242,
+              "est_gain": 93114628
             },
             {
               "manager": "Select Equity Group",
@@ -51473,8 +53451,8 @@
               "opened": "2026-03-31",
               "opened_before": false,
               "est_entry": 491.218,
-              "ret": -0.0348,
-              "est_gain": -14289628
+              "ret": -0.0349,
+              "est_gain": -14339744
             },
             {
               "manager": "Tudor Investment",
@@ -51486,8 +53464,8 @@
               "opened": "2025-03-31",
               "opened_before": false,
               "est_entry": 387.2355,
-              "ret": 0.2243,
-              "est_gain": 5662567
+              "ret": 0.2242,
+              "est_gain": 5658656
             },
             {
               "manager": "Life Cycle Investment Partners Ltd",
@@ -51499,8 +53477,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 505.0581,
-              "ret": -0.0613,
-              "est_gain": -914919
+              "ret": -0.0614,
+              "est_gain": -916692
             },
             {
               "manager": "Woodline Partners",
@@ -51512,8 +53490,8 @@
               "opened": "2025-09-30",
               "opened_before": false,
               "est_entry": 430.4461,
-              "ret": 0.1014,
-              "est_gain": 529206
+              "ret": 0.1013,
+              "est_gain": 528479
             },
             {
               "manager": "Caxton Associates",
@@ -51525,8 +53503,8 @@
               "opened": "2025-03-31",
               "opened_before": true,
               "est_entry": 387.2355,
-              "ret": 0.2243,
-              "est_gain": 40484
+              "ret": 0.2242,
+              "est_gain": 40456
             }
           ],
           "sum_weight": 0.0405,
@@ -51536,9 +53514,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 505.0581,
-          "cur_price": 474.11,
-          "cur_date": "2026-10-09",
-          "ret": -0.0613,
+          "cur_price": 474.05,
+          "cur_date": "2026-10-12",
+          "ret": -0.0614,
           "target": null,
           "target_n": null,
           "upside": null
@@ -54898,11 +56876,11 @@
               "shares": 13553,
               "weight": 6e-05,
               "chg": null,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 35.3488,
-              "ret": -0.0155,
-              "est_gain": -7438
+              "est_entry": 40.3638,
+              "ret": -0.1378,
+              "est_gain": -75406
             }
           ],
           "sum_weight": 0.0181,
@@ -56386,7 +58364,7 @@
               "weight": 0.00026,
               "chg": 0.455,
               "opened": "2024-12-31",
-              "opened_before": false,
+              "opened_before": true,
               "est_entry": 134.6996,
               "ret": 0.2138,
               "est_gain": 450870
@@ -67051,8 +69029,8 @@
               "opened": "2024-09-30",
               "opened_before": true,
               "est_entry": 11.5973,
-              "ret": 1.0604,
-              "est_gain": 9877463
+              "ret": 1.0013,
+              "est_gain": 9327274
             },
             {
               "manager": "Irenic Capital",
@@ -67064,8 +69042,8 @@
               "opened": "2026-03-31",
               "opened_before": false,
               "est_entry": 20.274,
-              "ret": 0.1786,
-              "est_gain": 2298509
+              "ret": 0.1448,
+              "est_gain": 1863691
             },
             {
               "manager": "Polen Capital",
@@ -67077,8 +69055,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 29.511,
-              "ret": -0.1903,
-              "est_gain": -295261
+              "ret": -0.2135,
+              "est_gain": -331275
             },
             {
               "manager": "Tudor Investment",
@@ -67090,8 +69068,8 @@
               "opened": "2025-12-31",
               "opened_before": false,
               "est_entry": 14.8297,
-              "ret": 0.6113,
-              "est_gain": 286862
+              "ret": 0.5651,
+              "est_gain": 265186
             },
             {
               "manager": "Brevan Howard",
@@ -67103,8 +69081,8 @@
               "opened": "2025-12-31",
               "opened_before": false,
               "est_entry": 14.8297,
-              "ret": 0.6113,
-              "est_gain": 144918
+              "ret": 0.5651,
+              "est_gain": 133967
             }
           ],
           "sum_weight": 0.0167,
@@ -67114,9 +69092,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 29.511,
-          "cur_price": 23.895,
-          "cur_date": "2026-10-09",
-          "ret": -0.1903,
+          "cur_price": 23.21,
+          "cur_date": "2026-10-12",
+          "ret": -0.2135,
           "target": null,
           "target_n": null,
           "upside": null
@@ -78192,24 +80170,6 @@
           "ret": 0.7884
         },
         {
-          "name": "Sarasin & Partners LLP",
-          "cik": "0001510481",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2026-03-31",
-          "prev": "2025-12-31",
-          "positions": 88,
-          "aum_m": 8197,
-          "counts": {
-            "new": 17,
-            "add": 16,
-            "trim": 44,
-            "exit": 6
-          },
-          "buys": 15,
-          "ret": 0.7808
-        },
-        {
           "name": "Reaves W H & Co Inc",
           "cik": "0000740913",
           "tag": "data-selected",
@@ -78568,6 +80528,24 @@
           },
           "buys": 194,
           "ret": 0.6181
+        },
+        {
+          "name": "Sarasin & Partners LLP",
+          "cik": "0001510481",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-03-31",
+          "prev": "2025-12-31",
+          "positions": 88,
+          "aum_m": 8197,
+          "counts": {
+            "new": 17,
+            "add": 16,
+            "trim": 44,
+            "exit": 6
+          },
+          "buys": 15,
+          "ret": 0.6109
         },
         {
           "name": "Sessa Capital IM, L.P.",
@@ -79812,24 +81790,6 @@
           "ret": 0.2158
         },
         {
-          "name": "Montrusco Bolton Investments Inc.",
-          "cik": "0001475940",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2026-03-31",
-          "prev": "2025-12-31",
-          "positions": 72,
-          "aum_m": 6609,
-          "counts": {
-            "new": 7,
-            "add": 15,
-            "trim": 35,
-            "exit": 8
-          },
-          "buys": 7,
-          "ret": 0.2135
-        },
-        {
           "name": "Moore Capital",
           "cik": "0001448574",
           "tag": "macro-Bacon",
@@ -80062,6 +82022,24 @@
           },
           "buys": 2,
           "ret": 0.1837
+        },
+        {
+          "name": "Montrusco Bolton Investments Inc.",
+          "cik": "0001475940",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-03-31",
+          "prev": "2025-12-31",
+          "positions": 72,
+          "aum_m": 6609,
+          "counts": {
+            "new": 7,
+            "add": 15,
+            "trim": 35,
+            "exit": 8
+          },
+          "buys": 7,
+          "ret": 0.182
         },
         {
           "name": "Dragoneer Investment",
@@ -85140,11 +87118,11 @@
               "shares": 1069152,
               "weight": 0.04037,
               "chg": 0.285,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 160.3173,
-              "ret": 1.2127,
-              "est_gain": 207856727
+              "est_entry": 184.9566,
+              "ret": 0.9179,
+              "est_gain": 181513570
             },
             {
               "manager": "D1 Capital",
@@ -85538,11 +87516,11 @@
               "shares": 197114,
               "weight": 0.00813,
               "chg": null,
-              "opened": "2024-09-30",
-              "opened_before": true,
-              "est_entry": 170.4041,
-              "ret": 1.6076,
-              "est_gain": 53998572
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 194.335,
+              "ret": 1.2865,
+              "est_gain": 49281457
             },
             {
               "manager": "Luxor Capital",
@@ -86303,11 +88281,11 @@
               "shares": 489843,
               "weight": 0.03581,
               "chg": 0.28,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 465.0402,
-              "ret": 0.2797,
-              "est_gain": 63703984
+              "est_entry": 517.6978,
+              "ret": 0.1495,
+              "est_gain": 37910027
             },
             {
               "manager": "Vulcan Value Partners",
@@ -87543,11 +89521,11 @@
               "shares": 1840569,
               "weight": 0.05699,
               "chg": 0.371,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 223.3183,
-              "ret": 0.5268,
-              "est_gain": 216546072
+              "est_entry": 235.6763,
+              "ret": 0.4468,
+              "est_gain": 193800320
             },
             {
               "manager": "Employees Provident Fund Board",
@@ -114432,11 +116410,11 @@
               "shares": 57000,
               "weight": 0.00011,
               "chg": 0.267,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 55.4614,
-              "ret": -0.8451,
-              "est_gain": -2671670
+              "est_entry": 71.0548,
+              "ret": -0.8791,
+              "est_gain": -3560494
             }
           ],
           "sum_weight": 0.0081,
@@ -118907,11 +120885,11 @@
               "shares": 202747,
               "weight": 0.01358,
               "chg": 9.613,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 264.3742,
-              "ret": 1.6281,
-              "est_gain": 87265512
+              "est_entry": 321.7039,
+              "ret": 1.1597,
+              "est_gain": 75642088
             },
             {
               "manager": "Encompass Capital",
@@ -128167,7 +130145,7 @@
               "weight": 0.0002,
               "chg": null,
               "opened": "2024-12-31",
-              "opened_before": false,
+              "opened_before": true,
               "est_entry": 43.9966,
               "ret": 0.2406,
               "est_gain": 357719
@@ -142158,11 +144136,11 @@
               "shares": 306224,
               "weight": 0.00994,
               "chg": 4.386,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 244.6488,
-              "ret": 0.1621,
-              "est_gain": 12142149
+              "est_entry": 248.6039,
+              "ret": 0.1436,
+              "est_gain": 10931003
             },
             {
               "manager": "Mar Vista Investment",
@@ -157402,24 +159380,6 @@
           "ret": -0.1751
         },
         {
-          "name": "Sarasin & Partners LLP",
-          "cik": "0001510481",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2025-12-31",
-          "prev": "2025-09-30",
-          "positions": 77,
-          "aum_m": 9632,
-          "counts": {
-            "new": 4,
-            "add": 15,
-            "trim": 37,
-            "exit": 1
-          },
-          "buys": 8,
-          "ret": -0.1818
-        },
-        {
           "name": "Dodge & Cox",
           "cik": "0000200217",
           "tag": "value",
@@ -157490,6 +159450,24 @@
           },
           "buys": 3,
           "ret": -0.1971
+        },
+        {
+          "name": "Sarasin & Partners LLP",
+          "cik": "0001510481",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2025-12-31",
+          "prev": "2025-09-30",
+          "positions": 77,
+          "aum_m": 9632,
+          "counts": {
+            "new": 4,
+            "add": 15,
+            "trim": 37,
+            "exit": 1
+          },
+          "buys": 8,
+          "ret": -0.2049
         },
         {
           "name": "Guinness Asset Management LTD",
@@ -157780,6 +159758,24 @@
           "ret": -0.397
         },
         {
+          "name": "Montrusco Bolton Investments Inc.",
+          "cik": "0001475940",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2025-12-31",
+          "prev": "2025-09-30",
+          "positions": 73,
+          "aum_m": 8025,
+          "counts": {
+            "new": 5,
+            "add": 19,
+            "trim": 43,
+            "exit": 10
+          },
+          "buys": 5,
+          "ret": -0.4031
+        },
+        {
           "name": "Engaged Capital",
           "cik": "0001559771",
           "tag": "activist",
@@ -157796,24 +159792,6 @@
           },
           "buys": 1,
           "ret": -0.4048
-        },
-        {
-          "name": "Montrusco Bolton Investments Inc.",
-          "cik": "0001475940",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2025-12-31",
-          "prev": "2025-09-30",
-          "positions": 73,
-          "aum_m": 8025,
-          "counts": {
-            "new": 5,
-            "add": 19,
-            "trim": 43,
-            "exit": 10
-          },
-          "buys": 5,
-          "ret": -0.4056
         },
         {
           "name": "EcoR1 Capital",
@@ -159039,11 +161017,11 @@
               "shares": 1233408,
               "weight": 0.01962,
               "chg": 3.862,
-              "opened": "2024-09-30",
-              "opened_before": true,
-              "est_entry": 164.4043,
-              "ret": -0.1465,
-              "est_gain": -29705768
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 192.7461,
+              "ret": -0.272,
+              "est_gain": -64662771
             },
             {
               "manager": "Axiom Investors Llc /De",
@@ -162384,11 +164362,11 @@
               "shares": 88351,
               "weight": 0.00051,
               "chg": 0.605,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 31.5598,
-              "ret": 0.174,
-              "est_gain": 485065
+              "est_entry": 37.6732,
+              "ret": -0.0165,
+              "est_gain": -55060
             },
             {
               "manager": "Ancora Advisors",
@@ -168824,11 +170802,11 @@
               "shares": 2168078,
               "weight": 0.03326,
               "chg": 2.567,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 184.2552,
-              "ret": -0.5894,
-              "est_gain": -235464545
+              "est_entry": 178.8425,
+              "ret": -0.577,
+              "est_gain": -223729389
             },
             {
               "manager": "Southpoint Capital Advisors LP",
@@ -172529,11 +174507,11 @@
               "shares": 171457,
               "weight": 0.00309,
               "chg": null,
-              "opened": "2024-09-30",
-              "opened_before": true,
-              "est_entry": 200.9589,
-              "ret": 0.402,
-              "est_gain": 13850485
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 187.2047,
+              "ret": 0.505,
+              "est_gain": 16208739
             },
             {
               "manager": "Gotham Asset Mgmt",
@@ -181136,11 +183114,11 @@
               "shares": 219051,
               "weight": 0.00751,
               "chg": 0.573,
-              "opened": "2024-09-30",
-              "opened_before": true,
-              "est_entry": 565.6061,
-              "ret": -0.3308,
-              "est_gain": -40981397
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 511.2023,
+              "ret": -0.2595,
+              "est_gain": -29064190
             },
             {
               "manager": "Simplify Asset Management Inc.",
@@ -191399,11 +193377,11 @@
               "shares": 71903,
               "weight": 0.00105,
               "chg": 0.779,
-              "opened": "2024-09-30",
-              "opened_before": true,
-              "est_entry": 114.9988,
-              "ret": 0.387,
-              "est_gain": 3199770
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 119.6573,
+              "ret": 0.333,
+              "est_gain": 2864810
             },
             {
               "manager": "Polen Capital",
@@ -205978,11 +207956,11 @@
               "shares": 229734,
               "weight": 0.00128,
               "chg": 0.536,
-              "opened": "2024-09-30",
-              "opened_before": true,
-              "est_entry": 44.5189,
-              "ret": 0.3417,
-              "est_gain": 3494507
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 45.0143,
+              "ret": 0.3269,
+              "est_gain": 3380697
             },
             {
               "manager": "Tudor Investment",
@@ -223844,11 +225822,11 @@
               "shares": 192740,
               "weight": 0.00211,
               "chg": 0.506,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 99.3948,
-              "ret": -0.1582,
-              "est_gain": -3030798
+              "est_entry": 111.51,
+              "ret": -0.2497,
+              "est_gain": -5365882
             },
             {
               "manager": "Gotham Asset Mgmt",
@@ -231674,7 +233652,7 @@
             "exit": 0
           },
           "buys": 4,
-          "ret": 0.2256
+          "ret": 0.2255
         },
         {
           "name": "Third Point",
@@ -233297,24 +235275,6 @@
           "ret": -0.1411
         },
         {
-          "name": "Montrusco Bolton Investments Inc.",
-          "cik": "0001475940",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2025-09-30",
-          "prev": "2025-06-30",
-          "positions": 78,
-          "aum_m": 8592,
-          "counts": {
-            "new": 5,
-            "add": 23,
-            "trim": 38,
-            "exit": 2
-          },
-          "buys": 5,
-          "ret": -0.1482
-        },
-        {
           "name": "Irenic Capital",
           "cik": "0001929389",
           "tag": "activist",
@@ -233405,6 +235365,24 @@
           "ret": -0.1562
         },
         {
+          "name": "Montrusco Bolton Investments Inc.",
+          "cik": "0001475940",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2025-09-30",
+          "prev": "2025-06-30",
+          "positions": 78,
+          "aum_m": 8592,
+          "counts": {
+            "new": 5,
+            "add": 23,
+            "trim": 38,
+            "exit": 2
+          },
+          "buys": 5,
+          "ret": -0.1677
+        },
+        {
           "name": "Hotchkis & Wiley",
           "cik": "0001164833",
           "tag": "value",
@@ -233459,42 +235437,6 @@
           "ret": -0.1833
         },
         {
-          "name": "Cooper Investors",
-          "cik": "0001561728",
-          "tag": "value",
-          "scope": "concentrated",
-          "as_of": "2025-09-30",
-          "prev": "2025-06-30",
-          "positions": 40,
-          "aum_m": 366,
-          "counts": {
-            "new": 9,
-            "add": 6,
-            "trim": 17,
-            "exit": 15
-          },
-          "buys": 8,
-          "ret": -0.1837
-        },
-        {
-          "name": "Sarasin & Partners LLP",
-          "cik": "0001510481",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2025-09-30",
-          "prev": "2025-06-30",
-          "positions": 74,
-          "aum_m": 10191,
-          "counts": {
-            "new": 3,
-            "add": 24,
-            "trim": 33,
-            "exit": 9
-          },
-          "buys": 6,
-          "ret": -0.1851
-        },
-        {
           "name": "Guinness Asset Management LTD",
           "cik": "0001409661",
           "tag": "data-selected",
@@ -233547,6 +235489,24 @@
           },
           "buys": 1,
           "ret": -0.2099
+        },
+        {
+          "name": "Cooper Investors",
+          "cik": "0001561728",
+          "tag": "value",
+          "scope": "concentrated",
+          "as_of": "2025-09-30",
+          "prev": "2025-06-30",
+          "positions": 40,
+          "aum_m": 366,
+          "counts": {
+            "new": 9,
+            "add": 6,
+            "trim": 17,
+            "exit": 15
+          },
+          "buys": 8,
+          "ret": -0.2157
         },
         {
           "name": "Newlands Management Operations LLC",
@@ -233637,6 +235597,24 @@
           },
           "buys": 6,
           "ret": -0.2307
+        },
+        {
+          "name": "Sarasin & Partners LLP",
+          "cik": "0001510481",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2025-09-30",
+          "prev": "2025-06-30",
+          "positions": 74,
+          "aum_m": 10191,
+          "counts": {
+            "new": 3,
+            "add": 24,
+            "trim": 33,
+            "exit": 9
+          },
+          "buys": 6,
+          "ret": -0.237
         },
         {
           "name": "Casdin Capital",
@@ -235032,11 +237010,11 @@
               "shares": 56410,
               "weight": 0.00019,
               "chg": 1.0,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 30.7295,
-              "ret": -0.2652,
-              "est_gain": -459713
+              "est_entry": 31.9809,
+              "ret": -0.294,
+              "est_gain": -530305
             },
             {
               "manager": "Southeastern (Longleaf)",
@@ -242028,11 +244006,11 @@
               "shares": 253668,
               "weight": 0.02342,
               "chg": 0.684,
-              "opened": "2024-09-30",
-              "opened_before": true,
-              "est_entry": 164.4043,
-              "ret": -0.1465,
-              "est_gain": -6109416
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 192.7461,
+              "ret": -0.272,
+              "est_gain": -13298824
             },
             {
               "manager": "Railway Pension Investments Ltd",
@@ -255006,11 +256984,11 @@
               "shares": 505374,
               "weight": 0.07778,
               "chg": 0.339,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 62.4714,
-              "ret": -0.4037,
-              "est_gain": -12746240
+              "est_entry": 69.6166,
+              "ret": -0.4649,
+              "est_gain": -16357238
             },
             {
               "manager": "Gotham Asset Mgmt",
@@ -256352,11 +258330,11 @@
               "shares": 149570,
               "weight": 0.00079,
               "chg": 0.729,
-              "opened": "2024-09-30",
-              "opened_before": true,
-              "est_entry": 44.5189,
-              "ret": 0.3417,
-              "est_gain": 2275124
+              "opened": "2025-03-31",
+              "opened_before": false,
+              "est_entry": 45.0143,
+              "ret": 0.3269,
+              "est_gain": 2201027
             },
             {
               "manager": "Mondrian Investment Partners LTD",
@@ -256847,11 +258825,11 @@
               "shares": 6453065,
               "weight": 0.02859,
               "chg": 0.261,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 55.3522,
-              "ret": -0.4508,
-              "est_gain": -161018168
+              "est_entry": 60.268,
+              "ret": -0.4956,
+              "est_gain": -192740145
             },
             {
               "manager": "Bristol John W & Co Inc /Ny/",
@@ -290026,8 +292004,8 @@
               "opened": "2025-06-30",
               "opened_before": false,
               "est_entry": 370.7148,
-              "ret": 0.2789,
-              "est_gain": 50163732
+              "ret": 0.2787,
+              "est_gain": 50134622
             },
             {
               "manager": "Moore Capital",
@@ -290039,8 +292017,8 @@
               "opened": "2024-09-30",
               "opened_before": true,
               "est_entry": 384.39,
-              "ret": 0.2334,
-              "est_gain": 3045994
+              "ret": 0.2333,
+              "est_gain": 3043957
             },
             {
               "manager": "Woodline Partners",
@@ -290052,8 +292030,8 @@
               "opened": "2025-09-30",
               "opened_before": false,
               "est_entry": 430.4461,
-              "ret": 0.1014,
-              "est_gain": 271720
+              "ret": 0.1013,
+              "est_gain": 271347
             },
             {
               "manager": "Brevan Howard",
@@ -290065,8 +292043,8 @@
               "opened": "2025-06-30",
               "opened_before": false,
               "est_entry": 370.7148,
-              "ret": 0.2789,
-              "est_gain": 556783
+              "ret": 0.2787,
+              "est_gain": 556460
             }
           ],
           "sum_weight": 0.0245,
@@ -290076,9 +292054,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 430.4461,
-          "cur_price": 474.11,
-          "cur_date": "2026-10-09",
-          "ret": 0.1014,
+          "cur_price": 474.05,
+          "cur_date": "2026-10-12",
+          "ret": 0.1013,
           "target": null,
           "target_n": null,
           "upside": null
