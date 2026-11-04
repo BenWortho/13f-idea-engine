@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03 13:30 AEST",
+  "generated_at": "2026-11-04 12:09 AEST",
   "periods": [
     "2026-09-30",
     "2026-06-30",
@@ -8,7 +8,7 @@
     "2025-09-30"
   ],
   "period_counts": {
-    "2026-09-30": 39,
+    "2026-09-30": 41,
     "2026-06-30": 272,
     "2026-03-31": 273,
     "2025-12-31": 271,
@@ -56,7 +56,7 @@
   "by_period": {
     "2026-09-30": {
       "prev": "2026-06-30",
-      "n_managers": 39,
+      "n_managers": 41,
       "n_ideas": 600,
       "managers": [
         {
@@ -93,7 +93,7 @@
             "exit": 38
           },
           "buys": 15,
-          "ret": 0.4694
+          "ret": 0.474
         },
         {
           "name": "Flossbach Von Storch Se",
@@ -273,7 +273,7 @@
             "exit": 6
           },
           "buys": 329,
-          "ret": 0.2594
+          "ret": 0.2595
         },
         {
           "name": "Parnassus Investments, Llc",
@@ -346,6 +346,24 @@
           },
           "buys": 6,
           "ret": 0.166
+        },
+        {
+          "name": "Cincinnati Insurance Co",
+          "cik": "0001279885",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-09-30",
+          "prev": "2026-06-30",
+          "positions": 65,
+          "aum_m": 6807,
+          "counts": {
+            "new": 3,
+            "add": 1,
+            "trim": 1,
+            "exit": 2
+          },
+          "buys": 3,
+          "ret": 0.1459
         },
         {
           "name": "ACR Alpine Capital Research, LLC",
@@ -690,6 +708,24 @@
           "ret": -0.144
         },
         {
+          "name": "Cincinnati Financial Corp",
+          "cik": "0000020286",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-09-30",
+          "prev": "2026-06-30",
+          "positions": 57,
+          "aum_m": 5324,
+          "counts": {
+            "new": 2,
+            "add": 1,
+            "trim": 1,
+            "exit": 1
+          },
+          "buys": 3,
+          "ret": -0.1525
+        },
+        {
           "name": "Yacktman Asset Mgmt",
           "cik": "0000905567",
           "tag": "value",
@@ -763,6 +799,183 @@
         }
       ],
       "ideas": [
+        {
+          "cusip": "30233Q108",
+          "ticker": "XOM",
+          "issuer": "EXXONMOBIL HOLDINGS CORP",
+          "n_buyers": 12,
+          "buyers": [
+            {
+              "manager": "Cincinnati Insurance Co",
+              "action": "new",
+              "value": 190775550,
+              "shares": 1172200,
+              "weight": 0.02803,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 27325975
+            },
+            {
+              "manager": "Pzena Investment Mgmt",
+              "action": "new",
+              "value": 90730521,
+              "shares": 557484,
+              "weight": 0.00266,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 12995900
+            },
+            {
+              "manager": "Mondrian Investment Partners LTD",
+              "action": "new",
+              "value": 54610274,
+              "shares": 335547,
+              "weight": 0.01013,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 7822171
+            },
+            {
+              "manager": "National Mutual Insurance Federation of Agricultural Cooperatives",
+              "action": "new",
+              "value": 47148675,
+              "shares": 289700,
+              "weight": 0.00301,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 6753399
+            },
+            {
+              "manager": "Flossbach Von Storch Se",
+              "action": "new",
+              "value": 40758296,
+              "shares": 250435,
+              "weight": 0.00207,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 5838066
+            },
+            {
+              "manager": "Chilton Investment",
+              "action": "new",
+              "value": 20229880,
+              "shares": 124300,
+              "weight": 0.00637,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 2897644
+            },
+            {
+              "manager": "Markel Group",
+              "action": "new",
+              "value": 9830100,
+              "shares": 60400,
+              "weight": 0.00077,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 1408027
+            },
+            {
+              "manager": "Wedgewood Partners",
+              "action": "new",
+              "value": 1563937,
+              "shares": 9609,
+              "weight": 0.01602,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 224002
+            },
+            {
+              "manager": "RA Capital",
+              "action": "new",
+              "value": 518508,
+              "shares": 3186,
+              "weight": 0.00116,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 74271
+            },
+            {
+              "manager": "Cascade (Gates)",
+              "action": "new",
+              "value": 475902,
+              "shares": 2924,
+              "weight": 0.00266,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 68163
+            },
+            {
+              "manager": "Conestoga Capital Advisors, LLC",
+              "action": "new",
+              "value": 365211,
+              "shares": 2244,
+              "weight": 0.00011,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 52311
+            },
+            {
+              "manager": "Simplify Asset Management Inc.",
+              "action": "new",
+              "value": 286440,
+              "shares": 1760,
+              "weight": 5e-05,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 156.3583,
+              "ret": 0.1491,
+              "est_gain": 41029
+            }
+          ],
+          "sum_weight": 0.073,
+          "has_new": true,
+          "theme": "Energy & Power",
+          "conviction": 100,
+          "conviction_label": "High",
+          "inaam": [],
+          "est_entry": 156.3583,
+          "cur_price": 179.67,
+          "cur_date": "2026-11-02",
+          "ret": 0.1491,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
         {
           "cusip": "032095101",
           "ticker": "APH",
@@ -928,165 +1141,113 @@
           "upside": null
         },
         {
-          "cusip": "30233Q108",
-          "ticker": "XOM",
-          "issuer": "EXXONMOBIL HOLDINGS CORP",
-          "n_buyers": 11,
+          "cusip": "30303M102",
+          "ticker": "META",
+          "issuer": "META PLATFORMS INC CL A",
+          "n_buyers": 7,
           "buyers": [
             {
-              "manager": "Pzena Investment Mgmt",
-              "action": "new",
-              "value": 90730521,
-              "shares": 557484,
-              "weight": 0.00266,
-              "chg": null,
-              "opened": "2026-09-30",
+              "manager": "Parnassus Investments, Llc",
+              "action": "add",
+              "value": 678946874,
+              "shares": 936246,
+              "weight": 0.02009,
+              "chg": 95.71,
+              "opened": "2026-03-31",
               "opened_before": false,
-              "est_entry": 156.3583,
-              "ret": 0.1491,
-              "est_gain": 12995900
-            },
-            {
-              "manager": "Mondrian Investment Partners LTD",
-              "action": "new",
-              "value": 54610274,
-              "shares": 335547,
-              "weight": 0.01013,
-              "chg": null,
-              "opened": "2026-09-30",
-              "opened_before": false,
-              "est_entry": 156.3583,
-              "ret": 0.1491,
-              "est_gain": 7822171
-            },
-            {
-              "manager": "National Mutual Insurance Federation of Agricultural Cooperatives",
-              "action": "new",
-              "value": 47148675,
-              "shares": 289700,
-              "weight": 0.00301,
-              "chg": null,
-              "opened": "2026-09-30",
-              "opened_before": false,
-              "est_entry": 156.3583,
-              "ret": 0.1491,
-              "est_gain": 6753399
+              "est_entry": 640.8649,
+              "ret": -0.0533,
+              "est_gain": -31958664
             },
             {
               "manager": "Flossbach Von Storch Se",
-              "action": "new",
-              "value": 40758296,
-              "shares": 250435,
-              "weight": 0.00207,
-              "chg": null,
-              "opened": "2026-09-30",
-              "opened_before": false,
-              "est_entry": 156.3583,
-              "ret": 0.1491,
-              "est_gain": 5838066
+              "action": "add",
+              "value": 591636653,
+              "shares": 815848,
+              "weight": 0.03009,
+              "chg": 1.162,
+              "opened": "2024-12-31",
+              "opened_before": true,
+              "est_entry": 586.9752,
+              "ret": 0.0337,
+              "est_gain": 16116914
             },
             {
-              "manager": "Chilton Investment",
+              "manager": "Egerton Capital",
               "action": "new",
-              "value": 20229880,
-              "shares": 124300,
-              "weight": 0.00637,
+              "value": 139858215,
+              "shares": 192860,
+              "weight": 0.01424,
               "chg": null,
-              "opened": "2026-09-30",
-              "opened_before": false,
-              "est_entry": 156.3583,
-              "ret": 0.1491,
-              "est_gain": 2897644
+              "opened": "2024-12-31",
+              "opened_before": true,
+              "est_entry": 586.9752,
+              "ret": 0.0337,
+              "est_gain": 3809911
             },
             {
-              "manager": "Markel Group",
+              "manager": "Cincinnati Financial Corp",
               "action": "new",
-              "value": 9830100,
-              "shares": 60400,
-              "weight": 0.00077,
+              "value": 1522878,
+              "shares": 2100,
+              "weight": 0.00029,
               "chg": null,
               "opened": "2026-09-30",
               "opened_before": false,
-              "est_entry": 156.3583,
-              "ret": 0.1491,
-              "est_gain": 1408027
+              "est_entry": 624.1566,
+              "ret": -0.0279,
+              "est_gain": -36596
             },
             {
-              "manager": "Wedgewood Partners",
+              "manager": "Cincinnati Insurance Co",
               "action": "new",
-              "value": 1563937,
-              "shares": 9609,
-              "weight": 0.01602,
+              "value": 1522878,
+              "shares": 2100,
+              "weight": 0.00022,
               "chg": null,
               "opened": "2026-09-30",
               "opened_before": false,
-              "est_entry": 156.3583,
-              "ret": 0.1491,
-              "est_gain": 224002
+              "est_entry": 624.1566,
+              "ret": -0.0279,
+              "est_gain": -36596
             },
             {
-              "manager": "RA Capital",
+              "manager": "Praetorian Capital",
               "action": "new",
-              "value": 518508,
-              "shares": 3186,
-              "weight": 0.00116,
+              "value": 252362,
+              "shares": 348,
+              "weight": 0.00043,
               "chg": null,
-              "opened": "2026-09-30",
+              "opened": "2025-12-31",
               "opened_before": false,
-              "est_entry": 156.3583,
-              "ret": 0.1491,
-              "est_gain": 74271
+              "est_entry": 667.7658,
+              "ret": -0.0914,
+              "est_gain": -21240
             },
             {
-              "manager": "Cascade (Gates)",
+              "manager": "Cardano Risk Management B.V.",
               "action": "new",
-              "value": 475902,
-              "shares": 2924,
-              "weight": 0.00266,
+              "value": 169709,
+              "shares": 234024,
+              "weight": 0.00933,
               "chg": null,
               "opened": "2026-09-30",
               "opened_before": false,
-              "est_entry": 156.3583,
-              "ret": 0.1491,
-              "est_gain": 68163
-            },
-            {
-              "manager": "Conestoga Capital Advisors, LLC",
-              "action": "new",
-              "value": 365211,
-              "shares": 2244,
-              "weight": 0.00011,
-              "chg": null,
-              "opened": "2026-09-30",
-              "opened_before": false,
-              "est_entry": 156.3583,
-              "ret": 0.1491,
-              "est_gain": 52311
-            },
-            {
-              "manager": "Simplify Asset Management Inc.",
-              "action": "new",
-              "value": 286440,
-              "shares": 1760,
-              "weight": 5e-05,
-              "chg": null,
-              "opened": "2026-09-30",
-              "opened_before": false,
-              "est_entry": 156.3583,
-              "ret": 0.1491,
-              "est_gain": 41029
+              "est_entry": 624.1566,
+              "ret": -0.0279,
+              "est_gain": -4078243
             }
           ],
-          "sum_weight": 0.045,
+          "sum_weight": 0.0747,
           "has_new": true,
-          "theme": "Energy & Power",
+          "theme": "Tech & Communications",
           "conviction": 100,
           "conviction_label": "High",
           "inaam": [],
-          "est_entry": 156.3583,
-          "cur_price": 179.67,
+          "est_entry": 624.1566,
+          "cur_price": 606.73,
           "cur_date": "2026-11-02",
-          "ret": 0.1491,
+          "ret": -0.0279,
           "target": null,
           "target_n": null,
           "upside": null
@@ -1287,92 +1448,6 @@
           "cur_price": 83.18,
           "cur_date": "2026-11-02",
           "ret": 0.1129,
-          "target": null,
-          "target_n": null,
-          "upside": null
-        },
-        {
-          "cusip": "30303M102",
-          "ticker": "META",
-          "issuer": "META PLATFORMS INC CL A",
-          "n_buyers": 5,
-          "buyers": [
-            {
-              "manager": "Parnassus Investments, Llc",
-              "action": "add",
-              "value": 678946874,
-              "shares": 936246,
-              "weight": 0.02009,
-              "chg": 95.71,
-              "opened": "2026-03-31",
-              "opened_before": false,
-              "est_entry": 640.8649,
-              "ret": -0.0533,
-              "est_gain": -31958664
-            },
-            {
-              "manager": "Flossbach Von Storch Se",
-              "action": "add",
-              "value": 591636653,
-              "shares": 815848,
-              "weight": 0.03009,
-              "chg": 1.162,
-              "opened": "2024-12-31",
-              "opened_before": true,
-              "est_entry": 586.9752,
-              "ret": 0.0337,
-              "est_gain": 16116914
-            },
-            {
-              "manager": "Egerton Capital",
-              "action": "new",
-              "value": 139858215,
-              "shares": 192860,
-              "weight": 0.01424,
-              "chg": null,
-              "opened": "2024-12-31",
-              "opened_before": true,
-              "est_entry": 586.9752,
-              "ret": 0.0337,
-              "est_gain": 3809911
-            },
-            {
-              "manager": "Praetorian Capital",
-              "action": "new",
-              "value": 252362,
-              "shares": 348,
-              "weight": 0.00043,
-              "chg": null,
-              "opened": "2025-12-31",
-              "opened_before": false,
-              "est_entry": 667.7658,
-              "ret": -0.0914,
-              "est_gain": -21240
-            },
-            {
-              "manager": "Cardano Risk Management B.V.",
-              "action": "new",
-              "value": 169709,
-              "shares": 234024,
-              "weight": 0.00933,
-              "chg": null,
-              "opened": "2026-09-30",
-              "opened_before": false,
-              "est_entry": 624.1566,
-              "ret": -0.0279,
-              "est_gain": -4078243
-            }
-          ],
-          "sum_weight": 0.0742,
-          "has_new": true,
-          "theme": "Tech & Communications",
-          "conviction": 95,
-          "conviction_label": "High",
-          "inaam": [],
-          "est_entry": 624.1566,
-          "cur_price": 606.73,
-          "cur_date": "2026-11-02",
-          "ret": -0.0279,
           "target": null,
           "target_n": null,
           "upside": null
@@ -1756,6 +1831,79 @@
           "upside": null
         },
         {
+          "cusip": "02079K305",
+          "ticker": "GOOGL",
+          "issuer": "ALPHABET INC",
+          "n_buyers": 4,
+          "buyers": [
+            {
+              "manager": "Cincinnati Financial Corp",
+              "action": "new",
+              "value": 1032240,
+              "shares": 3000,
+              "weight": 0.00019,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 347.0667,
+              "ret": -0.1961,
+              "est_gain": -204230
+            },
+            {
+              "manager": "Cincinnati Insurance Co",
+              "action": "new",
+              "value": 1032240,
+              "shares": 3000,
+              "weight": 0.00015,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 347.0667,
+              "ret": -0.1961,
+              "est_gain": -204230
+            },
+            {
+              "manager": "Cardano Risk Management B.V.",
+              "action": "add",
+              "value": 672969,
+              "shares": 1955852,
+              "weight": 0.037,
+              "chg": 0.358,
+              "opened": "2024-12-31",
+              "opened_before": true,
+              "est_entry": 174.9694,
+              "ret": 0.5945,
+              "est_gain": 203448899
+            },
+            {
+              "manager": "Praetorian Capital",
+              "action": "new",
+              "value": 275264,
+              "shares": 800,
+              "weight": 0.00047,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 347.0667,
+              "ret": -0.1961,
+              "est_gain": -54461
+            }
+          ],
+          "sum_weight": 0.0378,
+          "has_new": true,
+          "theme": "Tech & Communications",
+          "conviction": 74,
+          "conviction_label": "High",
+          "inaam": [],
+          "est_entry": 347.0667,
+          "cur_price": 278.99,
+          "cur_date": "2026-11-02",
+          "ret": -0.1961,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
           "cusip": "30609A109",
           "ticker": "OKE",
           "issuer": "ONEOK INC NEW",
@@ -2045,6 +2193,81 @@
           "cur_price": 88.71,
           "cur_date": "2026-11-02",
           "ret": -0.1575,
+          "target": null,
+          "target_n": null,
+          "upside": null
+        },
+        {
+          "cusip": "98419M100",
+          "ticker": "XYL",
+          "issuer": "XYLEM INC",
+          "n_buyers": 4,
+          "buyers": [
+            {
+              "manager": "Alecta Tjanstepension Omsesidigt",
+              "action": "add",
+              "value": 44165250,
+              "shares": 436200,
+              "weight": 0.00183,
+              "chg": 1.493,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 115.4342,
+              "ret": -0.1574,
+              "est_gain": -7927586
+            },
+            {
+              "manager": "Cincinnati Financial Corp",
+              "action": "add",
+              "value": 29287284,
+              "shares": 289200,
+              "weight": 0.0055,
+              "chg": 1.347,
+              "opened": "2026-06-30",
+              "opened_before": false,
+              "est_entry": 115.4342,
+              "ret": -0.1574,
+              "est_gain": -5255979
+            },
+            {
+              "manager": "Markel Group",
+              "action": "new",
+              "value": 1243899,
+              "shares": 12283,
+              "weight": 0.0001,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 114.4445,
+              "ret": -0.1502,
+              "est_gain": -211077
+            },
+            {
+              "manager": "RA Capital",
+              "action": "new",
+              "value": 51445,
+              "shares": 508,
+              "weight": 0.00011,
+              "chg": null,
+              "opened": "2026-09-30",
+              "opened_before": false,
+              "est_entry": 114.4445,
+              "ret": -0.1502,
+              "est_gain": -8730
+            }
+          ],
+          "sum_weight": 0.0075,
+          "has_new": true,
+          "theme": "Other / review",
+          "conviction": 68,
+          "conviction_label": "High",
+          "inaam": [
+            "C"
+          ],
+          "est_entry": 114.4445,
+          "cur_price": 97.26,
+          "cur_date": "2026-11-02",
+          "ret": -0.1502,
           "target": null,
           "target_n": null,
           "upside": null
@@ -3370,68 +3593,6 @@
           "upside": null
         },
         {
-          "cusip": "98419M100",
-          "ticker": "XYL",
-          "issuer": "XYLEM INC",
-          "n_buyers": 3,
-          "buyers": [
-            {
-              "manager": "Alecta Tjanstepension Omsesidigt",
-              "action": "add",
-              "value": 44165250,
-              "shares": 436200,
-              "weight": 0.00183,
-              "chg": 1.493,
-              "opened": "2026-06-30",
-              "opened_before": false,
-              "est_entry": 115.4342,
-              "ret": -0.1574,
-              "est_gain": -7927586
-            },
-            {
-              "manager": "Markel Group",
-              "action": "new",
-              "value": 1243899,
-              "shares": 12283,
-              "weight": 0.0001,
-              "chg": null,
-              "opened": "2026-09-30",
-              "opened_before": false,
-              "est_entry": 114.4445,
-              "ret": -0.1502,
-              "est_gain": -211077
-            },
-            {
-              "manager": "RA Capital",
-              "action": "new",
-              "value": 51445,
-              "shares": 508,
-              "weight": 0.00011,
-              "chg": null,
-              "opened": "2026-09-30",
-              "opened_before": false,
-              "est_entry": 114.4445,
-              "ret": -0.1502,
-              "est_gain": -8730
-            }
-          ],
-          "sum_weight": 0.002,
-          "has_new": true,
-          "theme": "Other / review",
-          "conviction": 52,
-          "conviction_label": "Medium",
-          "inaam": [
-            "C"
-          ],
-          "est_entry": 114.4445,
-          "cur_price": 97.26,
-          "cur_date": "2026-11-02",
-          "ret": -0.1502,
-          "target": null,
-          "target_n": null,
-          "upside": null
-        },
-        {
           "cusip": "60744M106",
           "ticker": "MBGL",
           "issuer": "MOBILITY GLOBAL INC",
@@ -3831,53 +3992,6 @@
           "cur_price": 51.62,
           "cur_date": "2026-11-02",
           "ret": 0.0411,
-          "target": null,
-          "target_n": null,
-          "upside": null
-        },
-        {
-          "cusip": "02079K305",
-          "ticker": "GOOGL",
-          "issuer": "ALPHABET INC",
-          "n_buyers": 2,
-          "buyers": [
-            {
-              "manager": "Cardano Risk Management B.V.",
-              "action": "add",
-              "value": 672969,
-              "shares": 1955852,
-              "weight": 0.037,
-              "chg": 0.358,
-              "opened": "2024-12-31",
-              "opened_before": true,
-              "est_entry": 174.9694,
-              "ret": 0.5945,
-              "est_gain": 203448899
-            },
-            {
-              "manager": "Praetorian Capital",
-              "action": "new",
-              "value": 275264,
-              "shares": 800,
-              "weight": 0.00047,
-              "chg": null,
-              "opened": "2026-09-30",
-              "opened_before": false,
-              "est_entry": 347.0667,
-              "ret": -0.1961,
-              "est_gain": -54461
-            }
-          ],
-          "sum_weight": 0.0375,
-          "has_new": true,
-          "theme": "Tech & Communications",
-          "conviction": 45,
-          "conviction_label": "Medium",
-          "inaam": [],
-          "est_entry": 347.0667,
-          "cur_price": 278.99,
-          "cur_date": "2026-11-02",
-          "ret": -0.1961,
           "target": null,
           "target_n": null,
           "upside": null
@@ -10512,8 +10626,8 @@
               "opened": "2026-09-30",
               "opened_before": false,
               "est_entry": 99.8687,
-              "ret": -0.0357,
-              "est_gain": -39566
+              "ret": -0.0313,
+              "est_gain": -34658
             }
           ],
           "sum_weight": 0.0003,
@@ -10523,9 +10637,9 @@
           "conviction_label": "Low",
           "inaam": [],
           "est_entry": 99.8687,
-          "cur_price": 96.3,
-          "cur_date": "2026-11-02",
-          "ret": -0.0357,
+          "cur_price": 96.7427,
+          "cur_date": "2026-11-03",
+          "ret": -0.0313,
           "target": null,
           "target_n": null,
           "upside": null
@@ -10922,8 +11036,8 @@
               "opened": "2026-09-30",
               "opened_before": false,
               "est_entry": 25.2786,
-              "ret": -0.0201,
-              "est_gain": -2394
+              "ret": -0.0189,
+              "est_gain": -2253
             }
           ],
           "sum_weight": 0.0003,
@@ -10933,9 +11047,9 @@
           "conviction_label": "Low",
           "inaam": [],
           "est_entry": 25.2786,
-          "cur_price": 24.77,
-          "cur_date": "2026-11-02",
-          "ret": -0.0201,
+          "cur_price": 24.8,
+          "cur_date": "2026-11-03",
+          "ret": -0.0189,
           "target": null,
           "target_n": null,
           "upside": null
@@ -11138,7 +11252,7 @@
           "inaam": [],
           "est_entry": 25.0692,
           "cur_price": 24.535,
-          "cur_date": "2026-10-30",
+          "cur_date": "2026-11-02",
           "ret": -0.0213,
           "target": null,
           "target_n": null,
@@ -11330,8 +11444,8 @@
               "opened": "2026-09-30",
               "opened_before": false,
               "est_entry": 72.7355,
-              "ret": -0.053,
-              "est_gain": -4731
+              "ret": -0.0419,
+              "est_gain": -3738
             }
           ],
           "sum_weight": 0.0002,
@@ -11341,9 +11455,9 @@
           "conviction_label": "Low",
           "inaam": [],
           "est_entry": 72.7355,
-          "cur_price": 68.8826,
-          "cur_date": "2026-11-02",
-          "ret": -0.053,
+          "cur_price": 69.6915,
+          "cur_date": "2026-11-03",
+          "ret": -0.0419,
           "target": null,
           "target_n": null,
           "upside": null
@@ -11876,8 +11990,8 @@
               "opened": "2026-09-30",
               "opened_before": false,
               "est_entry": 49.8775,
-              "ret": -0.0149,
-              "est_gain": -6279
+              "ret": -0.0158,
+              "est_gain": -6660
             }
           ],
           "sum_weight": 0.0001,
@@ -11887,9 +12001,9 @@
           "conviction_label": "Low",
           "inaam": [],
           "est_entry": 49.8775,
-          "cur_price": 49.1356,
-          "cur_date": "2026-11-02",
-          "ret": -0.0149,
+          "cur_price": 49.0905,
+          "cur_date": "2026-11-03",
+          "ret": -0.0158,
           "target": null,
           "target_n": null,
           "upside": null
@@ -21120,8 +21234,8 @@
               "opened": "2026-09-30",
               "opened_before": false,
               "est_entry": 25.3466,
-              "ret": -0.0263,
-              "est_gain": -47
+              "ret": -0.0227,
+              "est_gain": -40
             }
           ],
           "sum_weight": 0,
@@ -21131,9 +21245,9 @@
           "conviction_label": "Low",
           "inaam": [],
           "est_entry": 25.3466,
-          "cur_price": 24.6797,
-          "cur_date": "2026-11-02",
-          "ret": -0.0263,
+          "cur_price": 24.7717,
+          "cur_date": "2026-11-03",
+          "ret": -0.0227,
           "target": null,
           "target_n": null,
           "upside": null
@@ -23782,8 +23896,8 @@
               "opened": "2025-12-31",
               "opened_before": false,
               "est_entry": 25.5226,
-              "ret": 0.0994,
-              "est_gain": 3806100
+              "ret": 0.1165,
+              "est_gain": 4459500
             }
           ],
           "sum_weight": 0.0075,
@@ -23793,9 +23907,9 @@
           "conviction_label": "Low",
           "inaam": [],
           "est_entry": 28.5668,
-          "cur_price": 28.06,
-          "cur_date": "2026-11-02",
-          "ret": -0.0177,
+          "cur_price": 28.4956,
+          "cur_date": "2026-11-03",
+          "ret": -0.0025,
           "target": null,
           "target_n": null,
           "upside": null
@@ -26542,24 +26656,6 @@
           "ret": 0.0745
         },
         {
-          "name": "Cincinnati Insurance Co",
-          "cik": "0001279885",
-          "tag": "data-selected",
-          "scope": "concentrated",
-          "as_of": "2026-06-30",
-          "prev": "2026-03-31",
-          "positions": 64,
-          "aum_m": 6941,
-          "counts": {
-            "new": 2,
-            "add": 4,
-            "trim": 8,
-            "exit": 1
-          },
-          "buys": 5,
-          "ret": 0.0744
-        },
-        {
           "name": "Aristotle Capital",
           "cik": "0001633911",
           "tag": "quality",
@@ -26702,6 +26798,24 @@
           },
           "buys": 44,
           "ret": 0.047
+        },
+        {
+          "name": "Cincinnati Insurance Co",
+          "cik": "0001279885",
+          "tag": "data-selected",
+          "scope": "concentrated",
+          "as_of": "2026-06-30",
+          "prev": "2026-03-31",
+          "positions": 64,
+          "aum_m": 6941,
+          "counts": {
+            "new": 2,
+            "add": 4,
+            "trim": 8,
+            "exit": 1
+          },
+          "buys": 5,
+          "ret": 0.0452
         },
         {
           "name": "Fiduciary Management Inc /Wi/",
@@ -38467,11 +38581,11 @@
               "shares": 81000,
               "weight": 0.00599,
               "chg": 0.328,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 465.0402,
-              "ret": 0.4151,
-              "est_gain": 15637844
+              "est_entry": 517.6978,
+              "ret": 0.2712,
+              "est_gain": 11372578
             },
             {
               "manager": "Gilder Gagnon Howe",
@@ -104720,7 +104834,7 @@
             "exit": 2
           },
           "buys": 7,
-          "ret": -0.0832
+          "ret": -0.0843
         },
         {
           "name": "National Mutual Insurance Federation of Agricultural Cooperatives",
@@ -141414,11 +141528,11 @@
               "shares": 1603000,
               "weight": 0.00695,
               "chg": 0.545,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 36.9986,
-              "ret": -0.3548,
-              "est_gain": -21045146
+              "est_entry": 38.9014,
+              "ret": -0.3864,
+              "est_gain": -24095334
             },
             {
               "manager": "Tudor Investment",
@@ -169594,11 +169708,11 @@
               "shares": 114000,
               "weight": 0.00297,
               "chg": 0.9,
-              "opened": "2024-09-30",
+              "opened": "2024-12-31",
               "opened_before": true,
-              "est_entry": 221.7298,
-              "ret": -0.1508,
-              "est_gain": -3810997
+              "est_entry": 207.2086,
+              "ret": -0.0913,
+              "est_gain": -2155580
             },
             {
               "manager": "Tudor Investment",
@@ -197484,7 +197598,7 @@
               "weight": 0.06517,
               "chg": null,
               "opened": "2024-12-31",
-              "opened_before": false,
+              "opened_before": true,
               "est_entry": 75.8476,
               "ret": 2.0002,
               "est_gain": 378083989
@@ -197536,7 +197650,7 @@
               "weight": 0.00926,
               "chg": null,
               "opened": "2024-12-31",
-              "opened_before": false,
+              "opened_before": true,
               "est_entry": 75.8476,
               "ret": 2.0002,
               "est_gain": 42060746
