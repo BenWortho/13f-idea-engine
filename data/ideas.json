@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26 14:10 AEST",
+  "generated_at": "2026-11-27 14:06 AEST",
   "periods": [
     "2026-09-30",
     "2026-06-30",
@@ -4071,7 +4071,7 @@
             "exit": 18
           },
           "buys": 4,
-          "ret": -0.2482
+          "ret": -0.2481
         },
         {
           "name": "Tekne Capital",
@@ -66913,8 +66913,8 @@
               "opened": "2026-03-31",
               "opened_before": false,
               "est_entry": 20.274,
-              "ret": -0.308,
-              "est_gain": -5639025
+              "ret": -0.3075,
+              "est_gain": -5629994
             },
             {
               "manager": "Gotham Asset Mgmt",
@@ -66926,8 +66926,8 @@
               "opened": "2024-12-31",
               "opened_before": true,
               "est_entry": 12.6453,
-              "ret": 0.1095,
-              "est_gain": 162255
+              "ret": 0.1103,
+              "est_gain": 163427
             },
             {
               "manager": "Polen Capital",
@@ -66939,8 +66939,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 29.511,
-              "ret": -0.5246,
-              "est_gain": -1237938
+              "ret": -0.5242,
+              "est_gain": -1237139
             },
             {
               "manager": "Brevan Howard",
@@ -66952,8 +66952,8 @@
               "opened": "2025-12-31",
               "opened_before": false,
               "est_entry": 14.8297,
-              "ret": -0.0539,
-              "est_gain": -34920
+              "ret": -0.0533,
+              "est_gain": -34483
             },
             {
               "manager": "Holocene Advisers",
@@ -66965,8 +66965,8 @@
               "opened": "2026-09-30",
               "opened_before": false,
               "est_entry": 26.8563,
-              "ret": -0.4776,
-              "est_gain": -188970
+              "ret": -0.4772,
+              "est_gain": -188823
             }
           ],
           "sum_weight": 0.0183,
@@ -66976,9 +66976,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 26.8563,
-          "cur_price": 14.03,
+          "cur_price": 14.04,
           "cur_date": "2026-11-25",
-          "ret": -0.4776,
+          "ret": -0.4772,
           "target": null,
           "target_n": null,
           "upside": null
@@ -78826,7 +78826,7 @@
             "exit": 13
           },
           "buys": 8,
-          "ret": -0.1017
+          "ret": -0.1016
         },
         {
           "name": "Kohlberg Kravis Roberts & Co. L.P.",
@@ -140726,8 +140726,8 @@
               "opened": "2024-12-31",
               "opened_before": true,
               "est_entry": 12.6453,
-              "ret": 0.1095,
-              "est_gain": 1112186
+              "ret": 0.1103,
+              "est_gain": 1120217
             },
             {
               "manager": "Irenic Capital",
@@ -140739,8 +140739,8 @@
               "opened": "2026-03-31",
               "opened_before": false,
               "est_entry": 20.274,
-              "ret": -0.308,
-              "est_gain": -3963516
+              "ret": -0.3075,
+              "est_gain": -3957169
             },
             {
               "manager": "Polen Capital",
@@ -140752,8 +140752,8 @@
               "opened": "2026-06-30",
               "opened_before": false,
               "est_entry": 29.511,
-              "ret": -0.5246,
-              "est_gain": -813914
+              "ret": -0.5242,
+              "est_gain": -813388
             },
             {
               "manager": "Tudor Investment",
@@ -140765,8 +140765,8 @@
               "opened": "2025-12-31",
               "opened_before": false,
               "est_entry": 14.8297,
-              "ret": -0.0539,
-              "est_gain": -25306
+              "ret": -0.0533,
+              "est_gain": -24989
             },
             {
               "manager": "Brevan Howard",
@@ -140778,8 +140778,8 @@
               "opened": "2025-12-31",
               "opened_before": false,
               "est_entry": 14.8297,
-              "ret": -0.0539,
-              "est_gain": -12784
+              "ret": -0.0533,
+              "est_gain": -12624
             }
           ],
           "sum_weight": 0.0167,
@@ -140789,9 +140789,9 @@
           "conviction_label": "High",
           "inaam": [],
           "est_entry": 29.511,
-          "cur_price": 14.03,
+          "cur_price": 14.04,
           "cur_date": "2026-11-25",
-          "ret": -0.5246,
+          "ret": -0.5242,
           "target": null,
           "target_n": null,
           "upside": null
